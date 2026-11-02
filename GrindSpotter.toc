@@ -1,0 +1,9 @@
+## Interface: 11509
+## Title: GrindSpotter
+## Notes: Intelligent Classic Era grinding spot recommender with drop calculations, class suitability, and skinning checks.
+## Author: Cline
+## Version: 1.0.0
+## SavedVariables: GrindSpotterDB
+
+Data.lua
+GrindSpotter.lua
