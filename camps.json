@@ -18,7 +18,6 @@
       "HUMANOID"
     ],
     "drops": {
-      "Tigerseye": 0.46,
       "Linen Cloth": 0.2931,
       "Malachite": 0.0124
     }
@@ -43,11 +42,8 @@
     ],
     "drops": {
       "Ruined Leather Scraps": 0.6121,
-      "Malachite": 0.5,
-      "Tigerseye": 0.4,
       "Light Leather": 0.3934,
-      "Linen Cloth": 0.02,
-      "Shadowgem": 0.02
+      "Malachite": 0.0112
     }
   },
   {
@@ -115,9 +111,9 @@
       "Chunk of Boar Meat": 0.7769,
       "Ruined Leather Scraps": 0.599,
       "Light Leather": 0.401,
-      "Tigerseye": 0.32,
       "Broken Boar Tusk": 0.3113,
-      "Chipped Boar Tusk": 0.199
+      "Chipped Boar Tusk": 0.199,
+      "Malachite": 0.0128
     }
   },
   {
@@ -143,31 +139,6 @@
     }
   },
   {
-    "id": "tirisfal_glades_darkeye_bonecaster_60_20",
-    "name": "Darkeye Bonecaster (Tirisfal Glades)",
-    "mapID": 1420,
-    "zone": "Tirisfal Glades",
-    "x": 60.5,
-    "y": 20.5,
-    "minLevel": 7,
-    "maxLevel": 8,
-    "faction": "Horde",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "CASTER",
-      "HEAVY_PACKS",
-      "UNDEAD"
-    ],
-    "drops": {
-      "Tigerseye": 0.38,
-      "Linen Cloth": 0.2846,
-      "Shadowgem": 0.02,
-      "Malachite": 0.014
-    }
-  },
-  {
     "id": "dun_morogh_small_crag_boar_15_82",
     "name": "Small Crag Boar (Dun Morogh)",
     "mapID": 1426,
@@ -187,6 +158,29 @@
     "drops": {
       "Ruined Leather Scraps": 1.0,
       "Splintered Tusk": 0.4861
+    }
+  },
+  {
+    "id": "tirisfal_glades_darkeye_bonecaster_60_20",
+    "name": "Darkeye Bonecaster (Tirisfal Glades)",
+    "mapID": 1420,
+    "zone": "Tirisfal Glades",
+    "x": 60.5,
+    "y": 20.5,
+    "minLevel": 7,
+    "maxLevel": 8,
+    "faction": "Horde",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "CASTER",
+      "HEAVY_PACKS",
+      "UNDEAD"
+    ],
+    "drops": {
+      "Linen Cloth": 0.2846,
+      "Malachite": 0.014
     }
   },
   {
@@ -210,31 +204,31 @@
       "Chunk of Boar Meat": 0.8236,
       "Ruined Leather Scraps": 0.5961,
       "Light Leather": 0.4039,
-      "Tigerseye": 0.4,
       "Broken Boar Tusk": 0.3245,
-      "Chipped Boar Tusk": 0.2055
+      "Chipped Boar Tusk": 0.2055,
+      "Malachite": 0.0128
     }
   },
   {
-    "id": "dun_morogh_frostmane_troll_whelp_17_94",
-    "name": "Frostmane Troll Whelp (Dun Morogh)",
-    "mapID": 1426,
-    "zone": "Dun Morogh",
-    "x": 17.2,
-    "y": 94.3,
+    "id": "teldrassil_webwood_spider_76_18",
+    "name": "Webwood Spider (Teldrassil)",
+    "mapID": 1438,
+    "zone": "Teldrassil",
+    "x": 76.1,
+    "y": 18.2,
     "minLevel": 3,
     "maxLevel": 4,
     "faction": "Alliance",
     "density": "High",
-    "respawnMin": 3.0,
+    "respawnMin": 5.0,
     "isQuestMob": true,
     "tags": [
-      "FLEE_RUNNER",
+      "BEAST",
       "HEAVY_PACKS",
-      "HUMANOID"
+      "POISON"
     ],
     "drops": {
-      "Frostmane Leather Vest": 0.9722
+      "Bug Eye": 0.3827
     }
   },
   {
@@ -257,10 +251,6 @@
     ],
     "drops": {
       "Linen Cloth": 0.384,
-      "Tigerseye": 0.38,
-      "Shadowgem": 0.28,
-      "Malachite": 0.1,
-      "Moss Agate": 0.06,
       "Pattern: Murloc Scale Belt": 0.0206
     }
   },
@@ -283,11 +273,9 @@
     ],
     "drops": {
       "Light Leather": 0.5892,
-      "Tigerseye": 0.52,
       "Bear Meat": 0.4687,
       "Ruined Leather Scraps": 0.3579,
-      "Malachite": 0.18,
-      "Shadowgem": 0.18
+      "Light Hide": 0.0529
     }
   },
   {
@@ -309,12 +297,8 @@
       "HUMANOID"
     ],
     "drops": {
-      "Tigerseye": 0.6,
       "Linen Cloth": 0.3833,
-      "Shadowgem": 0.18,
-      "Malachite": 0.16,
-      "Haunch of Meat": 0.0471,
-      "Pattern: Hillman's Leather Vest": 0.02
+      "Haunch of Meat": 0.0471
     }
   },
   {
@@ -337,11 +321,8 @@
       "HUMANOID"
     ],
     "drops": {
-      "Shadowgem": 0.44,
       "Wool Cloth": 0.1996,
       "Linen Cloth": 0.1835,
-      "Tigerseye": 0.12,
-      "Moss Agate": 0.1,
       "Haunch of Meat": 0.0492
     }
   },
@@ -365,12 +346,9 @@
       "NET_ROOT"
     ],
     "drops": {
-      "Shadowgem": 0.4,
       "Murloc Eye": 0.3744,
       "Small Barnacled Clam": 0.3647,
-      "Moss Agate": 0.2,
-      "Slimy Murloc Scale": 0.156,
-      "Tigerseye": 0.12
+      "Slimy Murloc Scale": 0.156
     }
   },
   {
@@ -392,12 +370,8 @@
       "HUMANOID"
     ],
     "drops": {
-      "Tigerseye": 0.46,
-      "Shadowgem": 0.34,
       "Wool Cloth": 0.1951,
-      "Linen Cloth": 0.1845,
-      "Malachite": 0.12,
-      "Moss Agate": 0.08
+      "Linen Cloth": 0.1845
     }
   },
   {
@@ -419,93 +393,9 @@
       "HUMANOID"
     ],
     "drops": {
-      "Shadowgem": 0.42,
       "Wool Cloth": 0.1937,
       "Linen Cloth": 0.1781,
-      "Moss Agate": 0.16,
-      "Tigerseye": 0.12,
       "Haunch of Meat": 0.0441
-    }
-  },
-  {
-    "id": "stonetalon_mountains_venture_co._logger_72_64",
-    "name": "Venture Co. Logger (Stonetalon Mountains)",
-    "mapID": 1442,
-    "zone": "Stonetalon Mountains",
-    "x": 72.2,
-    "y": 64.1,
-    "minLevel": 18,
-    "maxLevel": 19,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Shadowgem": 0.36,
-      "Wool Cloth": 0.1986,
-      "Linen Cloth": 0.1889,
-      "Moss Agate": 0.12,
-      "Tigerseye": 0.1,
-      "Haunch of Meat": 0.0474
-    }
-  },
-  {
-    "id": "silverpine_forest_vile_fin_lakestalker_82_20",
-    "name": "Vile Fin Lakestalker (Silverpine Forest)",
-    "mapID": 1421,
-    "zone": "Silverpine Forest",
-    "x": 82.6,
-    "y": 20.1,
-    "minLevel": 18,
-    "maxLevel": 19,
-    "faction": "Horde",
-    "density": "High",
-    "respawnMin": 4.7,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEALER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Murloc Eye": 0.3954,
-      "Shadowgem": 0.38,
-      "Small Barnacled Clam": 0.3775,
-      "Slimy Murloc Scale": 0.1793,
-      "Tigerseye": 0.16,
-      "Moss Agate": 0.12
-    }
-  },
-  {
-    "id": "the_barrens_savannah_prowler_67_25",
-    "name": "Savannah Prowler (The Barrens)",
-    "mapID": 1413,
-    "zone": "The Barrens",
-    "x": 67.6,
-    "y": 25.2,
-    "minLevel": 14,
-    "maxLevel": 15,
-    "faction": "Horde",
-    "density": "High",
-    "respawnMin": 4.6,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Light Leather": 0.6003,
-      "Tigerseye": 0.54,
-      "Ruined Leather Scraps": 0.3547,
-      "Shadowgem": 0.18,
-      "Malachite": 0.16,
-      "Small Leather Collar": 0.0895
     }
   },
   {
@@ -530,17 +420,17 @@
     }
   },
   {
-    "id": "silverpine_forest_moonrage_whitescalp_40_26",
-    "name": "Moonrage Whitescalp (Silverpine Forest)",
-    "mapID": 1421,
-    "zone": "Silverpine Forest",
-    "x": 40.5,
-    "y": 26.7,
-    "minLevel": 10,
-    "maxLevel": 11,
-    "faction": "Horde",
+    "id": "stonetalon_mountains_venture_co._logger_72_64",
+    "name": "Venture Co. Logger (Stonetalon Mountains)",
+    "mapID": 1442,
+    "zone": "Stonetalon Mountains",
+    "x": 72.2,
+    "y": 64.1,
+    "minLevel": 18,
+    "maxLevel": 19,
+    "faction": "Both",
     "density": "High",
-    "respawnMin": 4.6,
+    "respawnMin": 5.0,
     "isQuestMob": true,
     "tags": [
       "FLEE_RUNNER",
@@ -548,38 +438,58 @@
       "HUMANOID"
     ],
     "drops": {
-      "Malachite": 0.7,
-      "Light Leather": 0.6044,
-      "Tigerseye": 0.44,
-      "Ruined Leather Scraps": 0.3424,
-      "Shadowgem": 0.1,
-      "Light Hide": 0.0532
+      "Wool Cloth": 0.1986,
+      "Linen Cloth": 0.1889,
+      "Haunch of Meat": 0.0474
     }
   },
   {
-    "id": "tirisfal_glades_worg_72_85",
-    "name": "Worg (Tirisfal Glades)",
-    "mapID": 1420,
-    "zone": "Tirisfal Glades",
-    "x": 72.2,
-    "y": 85.7,
-    "minLevel": 10,
-    "maxLevel": 11,
+    "id": "silverpine_forest_vile_fin_lakestalker_82_20",
+    "name": "Vile Fin Lakestalker (Silverpine Forest)",
+    "mapID": 1421,
+    "zone": "Silverpine Forest",
+    "x": 82.6,
+    "y": 20.1,
+    "minLevel": 18,
+    "maxLevel": 19,
     "faction": "Horde",
     "density": "High",
     "respawnMin": 4.7,
-    "isQuestMob": false,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEALER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Murloc Eye": 0.3954,
+      "Small Barnacled Clam": 0.3775,
+      "Slimy Murloc Scale": 0.1793
+    }
+  },
+  {
+    "id": "the_barrens_savannah_prowler_67_25",
+    "name": "Savannah Prowler (The Barrens)",
+    "mapID": 1413,
+    "zone": "The Barrens",
+    "x": 67.6,
+    "y": 25.2,
+    "minLevel": 14,
+    "maxLevel": 15,
+    "faction": "Horde",
+    "density": "High",
+    "respawnMin": 4.6,
+    "isQuestMob": true,
     "tags": [
       "BEAST",
       "HEAVY_PACKS"
     ],
     "drops": {
-      "Stringy Wolf Meat": 0.871,
-      "Malachite": 0.72,
-      "Ruined Leather Scraps": 0.5998,
-      "Tigerseye": 0.48,
-      "Light Leather": 0.4002,
-      "Shadowgem": 0.08
+      "Light Leather": 0.6003,
+      "Ruined Leather Scraps": 0.3547,
+      "Small Leather Collar": 0.0895,
+      "Light Hide": 0.0448
     }
   },
   {
@@ -602,303 +512,7 @@
       "HUMANOID"
     ],
     "drops": {
-      "Linen Cloth": 0.3814,
-      "Tigerseye": 0.34,
-      "Shadowgem": 0.1,
-      "Malachite": 0.1,
-      "Pattern: Hillman's Leather Vest": 0.02,
-      "Pattern: Dark Leather Tunic": 0.02
-    }
-  },
-  {
-    "id": "darkshore_foreststrider_36_28",
-    "name": "Foreststrider (Darkshore)",
-    "mapID": 1439,
-    "zone": "Darkshore",
-    "x": 36.1,
-    "y": 28.3,
-    "minLevel": 14,
-    "maxLevel": 16,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 4.6,
-    "isQuestMob": false,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Light Leather": 0.6259,
-      "Strider Meat": 0.4475,
-      "Ruined Leather Scraps": 0.3248,
-      "Tigerseye": 0.32,
-      "Shadowgem": 0.26,
-      "Malachite": 0.14
-    }
-  },
-  {
-    "id": "darkshore_stormscale_myrmidon_49_13",
-    "name": "Stormscale Myrmidon (Darkshore)",
-    "mapID": 1439,
-    "zone": "Darkshore",
-    "x": 49.6,
-    "y": 13.7,
-    "minLevel": 18,
-    "maxLevel": 19,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 4.6,
-    "isQuestMob": false,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Shadowgem": 0.4,
-      "Small Barnacled Clam": 0.3824,
-      "Moss Agate": 0.12,
-      "Tigerseye": 0.1,
-      "Pattern: Fine Leather Pants": 0.02,
-      "Pattern: Hillman's Leather Vest": 0.02
-    }
-  },
-  {
-    "id": "westfall_murloc_netter_23_24",
-    "name": "Murloc Netter (Westfall)",
-    "mapID": 1436,
-    "zone": "Westfall",
-    "x": 23.3,
-    "y": 24.1,
-    "minLevel": 14,
-    "maxLevel": 15,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID",
-      "NET_ROOT"
-    ],
-    "drops": {
-      "Tigerseye": 0.6,
-      "Small Barnacled Clam": 0.3462,
-      "Murloc Eye": 0.3442,
-      "Malachite": 0.2,
-      "Shadowgem": 0.14,
-      "Pattern: Hillman's Leather Vest": 0.02
-    }
-  },
-  {
-    "id": "loch_modan_stonesplinter_trogg_30_72",
-    "name": "Stonesplinter Trogg (Loch Modan)",
-    "mapID": 1432,
-    "zone": "Loch Modan",
-    "x": 30.2,
-    "y": 72.4,
-    "minLevel": 11,
-    "maxLevel": 12,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Tigerseye": 0.62,
-      "Linen Cloth": 0.3817,
-      "Malachite": 0.2,
-      "Shadowgem": 0.16,
-      "Recipe: Succulent Pork Ribs": 0.1,
-      "Haunch of Meat": 0.0474
-    }
-  },
-  {
-    "id": "the_barrens_fleeting_plainstrider_75_40",
-    "name": "Fleeting Plainstrider (The Barrens)",
-    "mapID": 1413,
-    "zone": "The Barrens",
-    "x": 75.4,
-    "y": 40.4,
-    "minLevel": 12,
-    "maxLevel": 13,
-    "faction": "Horde",
-    "density": "High",
-    "respawnMin": 4.6,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Light Leather": 0.6127,
-      "Tigerseye": 0.58,
-      "Strider Meat": 0.3975,
-      "Ruined Leather Scraps": 0.3374,
-      "Malachite": 0.16,
-      "Shadowgem": 0.16
-    }
-  },
-  {
-    "id": "redridge_mountains_redridge_basher_14_16",
-    "name": "Redridge Basher (Redridge Mountains)",
-    "mapID": 1433,
-    "zone": "Redridge Mountains",
-    "x": 14.5,
-    "y": 16.2,
-    "minLevel": 19,
-    "maxLevel": 20,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Shadowgem": 0.46,
-      "Wool Cloth": 0.1906,
-      "Linen Cloth": 0.1828,
-      "Moss Agate": 0.14,
-      "Tigerseye": 0.14,
-      "Haunch of Meat": 0.0452
-    }
-  },
-  {
-    "id": "felwood_giant_foreststrider_21_77",
-    "name": "Giant Foreststrider (Felwood)",
-    "mapID": 1448,
-    "zone": "Felwood",
-    "x": 21.7,
-    "y": 77.0,
-    "minLevel": 17,
-    "maxLevel": 19,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 4.6,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Light Leather": 0.7059,
-      "Strider Meat": 0.3941,
-      "Shadowgem": 0.26,
-      "Medium Leather": 0.2204,
-      "Clam Meat": 0.14,
-      "Tigerseye": 0.1
-    }
-  },
-  {
-    "id": "loch_modan_loch_frenzy_57_8",
-    "name": "Loch Frenzy (Loch Modan)",
-    "mapID": 1432,
-    "zone": "Loch Modan",
-    "x": 57.9,
-    "y": 8.3,
-    "minLevel": 12,
-    "maxLevel": 13,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Shiny Fish Scales": 1.0,
-      "Tigerseye": 0.58,
-      "Dull Frenzy Scale": 0.2878,
-      "Shadowgem": 0.26,
-      "Recipe: Succulent Pork Ribs": 0.14,
-      "Malachite": 0.08
-    }
-  },
-  {
-    "id": "darkshore_darkshore_thresher_13_35",
-    "name": "Darkshore Thresher (Darkshore)",
-    "mapID": 1439,
-    "zone": "Darkshore",
-    "x": 13.7,
-    "y": 35.5,
-    "minLevel": 12,
-    "maxLevel": 14,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 4.6,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Light Leather": 0.6132,
-      "Tigerseye": 0.54,
-      "Small Barnacled Clam": 0.4365,
-      "Ruined Leather Scraps": 0.3342,
-      "Malachite": 0.2,
-      "Shadowgem": 0.2
-    }
-  },
-  {
-    "id": "westfall_goretusk_40_58",
-    "name": "Goretusk (Westfall)",
-    "mapID": 1436,
-    "zone": "Westfall",
-    "x": 40.4,
-    "y": 58.4,
-    "minLevel": 14,
-    "maxLevel": 15,
-    "faction": "Alliance",
-    "density": "Medium",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
-    "tags": [
-      "BEAST"
-    ],
-    "drops": {
-      "Chunk of Boar Meat": 0.7635,
-      "Light Leather": 0.6123,
-      "Tigerseye": 0.54,
-      "Goretusk Snout": 0.3916,
-      "Ruined Leather Scraps": 0.3332,
-      "Goretusk Liver": 0.3302
-    }
-  },
-  {
-    "id": "silverpine_forest_vile_fin_shredder_60_14",
-    "name": "Vile Fin Shredder (Silverpine Forest)",
-    "mapID": 1421,
-    "zone": "Silverpine Forest",
-    "x": 60.0,
-    "y": 14.9,
-    "minLevel": 12,
-    "maxLevel": 13,
-    "faction": "Horde",
-    "density": "High",
-    "respawnMin": 4.6,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Tigerseye": 0.58,
-      "Small Barnacled Clam": 0.3272,
-      "Murloc Eye": 0.3218,
-      "Shadowgem": 0.24,
-      "Malachite": 0.22,
-      "Haunch of Meat": 0.02
+      "Linen Cloth": 0.3814
     }
   },
   {
@@ -923,46 +537,20 @@
       "Stag Meat": 0.5124,
       "Medium Leather": 0.1958,
       "Light Hide": 0.0571,
-      "Jade": 0.0469,
-      "Pattern: Dark Leather Tunic": 0.02
+      "Moss Agate": 0.019,
+      "Medium Hide": 0.0182
     }
   },
   {
-    "id": "the_barrens_savannah_prowler_34_44",
-    "name": "Savannah Prowler (The Barrens)",
-    "mapID": 1413,
-    "zone": "The Barrens",
-    "x": 34.0,
-    "y": 44.6,
-    "minLevel": 14,
-    "maxLevel": 15,
-    "faction": "Horde",
-    "density": "High",
-    "respawnMin": 4.6,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Light Leather": 0.6003,
-      "Tigerseye": 0.54,
-      "Ruined Leather Scraps": 0.3547,
-      "Shadowgem": 0.18,
-      "Malachite": 0.16,
-      "Small Leather Collar": 0.0895
-    }
-  },
-  {
-    "id": "the_barrens_burning_blade_bruiser_46_28",
-    "name": "Burning Blade Bruiser (The Barrens)",
-    "mapID": 1413,
-    "zone": "The Barrens",
-    "x": 46.6,
-    "y": 28.1,
-    "minLevel": 10,
-    "maxLevel": 11,
-    "faction": "Horde",
+    "id": "darkshore_stormscale_myrmidon_49_13",
+    "name": "Stormscale Myrmidon (Darkshore)",
+    "mapID": 1439,
+    "zone": "Darkshore",
+    "x": 49.6,
+    "y": 13.7,
+    "minLevel": 18,
+    "maxLevel": 19,
+    "faction": "Alliance",
     "density": "High",
     "respawnMin": 4.6,
     "isQuestMob": false,
@@ -972,22 +560,163 @@
       "HUMANOID"
     ],
     "drops": {
-      "Malachite": 0.72,
-      "Tigerseye": 0.48,
-      "Linen Cloth": 0.3823,
-      "Shadowgem": 0.12,
-      "Haunch of Meat": 0.0432,
-      "Pattern: Dark Leather Tunic": 0.02
+      "Small Barnacled Clam": 0.3824
     }
   },
   {
-    "id": "westfall_goretusk_30_36",
-    "name": "Goretusk & Young Goretusk (Westfall)",
+    "id": "silverpine_forest_moonrage_whitescalp_40_26",
+    "name": "Moonrage Whitescalp (Silverpine Forest)",
+    "mapID": 1421,
+    "zone": "Silverpine Forest",
+    "x": 40.5,
+    "y": 26.7,
+    "minLevel": 10,
+    "maxLevel": 11,
+    "faction": "Horde",
+    "density": "High",
+    "respawnMin": 4.6,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Light Leather": 0.6044,
+      "Ruined Leather Scraps": 0.3424,
+      "Light Hide": 0.0532,
+      "Haunch of Meat": 0.049
+    }
+  },
+  {
+    "id": "darkshore_foreststrider_36_28",
+    "name": "Foreststrider (Darkshore)",
+    "mapID": 1439,
+    "zone": "Darkshore",
+    "x": 36.1,
+    "y": 28.3,
+    "minLevel": 14,
+    "maxLevel": 16,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 4.6,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS"
+    ],
+    "drops": {
+      "Light Leather": 0.6259,
+      "Strider Meat": 0.4475,
+      "Ruined Leather Scraps": 0.3248,
+      "Light Hide": 0.0493
+    }
+  },
+  {
+    "id": "felwood_giant_foreststrider_21_77",
+    "name": "Giant Foreststrider (Felwood)",
+    "mapID": 1448,
+    "zone": "Felwood",
+    "x": 21.7,
+    "y": 77.0,
+    "minLevel": 17,
+    "maxLevel": 19,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 4.6,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS"
+    ],
+    "drops": {
+      "Light Leather": 0.7059,
+      "Strider Meat": 0.3941,
+      "Medium Leather": 0.2204,
+      "Light Hide": 0.0499,
+      "Medium Hide": 0.0238
+    }
+  },
+  {
+    "id": "westfall_murloc_netter_23_24",
+    "name": "Murloc Netter (Westfall)",
     "mapID": 1436,
     "zone": "Westfall",
-    "x": 30.7,
-    "y": 36.5,
+    "x": 23.3,
+    "y": 24.1,
+    "minLevel": 14,
+    "maxLevel": 15,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": false,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID",
+      "NET_ROOT"
+    ],
+    "drops": {
+      "Small Barnacled Clam": 0.3462,
+      "Murloc Eye": 0.3442
+    }
+  },
+  {
+    "id": "redridge_mountains_redridge_basher_14_16",
+    "name": "Redridge Basher (Redridge Mountains)",
+    "mapID": 1433,
+    "zone": "Redridge Mountains",
+    "x": 14.5,
+    "y": 16.2,
+    "minLevel": 19,
+    "maxLevel": 20,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Wool Cloth": 0.1906,
+      "Linen Cloth": 0.1828,
+      "Haunch of Meat": 0.0452
+    }
+  },
+  {
+    "id": "the_barrens_fleeting_plainstrider_75_40",
+    "name": "Fleeting Plainstrider (The Barrens)",
+    "mapID": 1413,
+    "zone": "The Barrens",
+    "x": 75.4,
+    "y": 40.4,
     "minLevel": 12,
+    "maxLevel": 13,
+    "faction": "Horde",
+    "density": "High",
+    "respawnMin": 4.6,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS"
+    ],
+    "drops": {
+      "Light Leather": 0.6127,
+      "Strider Meat": 0.3975,
+      "Ruined Leather Scraps": 0.3374,
+      "Light Hide": 0.0499
+    }
+  },
+  {
+    "id": "westfall_goretusk_40_58",
+    "name": "Goretusk (Westfall)",
+    "mapID": 1436,
+    "zone": "Westfall",
+    "x": 40.4,
+    "y": 58.4,
+    "minLevel": 14,
     "maxLevel": 15,
     "faction": "Alliance",
     "density": "Medium",
@@ -999,10 +728,81 @@
     "drops": {
       "Chunk of Boar Meat": 0.7635,
       "Light Leather": 0.6123,
-      "Tigerseye": 0.56,
       "Goretusk Snout": 0.3916,
-      "Ruined Leather Scraps": 0.3505,
-      "Goretusk Liver": 0.3302
+      "Ruined Leather Scraps": 0.3332,
+      "Goretusk Liver": 0.3302,
+      "Boar Ribs": 0.2864
+    }
+  },
+  {
+    "id": "tirisfal_glades_worg_72_85",
+    "name": "Worg (Tirisfal Glades)",
+    "mapID": 1420,
+    "zone": "Tirisfal Glades",
+    "x": 72.2,
+    "y": 85.7,
+    "minLevel": 10,
+    "maxLevel": 11,
+    "faction": "Horde",
+    "density": "High",
+    "respawnMin": 4.7,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS"
+    ],
+    "drops": {
+      "Stringy Wolf Meat": 0.871,
+      "Ruined Leather Scraps": 0.5998,
+      "Light Leather": 0.4002
+    }
+  },
+  {
+    "id": "darkshore_darkshore_thresher_13_35",
+    "name": "Darkshore Thresher (Darkshore)",
+    "mapID": 1439,
+    "zone": "Darkshore",
+    "x": 13.7,
+    "y": 35.5,
+    "minLevel": 12,
+    "maxLevel": 14,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 4.6,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS"
+    ],
+    "drops": {
+      "Light Leather": 0.6132,
+      "Small Barnacled Clam": 0.4365,
+      "Ruined Leather Scraps": 0.3342,
+      "Light Hide": 0.0526,
+      "Clam Meat": 0.0102
+    }
+  },
+  {
+    "id": "loch_modan_stonesplinter_trogg_30_72",
+    "name": "Stonesplinter Trogg (Loch Modan)",
+    "mapID": 1432,
+    "zone": "Loch Modan",
+    "x": 30.2,
+    "y": 72.4,
+    "minLevel": 11,
+    "maxLevel": 12,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Linen Cloth": 0.3817,
+      "Haunch of Meat": 0.0474
     }
   },
   {
@@ -1025,50 +825,43 @@
       "HUMANOID"
     ],
     "drops": {
-      "Shadowgem": 0.36,
       "Wool Cloth": 0.1987,
       "Linen Cloth": 0.1778,
-      "Moss Agate": 0.12,
-      "Tigerseye": 0.08,
       "Haunch of Meat": 0.0466
     }
   },
   {
-    "id": "darkshore_moonkin_27_51",
-    "name": "Moonkin & Young Moonkin (Darkshore)",
-    "mapID": 1439,
-    "zone": "Darkshore",
-    "x": 27.8,
-    "y": 51.2,
-    "minLevel": 11,
+    "id": "loch_modan_loch_frenzy_57_8",
+    "name": "Loch Frenzy (Loch Modan)",
+    "mapID": 1432,
+    "zone": "Loch Modan",
+    "x": 57.9,
+    "y": 8.3,
+    "minLevel": 12,
     "maxLevel": 13,
     "faction": "Alliance",
     "density": "High",
-    "respawnMin": 4.6,
+    "respawnMin": 5.0,
     "isQuestMob": false,
     "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
+      "BEAST",
+      "HEAVY_PACKS"
     ],
     "drops": {
-      "Tigerseye": 0.62,
-      "Small Egg": 0.5637,
-      "Malachite": 0.2,
-      "Shadowgem": 0.18,
-      "Haunch of Meat": 0.0516,
-      "Pattern: Hillman's Leather Vest": 0.02
+      "Shiny Fish Scales": 1.0,
+      "Dull Frenzy Scale": 0.2878,
+      "Fish Scale": 0.0124
     }
   },
   {
-    "id": "the_barrens_oasis_snapjaw_44_51",
-    "name": "Oasis Snapjaw (The Barrens)",
+    "id": "the_barrens_savannah_prowler_34_44",
+    "name": "Savannah Prowler (The Barrens)",
     "mapID": 1413,
     "zone": "The Barrens",
-    "x": 44.6,
-    "y": 51.1,
-    "minLevel": 15,
-    "maxLevel": 16,
+    "x": 34.0,
+    "y": 44.6,
+    "minLevel": 14,
+    "maxLevel": 15,
     "faction": "Horde",
     "density": "High",
     "respawnMin": 4.6,
@@ -1078,21 +871,19 @@
       "HEAVY_PACKS"
     ],
     "drops": {
-      "Light Leather": 0.5964,
-      "Small Barnacled Clam": 0.4059,
-      "Ruined Leather Scraps": 0.3567,
-      "Tigerseye": 0.32,
-      "Shadowgem": 0.28,
-      "Malachite": 0.08
+      "Light Leather": 0.6003,
+      "Ruined Leather Scraps": 0.3547,
+      "Small Leather Collar": 0.0895,
+      "Light Hide": 0.0448
     }
   },
   {
-    "id": "silverpine_forest_moonrage_glutton_11_32",
-    "name": "Moonrage Glutton (Silverpine Forest)",
+    "id": "silverpine_forest_vile_fin_shredder_60_14",
+    "name": "Vile Fin Shredder (Silverpine Forest)",
     "mapID": 1421,
     "zone": "Silverpine Forest",
-    "x": 11.4,
-    "y": 32.7,
+    "x": 60.0,
+    "y": 14.9,
     "minLevel": 12,
     "maxLevel": 13,
     "faction": "Horde",
@@ -1105,12 +896,8 @@
       "HUMANOID"
     ],
     "drops": {
-      "Light Leather": 0.5963,
-      "Tigerseye": 0.5,
-      "Ruined Leather Scraps": 0.3563,
-      "Malachite": 0.18,
-      "Shadowgem": 0.16,
-      "Light Hide": 0.0473
+      "Small Barnacled Clam": 0.3272,
+      "Murloc Eye": 0.3218
     }
   },
   {
@@ -1134,23 +921,20 @@
       "STEALTH"
     ],
     "drops": {
-      "Shadowgem": 0.4,
       "Wool Cloth": 0.1988,
       "Linen Cloth": 0.1812,
-      "Moss Agate": 0.12,
-      "Tigerseye": 0.12,
       "Haunch of Meat": 0.0512
     }
   },
   {
-    "id": "the_barrens_sunscale_screecher_82_56",
-    "name": "Sunscale Screecher (The Barrens)",
+    "id": "the_barrens_oasis_snapjaw_44_51",
+    "name": "Oasis Snapjaw (The Barrens)",
     "mapID": 1413,
     "zone": "The Barrens",
-    "x": 82.5,
-    "y": 56.9,
-    "minLevel": 13,
-    "maxLevel": 15,
+    "x": 44.6,
+    "y": 51.1,
+    "minLevel": 15,
+    "maxLevel": 16,
     "faction": "Horde",
     "density": "High",
     "respawnMin": 4.6,
@@ -1160,12 +944,133 @@
       "HEAVY_PACKS"
     ],
     "drops": {
-      "Light Leather": 0.6008,
-      "Tigerseye": 0.54,
-      "Ruined Leather Scraps": 0.3491,
-      "Malachite": 0.18,
-      "Shadowgem": 0.18,
-      "Light Hide": 0.0502
+      "Light Leather": 0.5964,
+      "Small Barnacled Clam": 0.4059,
+      "Ruined Leather Scraps": 0.3567,
+      "Light Hide": 0.0463
+    }
+  },
+  {
+    "id": "westfall_goretusk_30_36",
+    "name": "Goretusk & Young Goretusk (Westfall)",
+    "mapID": 1436,
+    "zone": "Westfall",
+    "x": 30.7,
+    "y": 36.5,
+    "minLevel": 12,
+    "maxLevel": 15,
+    "faction": "Alliance",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST"
+    ],
+    "drops": {
+      "Chunk of Boar Meat": 0.7635,
+      "Light Leather": 0.6123,
+      "Goretusk Snout": 0.3916,
+      "Ruined Leather Scraps": 0.3505,
+      "Goretusk Liver": 0.3302,
+      "Boar Ribs": 0.2864
+    }
+  },
+  {
+    "id": "silverpine_forest_moonrage_glutton_11_32",
+    "name": "Moonrage Glutton (Silverpine Forest)",
+    "mapID": 1421,
+    "zone": "Silverpine Forest",
+    "x": 11.4,
+    "y": 32.7,
+    "minLevel": 12,
+    "maxLevel": 13,
+    "faction": "Horde",
+    "density": "High",
+    "respawnMin": 4.6,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Light Leather": 0.5963,
+      "Ruined Leather Scraps": 0.3563,
+      "Light Hide": 0.0473,
+      "Haunch of Meat": 0.046
+    }
+  },
+  {
+    "id": "darkshore_moonkin_27_51",
+    "name": "Moonkin & Young Moonkin (Darkshore)",
+    "mapID": 1439,
+    "zone": "Darkshore",
+    "x": 27.8,
+    "y": 51.2,
+    "minLevel": 11,
+    "maxLevel": 13,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 4.6,
+    "isQuestMob": false,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Small Egg": 0.5637,
+      "Haunch of Meat": 0.0516
+    }
+  },
+  {
+    "id": "duskwood_rabid_dire_wolf_22_22",
+    "name": "Rabid Dire Wolf & Starving Dire Wolf (Duskwood)",
+    "mapID": 1431,
+    "zone": "Duskwood",
+    "x": 22.4,
+    "y": 22.4,
+    "minLevel": 19,
+    "maxLevel": 21,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS"
+    ],
+    "drops": {
+      "Light Leather": 0.7332,
+      "Lean Wolf Flank": 0.5484,
+      "Medium Leather": 0.202,
+      "Light Hide": 0.0477,
+      "Medium Hide": 0.02
+    }
+  },
+  {
+    "id": "redridge_mountains_great_goretusk_17_57",
+    "name": "Great Goretusk (Redridge Mountains)",
+    "mapID": 1433,
+    "zone": "Redridge Mountains",
+    "x": 17.6,
+    "y": 57.3,
+    "minLevel": 16,
+    "maxLevel": 17,
+    "faction": "Alliance",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST"
+    ],
+    "drops": {
+      "Chunk of Boar Meat": 0.7725,
+      "Light Leather": 0.735,
+      "Goretusk Liver": 0.3696,
+      "Great Goretusk Snout": 0.3643,
+      "Boar Ribs": 0.3184,
+      "Medium Leather": 0.1975
     }
   },
   {
@@ -1189,11 +1094,7 @@
     ],
     "drops": {
       "Silk Cloth": 0.2447,
-      "Moss Agate": 0.12,
-      "Lesser Moonstone": 0.1037,
-      "Wool Cloth": 0.0988,
-      "Jade": 0.0405,
-      "Formula: Enchant Weapon - Lesser Elemental Slayer": 0.02
+      "Wool Cloth": 0.0988
     }
   },
   {
@@ -1215,12 +1116,9 @@
       "HUMANOID"
     ],
     "drops": {
-      "Moss Agate": 0.26,
       "Wool Cloth": 0.2456,
       "Linen Cloth": 0.1349,
-      "Silk Cloth": 0.0461,
-      "Shadowgem": 0.04,
-      "Pattern: Dark Leather Gloves": 0.02
+      "Silk Cloth": 0.0461
     }
   },
   {
@@ -1243,11 +1141,56 @@
     ],
     "drops": {
       "Wool Cloth": 0.2444,
-      "Shadowgem": 0.22,
-      "Moss Agate": 0.2,
       "Linen Cloth": 0.131,
-      "Tigerseye": 0.06,
       "Silk Cloth": 0.0495
+    }
+  },
+  {
+    "id": "duskwood_nightbane_dark_runner_59_76",
+    "name": "Nightbane Dark Runner (Duskwood)",
+    "mapID": 1431,
+    "zone": "Duskwood",
+    "x": 59.5,
+    "y": 76.2,
+    "minLevel": 28,
+    "maxLevel": 29,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Medium Leather": 0.7289,
+      "Heavy Leather": 0.201,
+      "Medium Hide": 0.049,
+      "Heavy Hide": 0.0205
+    }
+  },
+  {
+    "id": "hillsbrad_foothills_hillsbrad_miner_28_54",
+    "name": "Hillsbrad Miner (Hillsbrad Foothills)",
+    "mapID": 1424,
+    "zone": "Hillsbrad Foothills",
+    "x": 28.7,
+    "y": 54.7,
+    "minLevel": 26,
+    "maxLevel": 27,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Silk Cloth": 0.2426,
+      "Wool Cloth": 0.0939
     }
   },
   {
@@ -1272,62 +1215,8 @@
       "Medium Leather": 0.5082,
       "Crocolisk Meat": 0.4981,
       "Light Leather": 0.4195,
-      "Moss Agate": 0.2,
-      "Lesser Moonstone": 0.1056
-    }
-  },
-  {
-    "id": "duskwood_nightbane_dark_runner_59_76",
-    "name": "Nightbane Dark Runner (Duskwood)",
-    "mapID": 1431,
-    "zone": "Duskwood",
-    "x": 59.5,
-    "y": 76.2,
-    "minLevel": 28,
-    "maxLevel": 29,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Medium Leather": 0.7289,
-      "Heavy Leather": 0.201,
-      "Moss Agate": 0.1,
-      "Lesser Moonstone": 0.0843,
-      "Jade": 0.0534,
-      "Medium Hide": 0.049
-    }
-  },
-  {
-    "id": "hillsbrad_foothills_hillsbrad_miner_28_54",
-    "name": "Hillsbrad Miner (Hillsbrad Foothills)",
-    "mapID": 1424,
-    "zone": "Hillsbrad Foothills",
-    "x": 28.7,
-    "y": 54.7,
-    "minLevel": 26,
-    "maxLevel": 27,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Silk Cloth": 0.2426,
-      "Moss Agate": 0.14,
-      "Wool Cloth": 0.0939,
-      "Lesser Moonstone": 0.0695,
-      "Jade": 0.0292,
-      "Formula: Enchant Weapon - Lesser Elemental Slayer": 0.02
+      "Medium Hide": 0.0491,
+      "Light Hide": 0.0334
     }
   },
   {
@@ -1350,10 +1239,9 @@
     "drops": {
       "Raptor Egg": 0.7242,
       "Medium Leather": 0.7182,
-      "Lesser Moonstone": 0.2697,
       "Heavy Leather": 0.2034,
-      "Moss Agate": 0.12,
-      "Jade": 0.1
+      "Medium Hide": 0.0594,
+      "Heavy Hide": 0.019
     }
   },
   {
@@ -1375,12 +1263,7 @@
       "POISON"
     ],
     "drops": {
-      "Crisp Spider Meat": 0.4244,
-      "Moss Agate": 0.18,
-      "Shadowgem": 0.08,
-      "Lesser Moonstone": 0.0373,
-      "Pattern: Dark Leather Gloves": 0.02,
-      "Pattern: Fine Leather Pants": 0.02
+      "Crisp Spider Meat": 0.4244
     }
   },
   {
@@ -1403,38 +1286,8 @@
     ],
     "drops": {
       "Wool Cloth": 0.2443,
-      "Moss Agate": 0.2,
       "Linen Cloth": 0.1254,
-      "Shadowgem": 0.08,
-      "Silk Cloth": 0.048,
-      "Lesser Moonstone": 0.0421
-    }
-  },
-  {
-    "id": "ashenvale_befouled_water_elemental_59_80",
-    "name": "Befouled Water Elemental (Ashenvale)",
-    "mapID": 1440,
-    "zone": "Ashenvale",
-    "x": 59.7,
-    "y": 80.4,
-    "minLevel": 23,
-    "maxLevel": 25,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "CASTER",
-      "ELEMENTAL",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Moss Agate": 0.28,
-      "Lesser Moonstone": 0.1348,
-      "Broken Elemental Bracer": 0.1345,
-      "Damaged Elemental Bracer": 0.1317,
-      "Crushed Elemental Bracer": 0.1311,
-      "Fractured Elemental Bracer": 0.1301
+      "Silk Cloth": 0.048
     }
   },
   {
@@ -1458,9 +1311,34 @@
       "Medium Leather": 0.4996,
       "Light Leather": 0.4203,
       "Lion Meat": 0.4181,
-      "Moss Agate": 0.18,
-      "Shadowgem": 0.08,
-      "Medium Hide": 0.0509
+      "Medium Hide": 0.0509,
+      "Light Hide": 0.0292
+    }
+  },
+  {
+    "id": "ashenvale_befouled_water_elemental_59_80",
+    "name": "Befouled Water Elemental (Ashenvale)",
+    "mapID": 1440,
+    "zone": "Ashenvale",
+    "x": 59.7,
+    "y": 80.4,
+    "minLevel": 23,
+    "maxLevel": 25,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "CASTER",
+      "ELEMENTAL",
+      "HEAVY_PACKS"
+    ],
+    "drops": {
+      "Broken Elemental Bracer": 0.1345,
+      "Damaged Elemental Bracer": 0.1317,
+      "Crushed Elemental Bracer": 0.1311,
+      "Fractured Elemental Bracer": 0.1301,
+      "Elemental Water": 0.0307
     }
   },
   {
@@ -1484,36 +1362,8 @@
       "Medium Leather": 0.5022,
       "Light Leather": 0.4234,
       "Big Bear Meat": 0.4186,
-      "Moss Agate": 0.16,
-      "Bear Meat": 0.1417,
-      "Lesser Moonstone": 0.0567
-    }
-  },
-  {
-    "id": "wetlands_leech_stalker_54_69",
-    "name": "Leech Stalker (Wetlands)",
-    "mapID": 1437,
-    "zone": "Wetlands",
-    "x": 54.4,
-    "y": 69.6,
-    "minLevel": 21,
-    "maxLevel": 22,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS",
-      "POISON"
-    ],
-    "drops": {
-      "Crisp Spider Meat": 0.3818,
-      "Moss Agate": 0.22,
-      "Shadowgem": 0.06,
-      "Lesser Moonstone": 0.039,
-      "Pattern: Dark Leather Gloves": 0.02,
-      "Pattern: Fine Leather Pants": 0.02
+      "Medium Hide": 0.0487,
+      "Light Hide": 0.0257
     }
   },
   {
@@ -1537,89 +1387,30 @@
       "Medium Leather": 0.7237,
       "Stag Meat": 0.5322,
       "Heavy Leather": 0.2087,
-      "Moss Agate": 0.1,
-      "Jade": 0.0587,
-      "Lesser Moonstone": 0.0587
+      "Medium Hide": 0.0442,
+      "Heavy Hide": 0.0234
     }
   },
   {
-    "id": "ashenvale_ashenvale_bear_66_53",
-    "name": "Ashenvale Bear (Ashenvale)",
-    "mapID": 1440,
-    "zone": "Ashenvale",
-    "x": 66.6,
-    "y": 53.6,
+    "id": "wetlands_leech_stalker_54_69",
+    "name": "Leech Stalker (Wetlands)",
+    "mapID": 1437,
+    "zone": "Wetlands",
+    "x": 54.4,
+    "y": 69.6,
     "minLevel": 21,
     "maxLevel": 22,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Medium Leather": 0.5022,
-      "Light Leather": 0.4234,
-      "Big Bear Meat": 0.4186,
-      "Moss Agate": 0.16,
-      "Bear Meat": 0.1417,
-      "Lesser Moonstone": 0.0567
-    }
-  },
-  {
-    "id": "the_barrens_thunderhead_43_77",
-    "name": "Thunderhead (The Barrens)",
-    "mapID": 1413,
-    "zone": "The Barrens",
-    "x": 43.2,
-    "y": 77.6,
-    "minLevel": 20,
-    "maxLevel": 21,
-    "faction": "Horde",
-    "density": "High",
-    "respawnMin": 4.6,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "CASTER",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Light Leather": 0.7279,
-      "Shadowgem": 0.22,
-      "Medium Leather": 0.2,
-      "Moss Agate": 0.12,
-      "Charged Scale": 0.1133,
-      "Tigerseye": 0.06
-    }
-  },
-  {
-    "id": "duskwood_nightbane_dark_runner_57_45",
-    "name": "Nightbane Dark Runner (Duskwood)",
-    "mapID": 1431,
-    "zone": "Duskwood",
-    "x": 57.4,
-    "y": 45.2,
-    "minLevel": 28,
-    "maxLevel": 29,
     "faction": "Alliance",
     "density": "High",
     "respawnMin": 5.0,
     "isQuestMob": true,
     "tags": [
-      "FLEE_RUNNER",
+      "BEAST",
       "HEAVY_PACKS",
-      "HUMANOID"
+      "POISON"
     ],
     "drops": {
-      "Medium Leather": 0.7289,
-      "Heavy Leather": 0.201,
-      "Moss Agate": 0.1,
-      "Lesser Moonstone": 0.0843,
-      "Jade": 0.0534,
-      "Medium Hide": 0.049
+      "Crisp Spider Meat": 0.3818
     }
   },
   {
@@ -1643,9 +1434,58 @@
       "Medium Leather": 0.7237,
       "Stag Meat": 0.5322,
       "Heavy Leather": 0.2087,
-      "Moss Agate": 0.1,
-      "Jade": 0.0587,
-      "Lesser Moonstone": 0.0587
+      "Medium Hide": 0.0442,
+      "Heavy Hide": 0.0234
+    }
+  },
+  {
+    "id": "ashenvale_ashenvale_bear_66_53",
+    "name": "Ashenvale Bear (Ashenvale)",
+    "mapID": 1440,
+    "zone": "Ashenvale",
+    "x": 66.6,
+    "y": 53.6,
+    "minLevel": 21,
+    "maxLevel": 22,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS"
+    ],
+    "drops": {
+      "Medium Leather": 0.5022,
+      "Light Leather": 0.4234,
+      "Big Bear Meat": 0.4186,
+      "Medium Hide": 0.0487,
+      "Light Hide": 0.0257
+    }
+  },
+  {
+    "id": "duskwood_nightbane_dark_runner_57_45",
+    "name": "Nightbane Dark Runner (Duskwood)",
+    "mapID": 1431,
+    "zone": "Duskwood",
+    "x": 57.4,
+    "y": 45.2,
+    "minLevel": 28,
+    "maxLevel": 29,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Medium Leather": 0.7289,
+      "Heavy Leather": 0.201,
+      "Medium Hide": 0.049,
+      "Heavy Hide": 0.0205
     }
   },
   {
@@ -1670,36 +1510,33 @@
       "Thick-shelled Clam": 0.3913,
       "Shiny Fish Scales": 0.2795,
       "Fish Oil": 0.2733,
-      "Lesser Moonstone": 0.0793,
-      "Moss Agate": 0.073,
       "Thick Murloc Scale": 0.0365
     }
   },
   {
-    "id": "stonetalon_mountains_bloodfury_windcaller_18_78",
-    "name": "Bloodfury Windcaller (Stonetalon Mountains)",
-    "mapID": 1442,
-    "zone": "Stonetalon Mountains",
-    "x": 18.0,
-    "y": 78.5,
-    "minLevel": 24,
-    "maxLevel": 25,
-    "faction": "Both",
+    "id": "the_barrens_thunderhead_43_77",
+    "name": "Thunderhead (The Barrens)",
+    "mapID": 1413,
+    "zone": "The Barrens",
+    "x": 43.2,
+    "y": 77.6,
+    "minLevel": 20,
+    "maxLevel": 21,
+    "faction": "Horde",
     "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
+    "respawnMin": 4.6,
+    "isQuestMob": true,
     "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
+      "BEAST",
+      "CASTER",
+      "HEAVY_PACKS"
     ],
     "drops": {
-      "Wool Cloth": 0.2404,
-      "Moss Agate": 0.18,
-      "Linen Cloth": 0.1328,
-      "Shadowgem": 0.06,
-      "Silk Cloth": 0.0484,
-      "Lesser Moonstone": 0.0415
+      "Light Leather": 0.7279,
+      "Medium Leather": 0.2,
+      "Charged Scale": 0.1133,
+      "Light Hide": 0.0532,
+      "Medium Hide": 0.0189
     }
   },
   {
@@ -1723,9 +1560,32 @@
       "Stag Meat": 0.4929,
       "Medium Leather": 0.485,
       "Light Leather": 0.4371,
-      "Moss Agate": 0.12,
       "Medium Hide": 0.0457,
-      "Shadowgem": 0.04
+      "Light Hide": 0.0321
+    }
+  },
+  {
+    "id": "stonetalon_mountains_bloodfury_windcaller_18_78",
+    "name": "Bloodfury Windcaller (Stonetalon Mountains)",
+    "mapID": 1442,
+    "zone": "Stonetalon Mountains",
+    "x": 18.0,
+    "y": 78.5,
+    "minLevel": 24,
+    "maxLevel": 25,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": false,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Wool Cloth": 0.2404,
+      "Linen Cloth": 0.1328,
+      "Silk Cloth": 0.0484
     }
   },
   {
@@ -1748,9 +1608,8 @@
       "Lean Wolf Flank": 0.5772,
       "Medium Leather": 0.5041,
       "Light Leather": 0.4271,
-      "Moss Agate": 0.22,
-      "Lesser Moonstone": 0.1197,
-      "Shadowgem": 0.06
+      "Medium Hide": 0.0508,
+      "Light Hide": 0.0304
     }
   },
   {
@@ -1773,36 +1632,10 @@
     ],
     "drops": {
       "Light Leather": 0.7279,
-      "Shadowgem": 0.22,
       "Medium Leather": 0.2,
-      "Moss Agate": 0.12,
       "Charged Scale": 0.1133,
-      "Tigerseye": 0.06
-    }
-  },
-  {
-    "id": "wetlands_wetlands_crocolisk_9_27",
-    "name": "Wetlands Crocolisk & Young Wetlands Crocolisk (Wetlands)",
-    "mapID": 1437,
-    "zone": "Wetlands",
-    "x": 9.8,
-    "y": 27.7,
-    "minLevel": 21,
-    "maxLevel": 24,
-    "faction": "Alliance",
-    "density": "Medium",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST"
-    ],
-    "drops": {
-      "Tender Crocolisk Meat": 0.5944,
-      "Medium Leather": 0.5082,
-      "Crocolisk Meat": 0.4981,
-      "Light Leather": 0.4195,
-      "Moss Agate": 0.2,
-      "Lesser Moonstone": 0.1056
+      "Light Hide": 0.0532,
+      "Medium Hide": 0.0189
     }
   },
   {
@@ -1824,11 +1657,8 @@
       "HUMANOID"
     ],
     "drops": {
-      "Moss Agate": 0.26,
       "Wool Cloth": 0.2457,
       "Linen Cloth": 0.1308,
-      "Shadowgem": 0.06,
-      "Lesser Moonstone": 0.0592,
       "Silk Cloth": 0.0489
     }
   },
@@ -1853,34 +1683,56 @@
       "Medium Leather": 0.4911,
       "Light Leather": 0.437,
       "Big Bear Meat": 0.4198,
-      "Moss Agate": 0.12,
-      "Lesser Moonstone": 0.1073,
-      "Medium Hide": 0.0465
+      "Medium Hide": 0.0465,
+      "Light Hide": 0.0254
     }
   },
   {
-    "id": "the_barrens_rotting_slime_61_4",
-    "name": "Rotting Slime (The Barrens)",
-    "mapID": 1413,
-    "zone": "The Barrens",
-    "x": 61.5,
-    "y": 4.3,
-    "minLevel": 20,
-    "maxLevel": 22,
-    "faction": "Horde",
+    "id": "wetlands_wetlands_crocolisk_9_27",
+    "name": "Wetlands Crocolisk & Young Wetlands Crocolisk (Wetlands)",
+    "mapID": 1437,
+    "zone": "Wetlands",
+    "x": 9.8,
+    "y": 27.7,
+    "minLevel": 21,
+    "maxLevel": 24,
+    "faction": "Alliance",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST"
+    ],
+    "drops": {
+      "Tender Crocolisk Meat": 0.5944,
+      "Medium Leather": 0.5082,
+      "Crocolisk Meat": 0.4981,
+      "Light Leather": 0.4195,
+      "Medium Hide": 0.0491,
+      "Light Hide": 0.0334
+    }
+  },
+  {
+    "id": "azshara_horde_scout_5_63",
+    "name": "Horde Scout (Azshara)",
+    "mapID": 1447,
+    "zone": "Azshara",
+    "x": 5.9,
+    "y": 63.5,
+    "minLevel": 26,
+    "maxLevel": 28,
+    "faction": "Both",
     "density": "High",
     "respawnMin": 5.0,
     "isQuestMob": false,
     "tags": [
-      "HEAVY_PACKS"
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
     ],
     "drops": {
-      "Wool Cloth": 0.74,
-      "Shadowgem": 0.24,
-      "Moss Agate": 0.2,
-      "Tigerseye": 0.08,
-      "Silk Cloth": 0.0629,
-      "Lesser Moonstone": 0.0524
+      "Silk Cloth": 0.2449,
+      "Wool Cloth": 0.1015
     }
   },
   {
@@ -1903,11 +1755,55 @@
     ],
     "drops": {
       "Small Barnacled Clam": 0.3781,
-      "Shiny Fish Scales": 0.2813,
-      "Shadowgem": 0.26,
-      "Moss Agate": 0.18,
-      "Tigerseye": 0.06,
-      "Pattern: Dark Leather Gloves": 0.02
+      "Shiny Fish Scales": 0.2813
+    }
+  },
+  {
+    "id": "wetlands_mosshide_mongrel_68_78",
+    "name": "Mosshide Mongrel (Wetlands)",
+    "mapID": 1437,
+    "zone": "Wetlands",
+    "x": 68.8,
+    "y": 78.2,
+    "minLevel": 21,
+    "maxLevel": 22,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Wool Cloth": 0.2449,
+      "Linen Cloth": 0.1259,
+      "Silk Cloth": 0.0505
+    }
+  },
+  {
+    "id": "ashenvale_laughing_sister_77_56",
+    "name": "Laughing Sister (Ashenvale)",
+    "mapID": 1440,
+    "zone": "Ashenvale",
+    "x": 77.2,
+    "y": 56.5,
+    "minLevel": 24,
+    "maxLevel": 25,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Wool Cloth": 0.2431,
+      "Linen Cloth": 0.1199,
+      "Silk Cloth": 0.0502
     }
   },
   {
@@ -1932,115 +1828,7 @@
       "Thick-shelled Clam": 0.3795,
       "Fish Oil": 0.2876,
       "Shiny Fish Scales": 0.2858,
-      "Lesser Moonstone": 0.176,
-      "Moss Agate": 0.14,
-      "Jade": 0.066
-    }
-  },
-  {
-    "id": "wetlands_mosshide_mongrel_68_78",
-    "name": "Mosshide Mongrel (Wetlands)",
-    "mapID": 1437,
-    "zone": "Wetlands",
-    "x": 68.8,
-    "y": 78.2,
-    "minLevel": 21,
-    "maxLevel": 22,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Wool Cloth": 0.2449,
-      "Moss Agate": 0.24,
-      "Linen Cloth": 0.1259,
-      "Shadowgem": 0.08,
-      "Silk Cloth": 0.0505,
-      "Pattern: Dark Leather Gloves": 0.02
-    }
-  },
-  {
-    "id": "azshara_horde_scout_5_63",
-    "name": "Horde Scout (Azshara)",
-    "mapID": 1447,
-    "zone": "Azshara",
-    "x": 5.9,
-    "y": 63.5,
-    "minLevel": 26,
-    "maxLevel": 28,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Silk Cloth": 0.2449,
-      "Moss Agate": 0.2,
-      "Wool Cloth": 0.1015,
-      "Lesser Moonstone": 0.0988,
-      "Jade": 0.0123
-    }
-  },
-  {
-    "id": "wetlands_crimson_whelp_71_36",
-    "name": "Crimson Whelp (Wetlands)",
-    "mapID": 1437,
-    "zone": "Wetlands",
-    "x": 71.5,
-    "y": 36.4,
-    "minLevel": 25,
-    "maxLevel": 26,
-    "faction": "Alliance",
-    "density": "Medium",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
-    "tags": [
-      "DRAGONKIN"
-    ],
-    "drops": {
-      "Moss Agate": 0.62,
-      "Medium Leather": 0.4517,
-      "Light Leather": 0.3653,
-      "Shadowgem": 0.18,
-      "Lesser Moonstone": 0.158,
-      "Red Whelp Scale": 0.0999
-    }
-  },
-  {
-    "id": "burning_steppes_blackrock_champion_15_82",
-    "name": "Blackrock Champion (Burning Steppes)",
-    "mapID": 1428,
-    "zone": "Burning Steppes",
-    "x": 15.4,
-    "y": 82.5,
-    "minLevel": 24,
-    "maxLevel": 25,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "ENRAGE",
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Moss Agate": 0.24,
-      "Wool Cloth": 0.2385,
-      "Linen Cloth": 0.1293,
-      "Shadowgem": 0.12,
-      "Silk Cloth": 0.0489,
-      "Lesser Moonstone": 0.0343
+      "Naga Scale": 0.0552
     }
   },
   {
@@ -2065,20 +1853,45 @@
       "Light Leather": 0.4256,
       "Big Bear Meat": 0.4104,
       "Bear Meat": 0.1836,
-      "Moss Agate": 0.18,
-      "Shadowgem": 0.06
+      "Medium Hide": 0.0485,
+      "Light Hide": 0.0281
     }
   },
   {
-    "id": "ashenvale_laughing_sister_77_56",
-    "name": "Laughing Sister (Ashenvale)",
-    "mapID": 1440,
-    "zone": "Ashenvale",
-    "x": 77.2,
-    "y": 56.5,
+    "id": "burning_steppes_blackrock_champion_15_82",
+    "name": "Blackrock Champion (Burning Steppes)",
+    "mapID": 1428,
+    "zone": "Burning Steppes",
+    "x": 15.4,
+    "y": 82.5,
     "minLevel": 24,
     "maxLevel": 25,
     "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "ENRAGE",
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Wool Cloth": 0.2385,
+      "Linen Cloth": 0.1293,
+      "Silk Cloth": 0.0489
+    }
+  },
+  {
+    "id": "wetlands_dragonmaw_bonewarder_45_47",
+    "name": "Dragonmaw Bonewarder (Wetlands)",
+    "mapID": 1437,
+    "zone": "Wetlands",
+    "x": 45.7,
+    "y": 47.3,
+    "minLevel": 27,
+    "maxLevel": 28,
+    "faction": "Alliance",
     "density": "High",
     "respawnMin": 5.0,
     "isQuestMob": true,
@@ -2088,12 +1901,32 @@
       "HUMANOID"
     ],
     "drops": {
-      "Wool Cloth": 0.2431,
-      "Linen Cloth": 0.1199,
-      "Moss Agate": 0.1,
-      "Silk Cloth": 0.0502,
-      "Shadowgem": 0.04,
-      "Lesser Moonstone": 0.0215
+      "Silk Cloth": 0.2438,
+      "Wool Cloth": 0.0941
+    }
+  },
+  {
+    "id": "ashenvale_elder_shadowhorn_stag_90_75",
+    "name": "Elder Shadowhorn Stag (Ashenvale)",
+    "mapID": 1440,
+    "zone": "Ashenvale",
+    "x": 90.9,
+    "y": 75.7,
+    "minLevel": 26,
+    "maxLevel": 27,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST"
+    ],
+    "drops": {
+      "Medium Leather": 0.7237,
+      "Stag Meat": 0.5322,
+      "Heavy Leather": 0.2087,
+      "Medium Hide": 0.0442,
+      "Heavy Hide": 0.0234
     }
   },
   {
@@ -2118,8 +1951,6 @@
       "Heavy Leather": 0.77,
       "Big-mouth Clam": 0.4551,
       "Thick Leather": 0.2,
-      "Jade": 0.061,
-      "Plans: Golden Scale Cuirass": 0.03,
       "Heavy Hide": 0.03
     }
   },
@@ -2144,9 +1975,7 @@
       "Heavy Leather": 0.7659,
       "Red Wolf Meat": 0.5354,
       "Thick Leather": 0.2073,
-      "Heavy Hide": 0.0268,
-      "Pattern: Guardian Leather Bracers": 0.02,
-      "Pattern: Turtle Scale Gloves": 0.02
+      "Heavy Hide": 0.0268
     }
   },
   {
@@ -2170,11 +1999,8 @@
     ],
     "drops": {
       "Silk Cloth": 0.2927,
-      "Jade": 0.0606,
       "Wool Cloth": 0.0388,
-      "Formula: Enchant Weapon - Lesser Elemental Slayer": 0.02,
-      "Schematic: Bright-Eye Goggles": 0.02,
-      "Pattern: Turtle Scale Gloves": 0.02
+      "Mageweave Cloth": 0.0192
     }
   },
   {
@@ -2199,9 +2025,7 @@
       "Heavy Leather": 0.769,
       "Red Wolf Meat": 0.4636,
       "Thick Leather": 0.2,
-      "Aquamarine": 0.0378,
-      "Heavy Hide": 0.031,
-      "Jade": 0.027
+      "Heavy Hide": 0.031
     }
   },
   {
@@ -2224,10 +2048,7 @@
     "drops": {
       "Heavy Leather": 0.7669,
       "Thick Leather": 0.2027,
-      "Jade": 0.1031,
-      "Heavy Hide": 0.0305,
-      "Moss Agate": 0.02,
-      "Lesser Moonstone": 0.02
+      "Heavy Hide": 0.0305
     }
   },
   {
@@ -2253,8 +2074,7 @@
       "Raptor Egg": 0.5599,
       "Raptor Hide": 0.4875,
       "Thick Leather": 0.2054,
-      "Aquamarine": 0.16,
-      "Jade": 0.0418
+      "Heavy Hide": 0.0385
     }
   },
   {
@@ -2279,8 +2099,32 @@
       "Raptor Egg": 0.5057,
       "Raptor Hide": 0.3759,
       "Heavy Leather": 0.1974,
-      "Lesser Moonstone": 0.0916,
-      "Jade": 0.0538
+      "Medium Hide": 0.0479,
+      "Heavy Hide": 0.0188
+    }
+  },
+  {
+    "id": "dustwallow_marsh_drywallow_snapper_37_42",
+    "name": "Drywallow Snapper (Dustwallow Marsh)",
+    "mapID": 1445,
+    "zone": "Dustwallow Marsh",
+    "x": 37.5,
+    "y": 42.8,
+    "minLevel": 37,
+    "maxLevel": 38,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 6.0,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS"
+    ],
+    "drops": {
+      "Heavy Leather": 0.78,
+      "Tender Crocolisk Meat": 0.6474,
+      "Thick Leather": 0.19,
+      "Heavy Hide": 0.03
     }
   },
   {
@@ -2304,11 +2148,8 @@
     ],
     "drops": {
       "Silk Cloth": 0.3001,
-      "Jade": 0.0718,
       "Wool Cloth": 0.0401,
-      "Formula: Enchant Weapon - Lesser Elemental Slayer": 0.02,
-      "Schematic: Bright-Eye Goggles": 0.02,
-      "Star Ruby": 0.02
+      "Mageweave Cloth": 0.0104
     }
   },
   {
@@ -2333,8 +2174,8 @@
       "Heavy Leather": 0.4954,
       "Medium Leather": 0.437,
       "Raptor Hide": 0.3904,
-      "Jade": 0.1024,
-      "Pattern: Turtle Scale Gloves": 0.0508
+      "Heavy Hide": 0.0362,
+      "Medium Hide": 0.0314
     }
   },
   {
@@ -2358,35 +2199,31 @@
       "Red Wolf Meat": 0.5487,
       "Heavy Leather": 0.5029,
       "Medium Leather": 0.421,
-      "Jade": 0.117,
       "Medium Hide": 0.044,
       "Heavy Hide": 0.0321
     }
   },
   {
-    "id": "dustwallow_marsh_drywallow_snapper_37_42",
-    "name": "Drywallow Snapper (Dustwallow Marsh)",
+    "id": "dustwallow_marsh_theramore_deserter_26_57",
+    "name": "Theramore Deserter (Dustwallow Marsh)",
     "mapID": 1445,
     "zone": "Dustwallow Marsh",
-    "x": 37.5,
-    "y": 42.8,
+    "x": 26.8,
+    "y": 57.9,
     "minLevel": 37,
-    "maxLevel": 38,
+    "maxLevel": 37,
     "faction": "Both",
     "density": "High",
     "respawnMin": 6.0,
     "isQuestMob": false,
     "tags": [
-      "BEAST",
-      "HEAVY_PACKS"
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
     ],
     "drops": {
-      "Heavy Leather": 0.78,
-      "Tender Crocolisk Meat": 0.6474,
-      "Thick Leather": 0.19,
-      "Heavy Hide": 0.03,
-      "Aquamarine": 0.022,
-      "Jade": 0.011
+      "Silk Cloth": 0.2851,
+      "Mageweave Cloth": 0.0496
     }
   },
   {
@@ -2410,74 +2247,21 @@
     "drops": {
       "Heavy Leather": 0.7618,
       "Thick Leather": 0.1947,
-      "Jade": 0.061,
-      "Aquamarine": 0.061,
-      "Heavy Hide": 0.0297,
-      "Lesser Moonstone": 0.02
+      "Heavy Hide": 0.0297
     }
   },
   {
-    "id": "arathi_highlands_highland_strider_28_26",
-    "name": "Highland Strider (Arathi Highlands)",
+    "id": "arathi_highlands_hammerfall_peon_60_40",
+    "name": "Hammerfall Peon (Arathi Highlands)",
     "mapID": 1417,
     "zone": "Arathi Highlands",
-    "x": 28.6,
-    "y": 26.4,
-    "minLevel": 30,
-    "maxLevel": 31,
+    "x": 60.4,
+    "y": 40.6,
+    "minLevel": 33,
+    "maxLevel": 34,
     "faction": "Both",
     "density": "High",
     "respawnMin": 6.7,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST"
-    ],
-    "drops": {
-      "Medium Leather": 0.7358,
-      "Raptor Egg": 0.5057,
-      "Raptor Hide": 0.3759,
-      "Heavy Leather": 0.1974,
-      "Lesser Moonstone": 0.0916,
-      "Jade": 0.0538
-    }
-  },
-  {
-    "id": "stranglethorn_vale_stranglethorn_raptor_9_18",
-    "name": "Stranglethorn Raptor & Young Stranglethorn Raptor (Stranglethorn Vale)",
-    "mapID": 1434,
-    "zone": "Stranglethorn Vale",
-    "x": 9.6,
-    "y": 18.0,
-    "minLevel": 30,
-    "maxLevel": 34,
-    "faction": "Both",
-    "density": "Medium",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST"
-    ],
-    "drops": {
-      "Medium Leather": 0.75,
-      "Raptor Egg": 0.532,
-      "Heavy Leather": 0.4997,
-      "Raptor Hide": 0.4002,
-      "Jade": 0.26,
-      "Lesser Moonstone": 0.2
-    }
-  },
-  {
-    "id": "dustwallow_marsh_theramore_deserter_26_57",
-    "name": "Theramore Deserter (Dustwallow Marsh)",
-    "mapID": 1445,
-    "zone": "Dustwallow Marsh",
-    "x": 26.8,
-    "y": 57.9,
-    "minLevel": 37,
-    "maxLevel": 37,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 6.0,
     "isQuestMob": false,
     "tags": [
       "FLEE_RUNNER",
@@ -2485,10 +2269,9 @@
       "HUMANOID"
     ],
     "drops": {
-      "Silk Cloth": 0.2851,
-      "Aquamarine": 0.054,
-      "Jade": 0.054,
-      "Mageweave Cloth": 0.0496
+      "Silk Cloth": 0.2985,
+      "Wool Cloth": 0.0391,
+      "Mageweave Cloth": 0.0184
     }
   },
   {
@@ -2512,8 +2295,57 @@
       "Heavy Leather": 0.4954,
       "Medium Leather": 0.437,
       "Raptor Hide": 0.3904,
-      "Jade": 0.1024,
-      "Pattern: Turtle Scale Gloves": 0.0508
+      "Heavy Hide": 0.0362,
+      "Medium Hide": 0.0314
+    }
+  },
+  {
+    "id": "arathi_highlands_highland_strider_28_26",
+    "name": "Highland Strider (Arathi Highlands)",
+    "mapID": 1417,
+    "zone": "Arathi Highlands",
+    "x": 28.6,
+    "y": 26.4,
+    "minLevel": 30,
+    "maxLevel": 31,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 6.7,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST"
+    ],
+    "drops": {
+      "Medium Leather": 0.7358,
+      "Raptor Egg": 0.5057,
+      "Raptor Hide": 0.3759,
+      "Heavy Leather": 0.1974,
+      "Medium Hide": 0.0479,
+      "Heavy Hide": 0.0188
+    }
+  },
+  {
+    "id": "dustwallow_marsh_mottled_drywallow_crocolisk_29_62",
+    "name": "Mottled Drywallow Crocolisk (Dustwallow Marsh)",
+    "mapID": 1445,
+    "zone": "Dustwallow Marsh",
+    "x": 29.9,
+    "y": 62.7,
+    "minLevel": 38,
+    "maxLevel": 39,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 6.0,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS"
+    ],
+    "drops": {
+      "Heavy Leather": 0.78,
+      "Tender Crocolisk Meat": 0.6361,
+      "Thick Leather": 0.2,
+      "Heavy Hide": 0.02
     }
   },
   {
@@ -2539,19 +2371,19 @@
       "Medium Leather": 0.4278,
       "Mystery Meat": 0.4194,
       "Dry Scorpid Eye": 0.1392,
-      "Jade": 0.0884,
-      "Lesser Moonstone": 0.0884
+      "Medium Hide": 0.041,
+      "Heavy Hide": 0.0313
     }
   },
   {
-    "id": "arathi_highlands_hammerfall_peon_60_40",
-    "name": "Hammerfall Peon (Arathi Highlands)",
+    "id": "arathi_highlands_dabyrie_laborer_50_18",
+    "name": "Dabyrie Laborer (Arathi Highlands)",
     "mapID": 1417,
     "zone": "Arathi Highlands",
-    "x": 60.4,
-    "y": 40.6,
-    "minLevel": 33,
-    "maxLevel": 34,
+    "x": 50.7,
+    "y": 18.6,
+    "minLevel": 30,
+    "maxLevel": 31,
     "faction": "Both",
     "density": "High",
     "respawnMin": 6.7,
@@ -2562,12 +2394,31 @@
       "HUMANOID"
     ],
     "drops": {
-      "Silk Cloth": 0.2985,
-      "Jade": 0.0958,
-      "Wool Cloth": 0.0391,
-      "Formula: Enchant Weapon - Lesser Elemental Slayer": 0.02,
-      "Schematic: Bright-Eye Goggles": 0.02,
-      "Pattern: Dark Leather Gloves": 0.02
+      "Silk Cloth": 0.2986,
+      "Wool Cloth": 0.0396,
+      "Mageweave Cloth": 0.0103
+    }
+  },
+  {
+    "id": "desolace_undead_ravager_36_89",
+    "name": "Undead Ravager (Desolace)",
+    "mapID": 1443,
+    "zone": "Desolace",
+    "x": 36.0,
+    "y": 89.4,
+    "minLevel": 37,
+    "maxLevel": 38,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "HEAVY_PACKS",
+      "UNDEAD"
+    ],
+    "drops": {
+      "Silk Cloth": 0.2983,
+      "Mageweave Cloth": 0.0491
     }
   },
   {
@@ -2592,61 +2443,79 @@
       "Thick-shelled Clam": 0.5311,
       "Heavy Leather": 0.1994,
       "Turtle Meat": 0.15,
-      "Jade": 0.0771,
-      "Lesser Moonstone": 0.0622
+      "Medium Hide": 0.0472,
+      "Heavy Hide": 0.0193
     }
   },
   {
-    "id": "arathi_highlands_dabyrie_laborer_50_18",
-    "name": "Dabyrie Laborer (Arathi Highlands)",
-    "mapID": 1417,
-    "zone": "Arathi Highlands",
-    "x": 50.7,
-    "y": 18.6,
-    "minLevel": 30,
-    "maxLevel": 31,
+    "id": "dustwallow_marsh_mottled_drywallow_crocolisk_30_51",
+    "name": "Mottled Drywallow Crocolisk (Dustwallow Marsh)",
+    "mapID": 1445,
+    "zone": "Dustwallow Marsh",
+    "x": 30.9,
+    "y": 51.9,
+    "minLevel": 38,
+    "maxLevel": 39,
     "faction": "Both",
     "density": "High",
-    "respawnMin": 6.7,
+    "respawnMin": 6.0,
     "isQuestMob": false,
     "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
+      "BEAST"
     ],
     "drops": {
-      "Silk Cloth": 0.2986,
-      "Moss Agate": 0.06,
-      "Lesser Moonstone": 0.0575,
-      "Jade": 0.0527,
-      "Wool Cloth": 0.0396,
-      "Formula: Enchant Weapon - Lesser Elemental Slayer": 0.02
+      "Heavy Leather": 0.78,
+      "Tender Crocolisk Meat": 0.6361,
+      "Thick Leather": 0.2,
+      "Heavy Hide": 0.02
     }
   },
   {
-    "id": "desolace_undead_ravager_36_89",
-    "name": "Undead Ravager (Desolace)",
-    "mapID": 1443,
-    "zone": "Desolace",
-    "x": 36.0,
-    "y": 89.4,
-    "minLevel": 37,
-    "maxLevel": 38,
+    "id": "badlands_ridge_huntress_39_67",
+    "name": "Ridge Huntress (Badlands)",
+    "mapID": 1418,
+    "zone": "Badlands",
+    "x": 39.5,
+    "y": 67.2,
+    "minLevel": 38,
+    "maxLevel": 39,
     "faction": "Both",
     "density": "High",
     "respawnMin": 5.0,
-    "isQuestMob": true,
+    "isQuestMob": false,
     "tags": [
-      "HEAVY_PACKS",
-      "UNDEAD"
+      "BEAST"
     ],
     "drops": {
-      "Silk Cloth": 0.2983,
-      "Mageweave Cloth": 0.0491,
-      "Jade": 0.0329,
-      "Formula: Enchant Weapon - Lesser Elemental Slayer": 0.02,
-      "Schematic: Bright-Eye Goggles": 0.02,
-      "Pattern: Turtle Scale Gloves": 0.02
+      "Heavy Leather": 0.7687,
+      "Tiger Meat": 0.591,
+      "Thick Leather": 0.2029,
+      "Heavy Hide": 0.0284
+    }
+  },
+  {
+    "id": "stranglethorn_vale_stranglethorn_raptor_9_18",
+    "name": "Stranglethorn Raptor & Young Stranglethorn Raptor (Stranglethorn Vale)",
+    "mapID": 1434,
+    "zone": "Stranglethorn Vale",
+    "x": 9.6,
+    "y": 18.0,
+    "minLevel": 30,
+    "maxLevel": 34,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST"
+    ],
+    "drops": {
+      "Medium Leather": 0.75,
+      "Raptor Egg": 0.532,
+      "Heavy Leather": 0.4997,
+      "Raptor Hide": 0.4002,
+      "Medium Hide": 0.0733,
+      "Heavy Hide": 0.0334
     }
   },
   {
@@ -2671,84 +2540,8 @@
       "Thick-shelled Clam": 0.5311,
       "Heavy Leather": 0.1994,
       "Turtle Meat": 0.15,
-      "Jade": 0.0771,
-      "Lesser Moonstone": 0.0622
-    }
-  },
-  {
-    "id": "dustwallow_marsh_mottled_drywallow_crocolisk_29_62",
-    "name": "Mottled Drywallow Crocolisk (Dustwallow Marsh)",
-    "mapID": 1445,
-    "zone": "Dustwallow Marsh",
-    "x": 29.9,
-    "y": 62.7,
-    "minLevel": 38,
-    "maxLevel": 39,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 6.0,
-    "isQuestMob": false,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS"
-    ],
-    "drops": {
-      "Heavy Leather": 0.78,
-      "Tender Crocolisk Meat": 0.6361,
-      "Thick Leather": 0.2,
-      "Heavy Hide": 0.02,
-      "Pattern: Dusky Leather Leggings": 0.017,
-      "Aquamarine": 0.017
-    }
-  },
-  {
-    "id": "badlands_ridge_huntress_39_67",
-    "name": "Ridge Huntress (Badlands)",
-    "mapID": 1418,
-    "zone": "Badlands",
-    "x": 39.5,
-    "y": 67.2,
-    "minLevel": 38,
-    "maxLevel": 39,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
-    "tags": [
-      "BEAST"
-    ],
-    "drops": {
-      "Heavy Leather": 0.7687,
-      "Tiger Meat": 0.591,
-      "Thick Leather": 0.2029,
-      "Jade": 0.0528,
-      "Aquamarine": 0.0422,
-      "Heavy Hide": 0.0284
-    }
-  },
-  {
-    "id": "dustwallow_marsh_mottled_drywallow_crocolisk_30_51",
-    "name": "Mottled Drywallow Crocolisk (Dustwallow Marsh)",
-    "mapID": 1445,
-    "zone": "Dustwallow Marsh",
-    "x": 30.9,
-    "y": 51.9,
-    "minLevel": 38,
-    "maxLevel": 39,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 6.0,
-    "isQuestMob": false,
-    "tags": [
-      "BEAST"
-    ],
-    "drops": {
-      "Heavy Leather": 0.78,
-      "Tender Crocolisk Meat": 0.6361,
-      "Thick Leather": 0.2,
-      "Heavy Hide": 0.02,
-      "Pattern: Dusky Leather Leggings": 0.017,
-      "Aquamarine": 0.017
+      "Medium Hide": 0.0472,
+      "Heavy Hide": 0.0193
     }
   },
   {
@@ -2769,64 +2562,7 @@
       "HEAVY_PACKS"
     ],
     "drops": {
-      "Mystery Meat": 0.3852,
-      "Jade": 0.0774,
-      "Lesser Moonstone": 0.0663,
-      "Malachite": 0.02,
-      "Moss Agate": 0.02,
-      "Plans: Golden Scale Leggings": 0.02
-    }
-  },
-  {
-    "id": "arathi_highlands_highland_strider_45_26",
-    "name": "Highland Strider (Arathi Highlands)",
-    "mapID": 1417,
-    "zone": "Arathi Highlands",
-    "x": 45.2,
-    "y": 26.7,
-    "minLevel": 30,
-    "maxLevel": 31,
-    "faction": "Both",
-    "density": "Medium",
-    "respawnMin": 6.7,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST"
-    ],
-    "drops": {
-      "Medium Leather": 0.7358,
-      "Raptor Egg": 0.5057,
-      "Raptor Hide": 0.3759,
-      "Heavy Leather": 0.1974,
-      "Lesser Moonstone": 0.0916,
-      "Jade": 0.0538
-    }
-  },
-  {
-    "id": "arathi_highlands_syndicate_highwayman_14_6",
-    "name": "Syndicate Highwayman (Arathi Highlands)",
-    "mapID": 1417,
-    "zone": "Arathi Highlands",
-    "x": 14.5,
-    "y": 6.4,
-    "minLevel": 30,
-    "maxLevel": 31,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 6.7,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Silk Cloth": 0.293,
-      "Lesser Moonstone": 0.085,
-      "Moss Agate": 0.06,
-      "Wool Cloth": 0.0379,
-      "Jade": 0.0364,
-      "Formula: Enchant Weapon - Lesser Elemental Slayer": 0.02
+      "Mystery Meat": 0.3852
     }
   },
   {
@@ -2850,91 +2586,8 @@
       "Heavy Leather": 0.5115,
       "Mystery Meat": 0.4182,
       "Medium Leather": 0.4123,
-      "Lesser Moonstone": 0.0787,
-      "Jade": 0.0472
-    }
-  },
-  {
-    "id": "hillsbrad_foothills_torn_fin_oracle_44_70",
-    "name": "Torn Fin Oracle (Hillsbrad Foothills)",
-    "mapID": 1424,
-    "zone": "Hillsbrad Foothills",
-    "x": 44.5,
-    "y": 70.0,
-    "minLevel": 30,
-    "maxLevel": 31,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "CASTER",
-      "FLEE_RUNNER",
-      "HEALER",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Thick-shelled Clam": 0.4006,
-      "Fish Oil": 0.2796,
-      "Shiny Fish Scales": 0.2787,
-      "Moss Agate": 0.06,
-      "Lesser Moonstone": 0.0588,
-      "Thick Murloc Scale": 0.048
-    }
-  },
-  {
-    "id": "arathi_highlands_plains_creeper_71_32",
-    "name": "Plains Creeper (Arathi Highlands)",
-    "mapID": 1417,
-    "zone": "Arathi Highlands",
-    "x": 71.4,
-    "y": 32.6,
-    "minLevel": 32,
-    "maxLevel": 33,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 6.7,
-    "isQuestMob": false,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS",
-      "NET_ROOT",
-      "POISON"
-    ],
-    "drops": {
-      "Crisp Spider Meat": 0.5061,
-      "Jade": 0.0519,
-      "Lesser Moonstone": 0.0259,
-      "Shadowgem": 0.02,
-      "Plans: Golden Scale Shoulders": 0.02,
-      "Plans: Golden Scale Leggings": 0.02
-    }
-  },
-  {
-    "id": "desolace_burning_blade_felsworn_26_24",
-    "name": "Burning Blade Felsworn (Desolace)",
-    "mapID": 1443,
-    "zone": "Desolace",
-    "x": 26.9,
-    "y": 24.4,
-    "minLevel": 31,
-    "maxLevel": 32,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Silk Cloth": 0.3001,
-      "Jade": 0.0644,
-      "Wool Cloth": 0.0417,
-      "Lesser Moonstone": 0.0282,
-      "Formula: Enchant Weapon - Lesser Elemental Slayer": 0.02,
-      "Schematic: Bright-Eye Goggles": 0.02
+      "Medium Hide": 0.047,
+      "Heavy Hide": 0.0292
     }
   },
   {
@@ -2958,8 +2611,56 @@
       "Tender Crocolisk Meat": 0.5022,
       "Mystery Meat": 0.3967,
       "Thick Leather": 0.2009,
-      "Aquamarine": 0.0317,
       "Heavy Hide": 0.0294
+    }
+  },
+  {
+    "id": "arathi_highlands_highland_strider_45_26",
+    "name": "Highland Strider (Arathi Highlands)",
+    "mapID": 1417,
+    "zone": "Arathi Highlands",
+    "x": 45.2,
+    "y": 26.7,
+    "minLevel": 30,
+    "maxLevel": 31,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 6.7,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST"
+    ],
+    "drops": {
+      "Medium Leather": 0.7358,
+      "Raptor Egg": 0.5057,
+      "Raptor Hide": 0.3759,
+      "Heavy Leather": 0.1974,
+      "Medium Hide": 0.0479,
+      "Heavy Hide": 0.0188
+    }
+  },
+  {
+    "id": "desolace_burning_blade_felsworn_26_24",
+    "name": "Burning Blade Felsworn (Desolace)",
+    "mapID": 1443,
+    "zone": "Desolace",
+    "x": 26.9,
+    "y": 24.4,
+    "minLevel": 31,
+    "maxLevel": 32,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": false,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Silk Cloth": 0.3001,
+      "Wool Cloth": 0.0417,
+      "Mageweave Cloth": 0.0103
     }
   },
   {
@@ -2982,11 +2683,78 @@
     ],
     "drops": {
       "Silk Cloth": 0.2974,
-      "Mageweave Cloth": 0.0504,
-      "Aquamarine": 0.0499,
-      "Formula: Enchant Weapon - Lesser Elemental Slayer": 0.02,
-      "Schematic: Bright-Eye Goggles": 0.02,
-      "Pattern: Turtle Scale Gloves": 0.02
+      "Mageweave Cloth": 0.0504
+    }
+  },
+  {
+    "id": "arathi_highlands_syndicate_highwayman_14_6",
+    "name": "Syndicate Highwayman (Arathi Highlands)",
+    "mapID": 1417,
+    "zone": "Arathi Highlands",
+    "x": 14.5,
+    "y": 6.4,
+    "minLevel": 30,
+    "maxLevel": 31,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 6.7,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Silk Cloth": 0.293,
+      "Wool Cloth": 0.0379,
+      "Mageweave Cloth": 0.0108
+    }
+  },
+  {
+    "id": "arathi_highlands_plains_creeper_71_32",
+    "name": "Plains Creeper (Arathi Highlands)",
+    "mapID": 1417,
+    "zone": "Arathi Highlands",
+    "x": 71.4,
+    "y": 32.6,
+    "minLevel": 32,
+    "maxLevel": 33,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 6.7,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS",
+      "NET_ROOT",
+      "POISON"
+    ],
+    "drops": {
+      "Crisp Spider Meat": 0.5061
+    }
+  },
+  {
+    "id": "dustwallow_marsh_mirefin_murloc_66_10",
+    "name": "Mirefin Murloc (Dustwallow Marsh)",
+    "mapID": 1445,
+    "zone": "Dustwallow Marsh",
+    "x": 66.2,
+    "y": 10.0,
+    "minLevel": 35,
+    "maxLevel": 36,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 6.0,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Fish Oil": 0.2888,
+      "Shiny Fish Scales": 0.2839,
+      "Thick Murloc Scale": 0.1002
     }
   },
   {
@@ -3010,8 +2778,8 @@
       "Heavy Leather": 0.5137,
       "Medium Leather": 0.4197,
       "Mystery Meat": 0.3992,
-      "Jade": 0.0893,
-      "Medium Hide": 0.0384
+      "Medium Hide": 0.0384,
+      "Heavy Hide": 0.0282
     }
   },
   {
@@ -3034,11 +2802,7 @@
       "HUMANOID"
     ],
     "drops": {
-      "Mageweave Cloth": 0.3572,
-      "Aquamarine": 0.0583,
-      "Star Ruby": 0.0389,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Turtle Scale Gloves": 0.02
+      "Mageweave Cloth": 0.3572
     }
   },
   {
@@ -3061,9 +2825,7 @@
       "HUMANOID"
     ],
     "drops": {
-      "Mageweave Cloth": 0.3745,
-      "Aquamarine": 0.24,
-      "Star Ruby": 0.12
+      "Mageweave Cloth": 0.3745
     }
   },
   {
@@ -3087,10 +2849,7 @@
     ],
     "drops": {
       "Mageweave Cloth": 0.2451,
-      "Silk Cloth": 0.0971,
-      "Aquamarine": 0.0724,
-      "Star Ruby": 0.0305,
-      "Pattern: Turtle Scale Gloves": 0.02
+      "Silk Cloth": 0.0971
     }
   },
   {
@@ -3113,11 +2872,7 @@
       "HUMANOID"
     ],
     "drops": {
-      "Mageweave Cloth": 0.3572,
-      "Aquamarine": 0.0583,
-      "Star Ruby": 0.0389,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Turtle Scale Gloves": 0.02
+      "Mageweave Cloth": 0.3572
     }
   },
   {
@@ -3142,9 +2897,7 @@
       "Heavy Leather": 0.77,
       "Tender Crocolisk Meat": 0.6171,
       "Thick Leather": 0.21,
-      "Aquamarine": 0.084,
-      "Heavy Hide": 0.02,
-      "Star Ruby": 0.017
+      "Heavy Hide": 0.02
     }
   },
   {
@@ -3170,7 +2923,6 @@
       "Red Wolf Meat": 0.4967,
       "Tender Wolf Meat": 0.4663,
       "Rugged Leather": 0.2104,
-      "Aquamarine": 0.0511,
       "Thick Hide": 0.0483
     }
   },
@@ -3198,7 +2950,7 @@
       "Turtle Meat": 0.3914,
       "Big-mouth Clam": 0.3864,
       "Rugged Leather": 0.1967,
-      "Star Ruby": 0.0523
+      "Thick Hide": 0.0354
     }
   },
   {
@@ -3225,31 +2977,7 @@
       "Turtle Meat": 0.3914,
       "Big-mouth Clam": 0.3864,
       "Rugged Leather": 0.1967,
-      "Star Ruby": 0.0523
-    }
-  },
-  {
-    "id": "the_hinterlands_jade_ooze_77_24",
-    "name": "Jade Ooze (The Hinterlands)",
-    "mapID": 1425,
-    "zone": "The Hinterlands",
-    "x": 77.2,
-    "y": 24.8,
-    "minLevel": 47,
-    "maxLevel": 48,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.8,
-    "isQuestMob": true,
-    "tags": [
-      "HEAVY_PACKS",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Aquamarine": 0.0541,
-      "Star Ruby": 0.0348,
-      "Pattern: Turtle Scale Gloves": 0.02,
-      "Mageweave Cloth": 0.02
+      "Thick Hide": 0.0354
     }
   },
   {
@@ -3271,10 +2999,7 @@
       "HIGH_ARMOR"
     ],
     "drops": {
-      "Mageweave Cloth": 0.3523,
-      "Aquamarine": 0.0699,
-      "Star Ruby": 0.0262,
-      "Pattern: Runic Leather Gauntlets": 0.02
+      "Mageweave Cloth": 0.3523
     }
   },
   {
@@ -3298,38 +3023,7 @@
     ],
     "drops": {
       "Big-mouth Clam": 0.3244,
-      "Fish Oil": 0.2874,
-      "Aquamarine": 0.0594,
-      "Pattern: Turtle Scale Gloves": 0.02,
-      "Mageweave Cloth": 0.02,
-      "Silk Cloth": 0.02
-    }
-  },
-  {
-    "id": "stranglethorn_vale_elder_mistvale_gorilla_24_68",
-    "name": "Elder Mistvale Gorilla (Stranglethorn Vale)",
-    "mapID": 1434,
-    "zone": "Stranglethorn Vale",
-    "x": 24.6,
-    "y": 68.0,
-    "minLevel": 40,
-    "maxLevel": 41,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HEAVY_PACKS",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Heavy Leather": 0.7686,
-      "Thick Leather": 0.2019,
-      "Aquamarine": 0.0463,
-      "Heavy Hide": 0.0296,
-      "Lesser Moonstone": 0.02,
-      "Plans: Golden Scale Leggings": 0.02
+      "Fish Oil": 0.2874
     }
   },
   {
@@ -3359,6 +3053,30 @@
     }
   },
   {
+    "id": "stranglethorn_vale_elder_mistvale_gorilla_24_68",
+    "name": "Elder Mistvale Gorilla (Stranglethorn Vale)",
+    "mapID": 1434,
+    "zone": "Stranglethorn Vale",
+    "x": 24.6,
+    "y": 68.0,
+    "minLevel": 40,
+    "maxLevel": 41,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Heavy Leather": 0.7686,
+      "Thick Leather": 0.2019,
+      "Heavy Hide": 0.0296
+    }
+  },
+  {
     "id": "the_hinterlands_mangy_silvermane_11_38",
     "name": "Mangy Silvermane (The Hinterlands)",
     "mapID": 1425,
@@ -3380,8 +3098,8 @@
       "Thick Leather": 0.4969,
       "Tender Wolf Meat": 0.4121,
       "Heavy Leather": 0.4055,
-      "Aquamarine": 0.0993,
-      "Thick Hide": 0.0412
+      "Thick Hide": 0.0412,
+      "Heavy Hide": 0.0384
     }
   },
   {
@@ -3407,35 +3125,8 @@
       "Heavy Leather": 0.4172,
       "Squishy Basilisk Eye": 0.3711,
       "Prismatic Basilisk Scale": 0.1064,
-      "Aquamarine": 0.0683,
-      "Thick Hide": 0.0425
-    }
-  },
-  {
-    "id": "feralas_sprite_darter_43_21",
-    "name": "Sprite Darter (Feralas)",
-    "mapID": 1444,
-    "zone": "Feralas",
-    "x": 43.0,
-    "y": 21.2,
-    "minLevel": 43,
-    "maxLevel": 45,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "DRAGONKIN",
-      "HIGH_ARMOR",
-      "MANA_BURN"
-    ],
-    "drops": {
-      "Aquamarine": 0.7282,
-      "Thick Leather": 0.492,
-      "Heavy Leather": 0.4132,
-      "Star Ruby": 0.1888,
-      "Thick Hide": 0.0396,
-      "Heavy Hide": 0.0278
+      "Thick Hide": 0.0425,
+      "Heavy Hide": 0.0343
     }
   },
   {
@@ -3460,37 +3151,7 @@
       "Heavy Leather": 0.77,
       "Tender Crocolisk Meat": 0.6171,
       "Thick Leather": 0.21,
-      "Aquamarine": 0.084,
-      "Heavy Hide": 0.02,
-      "Star Ruby": 0.017
-    }
-  },
-  {
-    "id": "stranglethorn_vale_venture_co._strip_miner_41_45",
-    "name": "Venture Co. Strip Miner (Stranglethorn Vale)",
-    "mapID": 1434,
-    "zone": "Stranglethorn Vale",
-    "x": 41.7,
-    "y": 45.8,
-    "minLevel": 40,
-    "maxLevel": 41,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HIGH_ARMOR",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Silk Cloth": 0.2898,
-      "Mageweave Cloth": 0.0474,
-      "Star Ruby": 0.04,
-      "Aquamarine": 0.0298,
-      "Pattern: Turtle Scale Gloves": 0.02,
-      "Pattern: Dusky Leather Leggings": 0.02
+      "Heavy Hide": 0.02
     }
   },
   {
@@ -3514,10 +3175,32 @@
     "drops": {
       "Thick Leather": 0.4913,
       "Heavy Leather": 0.4425,
-      "Aquamarine": 0.0796,
       "Thick Hide": 0.0391,
-      "Heavy Hide": 0.0271,
-      "Star Ruby": 0.0265
+      "Heavy Hide": 0.0271
+    }
+  },
+  {
+    "id": "stranglethorn_vale_venture_co._strip_miner_41_45",
+    "name": "Venture Co. Strip Miner (Stranglethorn Vale)",
+    "mapID": 1434,
+    "zone": "Stranglethorn Vale",
+    "x": 41.7,
+    "y": 45.8,
+    "minLevel": 40,
+    "maxLevel": 41,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HIGH_ARMOR",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Silk Cloth": 0.2898,
+      "Mageweave Cloth": 0.0474
     }
   },
   {
@@ -3543,7 +3226,7 @@
       "Turtle Meat": 0.3914,
       "Big-mouth Clam": 0.3864,
       "Rugged Leather": 0.1967,
-      "Star Ruby": 0.0523
+      "Thick Hide": 0.0354
     }
   },
   {
@@ -3569,7 +3252,7 @@
       "Heavy Leather": 0.4394,
       "Mystery Meat": 0.4377,
       "Tender Wolf Meat": 0.371,
-      "Aquamarine": 0.0816
+      "Thick Hide": 0.0364
     }
   },
   {
@@ -3594,10 +3277,8 @@
     "drops": {
       "Thick Leather": 0.5,
       "Heavy Leather": 0.35,
-      "Aquamarine": 0.08,
       "Heavy Hide": 0.05,
-      "Thick Hide": 0.05,
-      "Star Ruby": 0.016
+      "Thick Hide": 0.05
     }
   },
   {
@@ -3622,85 +3303,8 @@
       "Thick Leather": 0.5034,
       "Tender Wolf Meat": 0.4213,
       "Heavy Leather": 0.4058,
-      "Aquamarine": 0.0626,
-      "Heavy Hide": 0.0379
-    }
-  },
-  {
-    "id": "the_hinterlands_green_sludge_60_30",
-    "name": "Green Sludge (The Hinterlands)",
-    "mapID": 1425,
-    "zone": "The Hinterlands",
-    "x": 60.0,
-    "y": 30.8,
-    "minLevel": 46,
-    "maxLevel": 47,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.8,
-    "isQuestMob": true,
-    "tags": [
-      "HEAVY_PACKS",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Aquamarine": 0.0363,
-      "Star Ruby": 0.033,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Turtle Scale Gloves": 0.02,
-      "Mageweave Cloth": 0.02,
-      "Silk Cloth": 0.02
-    }
-  },
-  {
-    "id": "felwood_felpaw_wolf_92_85",
-    "name": "Felpaw Wolf (Felwood)",
-    "mapID": 1448,
-    "zone": "Felwood",
-    "x": 92.7,
-    "y": 85.9,
-    "minLevel": 47,
-    "maxLevel": 48,
-    "faction": "Both",
-    "density": "Medium",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Rugged Leather": 0.486,
-      "Red Wolf Meat": 0.4801,
-      "Tender Wolf Meat": 0.4428,
-      "Thick Leather": 0.4394,
-      "Aquamarine": 0.056,
-      "Rugged Hide": 0.0421
-    }
-  },
-  {
-    "id": "feralas_zukkash_tunneler_55_37",
-    "name": "Zukk'ash Tunneler (Feralas)",
-    "mapID": 1444,
-    "zone": "Feralas",
-    "x": 55.7,
-    "y": 37.6,
-    "minLevel": 45,
-    "maxLevel": 46,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "HEAVY_PACKS",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Star Ruby": 0.0584,
-      "Jade": 0.02,
-      "Lesser Moonstone": 0.02,
-      "Pattern: Turtle Scale Gloves": 0.02,
-      "Aquamarine": 0.0195
+      "Heavy Hide": 0.0379,
+      "Thick Hide": 0.036
     }
   },
   {
@@ -3728,52 +3332,29 @@
     }
   },
   {
-    "id": "felwood_cursed_ooze_70_73",
-    "name": "Cursed Ooze (Felwood)",
+    "id": "felwood_felpaw_wolf_92_85",
+    "name": "Felpaw Wolf (Felwood)",
     "mapID": 1448,
     "zone": "Felwood",
-    "x": 70.0,
-    "y": 73.1,
-    "minLevel": 49,
-    "maxLevel": 50,
+    "x": 92.7,
+    "y": 85.9,
+    "minLevel": 47,
+    "maxLevel": 48,
     "faction": "Both",
-    "density": "High",
+    "density": "Medium",
     "respawnMin": 5.0,
     "isQuestMob": true,
-    "tags": [
-      "HEAVY_PACKS",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Star Ruby": 0.088,
-      "Aquamarine": 0.0251,
-      "Pattern: Runic Leather Gauntlets": 0.02
-    }
-  },
-  {
-    "id": "stranglethorn_vale_southern_sand_crawler_16_88",
-    "name": "Southern Sand Crawler (Stranglethorn Vale)",
-    "mapID": 1434,
-    "zone": "Stranglethorn Vale",
-    "x": 16.8,
-    "y": 88.6,
-    "minLevel": 40,
-    "maxLevel": 41,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
     "tags": [
       "BEAST",
       "HIGH_ARMOR"
     ],
     "drops": {
-      "Shiny Fish Scales": 0.369,
-      "Tender Crab Meat": 0.3601,
-      "Big-mouth Clam": 0.3588,
-      "Aquamarine": 0.16,
-      "Star Ruby": 0.06,
-      "Jade": 0.02
+      "Rugged Leather": 0.486,
+      "Red Wolf Meat": 0.4801,
+      "Tender Wolf Meat": 0.4428,
+      "Thick Leather": 0.4394,
+      "Rugged Hide": 0.0421,
+      "Thick Hide": 0.0322
     }
   },
   {
@@ -3796,9 +3377,32 @@
     "drops": {
       "Thick Leather": 0.7673,
       "Rugged Leather": 0.2044,
-      "Star Ruby": 0.0707,
-      "Thick Hide": 0.0283,
-      "Aquamarine": 0.0257
+      "Thick Hide": 0.0283
+    }
+  },
+  {
+    "id": "feralas_sprite_darter_43_21",
+    "name": "Sprite Darter (Feralas)",
+    "mapID": 1444,
+    "zone": "Feralas",
+    "x": 43.0,
+    "y": 21.2,
+    "minLevel": 43,
+    "maxLevel": 45,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "DRAGONKIN",
+      "HIGH_ARMOR",
+      "MANA_BURN"
+    ],
+    "drops": {
+      "Thick Leather": 0.492,
+      "Heavy Leather": 0.4132,
+      "Thick Hide": 0.0396,
+      "Heavy Hide": 0.0278
     }
   },
   {
@@ -3824,35 +3428,30 @@
       "Heavy Leather": 0.4394,
       "Mystery Meat": 0.4377,
       "Tender Wolf Meat": 0.371,
-      "Aquamarine": 0.0816
+      "Thick Hide": 0.0364
     }
   },
   {
-    "id": "blasted_lands_marsh_inkspewer_89_17",
-    "name": "Marsh Inkspewer (Blasted Lands)",
-    "mapID": 1419,
-    "zone": "Blasted Lands",
-    "x": 89.8,
-    "y": 17.7,
-    "minLevel": 42,
-    "maxLevel": 43,
+    "id": "stranglethorn_vale_southern_sand_crawler_16_88",
+    "name": "Southern Sand Crawler (Stranglethorn Vale)",
+    "mapID": 1434,
+    "zone": "Stranglethorn Vale",
+    "x": 16.8,
+    "y": 88.6,
+    "minLevel": 40,
+    "maxLevel": 41,
     "faction": "Both",
     "density": "High",
     "respawnMin": 5.0,
-    "isQuestMob": true,
+    "isQuestMob": false,
     "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HIGH_ARMOR",
-      "HUMANOID"
+      "BEAST",
+      "HIGH_ARMOR"
     ],
     "drops": {
-      "Big-mouth Clam": 0.324,
-      "Fish Oil": 0.2812,
-      "Star Ruby": 0.0626,
-      "Aquamarine": 0.0398,
-      "Pattern: Turtle Scale Gloves": 0.02,
-      "Mageweave Cloth": 0.02
+      "Shiny Fish Scales": 0.369,
+      "Tender Crab Meat": 0.3601,
+      "Big-mouth Clam": 0.3588
     }
   },
   {
@@ -3877,8 +3476,84 @@
       "Thick Leather": 0.5056,
       "Tender Wolf Meat": 0.4357,
       "Heavy Leather": 0.3922,
-      "Aquamarine": 0.054,
-      "Heavy Hide": 0.0445
+      "Heavy Hide": 0.0445,
+      "Thick Hide": 0.0382
+    }
+  },
+  {
+    "id": "blasted_lands_marsh_inkspewer_89_17",
+    "name": "Marsh Inkspewer (Blasted Lands)",
+    "mapID": 1419,
+    "zone": "Blasted Lands",
+    "x": 89.8,
+    "y": 17.7,
+    "minLevel": 42,
+    "maxLevel": 43,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HIGH_ARMOR",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Big-mouth Clam": 0.324,
+      "Fish Oil": 0.2812
+    }
+  },
+  {
+    "id": "tanaris_scorpid_tail_lasher_91_34",
+    "name": "Scorpid Tail Lasher (Tanaris)",
+    "mapID": 1446,
+    "zone": "Tanaris",
+    "x": 91.2,
+    "y": 34.3,
+    "minLevel": 43,
+    "maxLevel": 44,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Mystery Meat": 0.4805,
+      "Scorpid Scale": 0.4013,
+      "Thick Leather": 0.323,
+      "Dry Scorpid Eye": 0.2596,
+      "Heavy Leather": 0.2054,
+      "Thick Hide": 0.0399
+    }
+  },
+  {
+    "id": "felwood_angerclaw_mauler_77_67",
+    "name": "Angerclaw Mauler (Felwood)",
+    "mapID": 1448,
+    "zone": "Felwood",
+    "x": 77.8,
+    "y": 67.5,
+    "minLevel": 49,
+    "maxLevel": 50,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "ENRAGE",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Rugged Leather": 0.5248,
+      "Thick Leather": 0.4111,
+      "Bear Flank": 0.3226,
+      "Rugged Hide": 0.0379,
+      "Thick Hide": 0.0253
     }
   },
   {
@@ -3903,8 +3578,8 @@
       "Thick Leather": 0.5061,
       "Tender Wolf Meat": 0.397,
       "Heavy Leather": 0.3943,
-      "Aquamarine": 0.0511,
-      "Heavy Hide": 0.0409
+      "Heavy Hide": 0.0409,
+      "Thick Hide": 0.0389
     }
   },
   {
@@ -3929,36 +3604,59 @@
       "Thick Leather": 0.5061,
       "Tender Wolf Meat": 0.397,
       "Heavy Leather": 0.3943,
-      "Aquamarine": 0.0511,
-      "Heavy Hide": 0.0409
+      "Heavy Hide": 0.0409,
+      "Thick Hide": 0.0389
     }
   },
   {
-    "id": "western_plaguelands_scarlet_worker_74_10",
-    "name": "Scarlet Worker (Western Plaguelands)",
-    "mapID": 1422,
-    "zone": "Western Plaguelands",
-    "x": 74.1,
-    "y": 10.7,
-    "minLevel": 55,
-    "maxLevel": 57,
+    "id": "tanaris_rabid_blisterpaw_40_57",
+    "name": "Rabid Blisterpaw (Tanaris)",
+    "mapID": 1446,
+    "zone": "Tanaris",
+    "x": 40.6,
+    "y": 57.7,
+    "minLevel": 47,
+    "maxLevel": 48,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Thick Leather": 0.7565,
+      "Mystery Meat": 0.4436,
+      "Red Wolf Meat": 0.4255,
+      "Tender Wolf Meat": 0.396,
+      "Rugged Leather": 0.2061,
+      "Thick Hide": 0.0373
+    }
+  },
+  {
+    "id": "feralas_woodpaw_mystic_42_27",
+    "name": "Woodpaw Mystic (Feralas)",
+    "mapID": 1444,
+    "zone": "Feralas",
+    "x": 42.1,
+    "y": 27.7,
+    "minLevel": 42,
+    "maxLevel": 43,
     "faction": "Both",
     "density": "High",
-    "respawnMin": 5.2,
-    "isQuestMob": false,
+    "respawnMin": 5.0,
+    "isQuestMob": true,
     "tags": [
+      "CASTER",
       "FLEE_RUNNER",
+      "HEALER",
       "HEAVY_PACKS",
-      "HIGH_ARMOR",
       "HUMANOID"
     ],
     "drops": {
-      "Star Ruby": 0.0499,
-      "Aquamarine": 0.0399,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Runic Leather Belt": 0.02,
-      "Pattern: Wicked Leather Pants": 0.02,
-      "Pattern: Runic Leather Pants": 0.02
+      "Mageweave Cloth": 0.2548,
+      "Silk Cloth": 0.0978
     }
   },
   {
@@ -3980,39 +3678,7 @@
       "POISON"
     ],
     "drops": {
-      "Broken Silithid Chitin": 0.2974,
-      "Pattern: Runic Leather Belt": 0.047,
-      "Aquamarine": 0.0426,
-      "Star Ruby": 0.0426,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Wicked Leather Pants": 0.02
-    }
-  },
-  {
-    "id": "darkshore_shatterspear_troll_64_13",
-    "name": "Shatterspear Troll (Darkshore)",
-    "mapID": 1439,
-    "zone": "Darkshore",
-    "x": 64.3,
-    "y": 13.4,
-    "minLevel": 52,
-    "maxLevel": 58,
-    "faction": "Alliance",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HIGH_ARMOR",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Star Ruby": 0.1,
-      "Aquamarine": 0.08,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Wicked Leather Pants": 0.02,
-      "Pattern: Runic Leather Pants": 0.02
+      "Broken Silithid Chitin": 0.2974
     }
   },
   {
@@ -4036,12 +3702,7 @@
       "UNDEAD"
     ],
     "drops": {
-      "Star Ruby": 0.0589,
-      "Ichor of Undeath": 0.0536,
-      "Aquamarine": 0.0262,
-      "Pattern: Runic Leather Pants": 0.02,
-      "Pattern: Wicked Leather Pants": 0.02,
-      "Pattern: Runic Leather Belt": 0.02
+      "Ichor of Undeath": 0.0536
     }
   },
   {
@@ -4068,8 +3729,7 @@
       "Rugged Leather": 0.4602,
       "Heavy Scorpid Scale": 0.3824,
       "Thick Leather": 0.1046,
-      "Thick Hide": 0.0527,
-      "Aquamarine": 0.0321
+      "Thick Hide": 0.0527
     }
   },
   {
@@ -4091,12 +3751,7 @@
       "POISON"
     ],
     "drops": {
-      "Broken Silithid Chitin": 0.2974,
-      "Pattern: Runic Leather Belt": 0.047,
-      "Aquamarine": 0.0426,
-      "Star Ruby": 0.0426,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Wicked Leather Pants": 0.02
+      "Broken Silithid Chitin": 0.2974
     }
   },
   {
@@ -4120,12 +3775,7 @@
       "POISON"
     ],
     "drops": {
-      "White Spider Meat": 0.4529,
-      "Aquamarine": 0.0388,
-      "Star Ruby": 0.0233,
-      "Breath of Wind": 0.02,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Runic Leather Belt": 0.02
+      "White Spider Meat": 0.4529
     }
   },
   {
@@ -4152,7 +3802,6 @@
       "Red Wolf Meat": 0.5115,
       "Tender Wolf Meat": 0.4999,
       "Thick Leather": 0.1479,
-      "Star Ruby": 0.0719,
       "Rugged Hide": 0.0511
     }
   },
@@ -4179,7 +3828,7 @@
       "Mystery Meat": 0.4347,
       "Tender Wolf Meat": 0.3835,
       "Thick Leather": 0.3701,
-      "Aquamarine": 0.14
+      "Thick Hide": 0.039
     }
   },
   {
@@ -4206,8 +3855,7 @@
       "Rugged Leather": 0.4602,
       "Heavy Scorpid Scale": 0.3824,
       "Thick Leather": 0.1046,
-      "Thick Hide": 0.0527,
-      "Aquamarine": 0.0321
+      "Thick Hide": 0.0527
     }
   },
   {
@@ -4231,61 +3879,7 @@
     "drops": {
       "Elemental Air": 0.1143,
       "Breath of Wind": 0.1078,
-      "Aquamarine": 0.0996,
-      "Star Ruby": 0.0923,
-      "Essence of Air": 0.0723,
-      "Pattern: Runic Leather Gauntlets": 0.02
-    }
-  },
-  {
-    "id": "feralas_desert_rumbler_21_58",
-    "name": "Desert Rumbler (Feralas)",
-    "mapID": 1444,
-    "zone": "Feralas",
-    "x": 21.3,
-    "y": 58.2,
-    "minLevel": 56,
-    "maxLevel": 58,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "ELEMENTAL",
-      "HEAVY_PACKS",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Aquamarine": 0.3957,
-      "Star Ruby": 0.2721,
-      "Core of Earth": 0.052,
-      "Elemental Earth": 0.0502,
-      "Essence of Earth": 0.0249,
-      "Pattern: Runic Leather Gauntlets": 0.02
-    }
-  },
-  {
-    "id": "ungoro_crater_gorishi_reaver_63_81",
-    "name": "Gorishi Reaver (Un'Goro Crater)",
-    "mapID": 1449,
-    "zone": "Un'Goro Crater",
-    "x": 63.3,
-    "y": 81.6,
-    "minLevel": 51,
-    "maxLevel": 53,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "HEAVY_PACKS",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Aquamarine": 0.1393,
-      "Star Ruby": 0.1084,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Runic Leather Belt": 0.02
+      "Essence of Air": 0.0723
     }
   },
   {
@@ -4312,7 +3906,6 @@
       "Rugged Leather": 0.4599,
       "Heavy Scorpid Scale": 0.3954,
       "Thick Leather": 0.0946,
-      "Star Ruby": 0.0597,
       "Thick Hide": 0.0502
     }
   },
@@ -4339,8 +3932,6 @@
     "drops": {
       "Rugged Leather": 0.5,
       "Thick Leather": 0.43,
-      "Aquamarine": 0.0642,
-      "Star Ruby": 0.0445,
       "Rugged Hide": 0.04,
       "Thick Hide": 0.03
     }
@@ -4368,8 +3959,7 @@
       "Rugged Leather": 0.4602,
       "Heavy Scorpid Scale": 0.3824,
       "Thick Leather": 0.1046,
-      "Thick Hide": 0.0527,
-      "Aquamarine": 0.0321
+      "Thick Hide": 0.0527
     }
   },
   {
@@ -4395,8 +3985,7 @@
       "Rugged Leather": 0.4407,
       "Heavy Scorpid Scale": 0.415,
       "Thick Leather": 0.0991,
-      "Star Ruby": 0.0724,
-      "Aquamarine": 0.0543
+      "Thick Hide": 0.0451
     }
   },
   {
@@ -4420,115 +4009,31 @@
       "UNDEAD"
     ],
     "drops": {
-      "Ichor of Undeath": 0.0542,
-      "Star Ruby": 0.045,
-      "Aquamarine": 0.0409,
-      "Pattern: Wicked Leather Pants": 0.02,
-      "Pattern: Runic Leather Belt": 0.02,
-      "Pattern: Runic Leather Gauntlets": 0.02
+      "Ichor of Undeath": 0.0542
     }
   },
   {
-    "id": "silithus_tortured_sentinel_59_53",
-    "name": "Tortured Sentinel (Silithus)",
-    "mapID": 1451,
-    "zone": "Silithus",
-    "x": 59.5,
-    "y": 53.8,
-    "minLevel": 56,
-    "maxLevel": 57,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "HEAVY_PACKS",
-      "HIGH_ARMOR",
-      "UNDEAD"
-    ],
-    "drops": {
-      "Aquamarine": 0.055,
-      "Star Ruby": 0.0413,
-      "Pattern: Runic Leather Belt": 0.02
-    }
-  },
-  {
-    "id": "feralas_dredge_striker_46_60",
-    "name": "Dredge Striker (Feralas)",
+    "id": "feralas_desert_rumbler_21_58",
+    "name": "Desert Rumbler (Feralas)",
     "mapID": 1444,
     "zone": "Feralas",
-    "x": 46.1,
-    "y": 60.1,
-    "minLevel": 55,
-    "maxLevel": 56,
+    "x": 21.3,
+    "y": 58.2,
+    "minLevel": 56,
+    "maxLevel": 58,
     "faction": "Both",
     "density": "High",
     "respawnMin": 5.0,
     "isQuestMob": true,
     "tags": [
-      "BEAST",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Rugged Leather": 0.8,
-      "Sandworm Meat": 0.3898,
-      "Rugged Hide": 0.2,
-      "Star Ruby": 0.0783,
-      "Aquamarine": 0.0507,
-      "Pattern: Runic Leather Gauntlets": 0.02
-    }
-  },
-  {
-    "id": "ungoro_crater_diemetradon_64_65",
-    "name": "Diemetradon (Un'Goro Crater)",
-    "mapID": 1449,
-    "zone": "Un'Goro Crater",
-    "x": 64.6,
-    "y": 65.5,
-    "minLevel": 51,
-    "maxLevel": 52,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
+      "ELEMENTAL",
       "HEAVY_PACKS",
       "HIGH_ARMOR"
     ],
     "drops": {
-      "Rugged Leather": 0.4986,
-      "Thick Leather": 0.4308,
-      "Aquamarine": 0.0756,
-      "Star Ruby": 0.0605,
-      "Rugged Hide": 0.0404,
-      "Thick Hide": 0.0301
-    }
-  },
-  {
-    "id": "western_plaguelands_scarlet_lumberjack_76_39",
-    "name": "Scarlet Lumberjack (Western Plaguelands)",
-    "mapID": 1422,
-    "zone": "Western Plaguelands",
-    "x": 76.4,
-    "y": 39.7,
-    "minLevel": 54,
-    "maxLevel": 56,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.2,
-    "isQuestMob": false,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HIGH_ARMOR",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Star Ruby": 0.0616,
-      "Aquamarine": 0.0539,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Wicked Leather Pants": 0.02
+      "Core of Earth": 0.052,
+      "Elemental Earth": 0.0502,
+      "Essence of Earth": 0.0249
     }
   },
   {
@@ -4557,6 +4062,54 @@
     }
   },
   {
+    "id": "ungoro_crater_diemetradon_64_65",
+    "name": "Diemetradon (Un'Goro Crater)",
+    "mapID": 1449,
+    "zone": "Un'Goro Crater",
+    "x": 64.6,
+    "y": 65.5,
+    "minLevel": 51,
+    "maxLevel": 52,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HEAVY_PACKS",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Rugged Leather": 0.4986,
+      "Thick Leather": 0.4308,
+      "Rugged Hide": 0.0404,
+      "Thick Hide": 0.0301
+    }
+  },
+  {
+    "id": "feralas_dredge_striker_46_60",
+    "name": "Dredge Striker (Feralas)",
+    "mapID": 1444,
+    "zone": "Feralas",
+    "x": 46.1,
+    "y": 60.1,
+    "minLevel": 55,
+    "maxLevel": 56,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Rugged Leather": 0.8,
+      "Sandworm Meat": 0.3898,
+      "Rugged Hide": 0.2
+    }
+  },
+  {
     "id": "western_plaguelands_rotting_cadaver_76_66",
     "name": "Rotting Cadaver (Western Plaguelands)",
     "mapID": 1422,
@@ -4575,66 +4128,7 @@
       "UNDEAD"
     ],
     "drops": {
-      "Ichor of Undeath": 0.0553,
-      "Star Ruby": 0.039,
-      "Aquamarine": 0.039,
-      "Pattern: Wicked Leather Pants": 0.02,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Silk Cloth": 0.02
-    }
-  },
-  {
-    "id": "feralas_gordok_hyena_27_17",
-    "name": "Gordok Hyena (Feralas)",
-    "mapID": 1444,
-    "zone": "Feralas",
-    "x": 27.9,
-    "y": 17.9,
-    "minLevel": 52,
-    "maxLevel": 54,
-    "faction": "Both",
-    "density": "Medium",
-    "respawnMin": 5.0,
-    "isQuestMob": false,
-    "tags": [
-      "BEAST",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Rugged Leather": 0.528,
-      "Red Wolf Meat": 0.4522,
-      "Mystery Meat": 0.4347,
-      "Tender Wolf Meat": 0.3835,
-      "Thick Leather": 0.3701,
-      "Aquamarine": 0.14
-    }
-  },
-  {
-    "id": "burning_steppes_firegut_ogre_mage_35_38",
-    "name": "Firegut Ogre Mage (Burning Steppes)",
-    "mapID": 1428,
-    "zone": "Burning Steppes",
-    "x": 35.4,
-    "y": 38.5,
-    "minLevel": 51,
-    "maxLevel": 52,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 8.3,
-    "isQuestMob": true,
-    "tags": [
-      "CASTER",
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Aquamarine": 0.0531,
-      "Pattern: Wicked Leather Pants": 0.02,
-      "Pattern: Runic Leather Belt": 0.02,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Jade": 0.02,
-      "Star Ruby": 0.0187
+      "Ichor of Undeath": 0.0553
     }
   },
   {
@@ -4661,29 +4155,53 @@
     }
   },
   {
-    "id": "darkshore_irontree_stomper_58_49",
-    "name": "Irontree Stomper (Darkshore)",
-    "mapID": 1439,
-    "zone": "Darkshore",
-    "x": 58.0,
-    "y": 49.9,
+    "id": "feralas_gordok_hyena_27_17",
+    "name": "Gordok Hyena (Feralas)",
+    "mapID": 1444,
+    "zone": "Feralas",
+    "x": 27.9,
+    "y": 17.9,
     "minLevel": 52,
-    "maxLevel": 53,
-    "faction": "Alliance",
+    "maxLevel": 54,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Rugged Leather": 0.528,
+      "Red Wolf Meat": 0.4522,
+      "Mystery Meat": 0.4347,
+      "Tender Wolf Meat": 0.3835,
+      "Thick Leather": 0.3701,
+      "Thick Hide": 0.039
+    }
+  },
+  {
+    "id": "tanaris_venomhide_ravasaur_20_19",
+    "name": "Venomhide Ravasaur (Tanaris)",
+    "mapID": 1446,
+    "zone": "Tanaris",
+    "x": 20.7,
+    "y": 19.2,
+    "minLevel": 50,
+    "maxLevel": 51,
+    "faction": "Both",
     "density": "High",
     "respawnMin": 5.0,
     "isQuestMob": true,
     "tags": [
-      "ELEMENTAL",
-      "HIGH_ARMOR"
+      "BEAST",
+      "HIGH_ARMOR",
+      "POISON"
     ],
     "drops": {
-      "Living Essence": 0.8628,
-      "Aquamarine": 0.0586,
-      "Star Ruby": 0.0419,
-      "Pattern: Wicked Leather Pants": 0.02,
-      "Pattern: Runic Leather Belt": 0.02,
-      "Pattern: Runic Leather Gauntlets": 0.02
+      "Thick Leather": 0.7719,
+      "Rugged Leather": 0.1984,
+      "Thick Hide": 0.0297
     }
   },
   {
@@ -4709,59 +4227,7 @@
       "Rugged Leather": 0.4602,
       "Heavy Scorpid Scale": 0.3824,
       "Thick Leather": 0.1046,
-      "Thick Hide": 0.0527,
-      "Aquamarine": 0.0321
-    }
-  },
-  {
-    "id": "tanaris_venomhide_ravasaur_20_19",
-    "name": "Venomhide Ravasaur (Tanaris)",
-    "mapID": 1446,
-    "zone": "Tanaris",
-    "x": 20.7,
-    "y": 19.2,
-    "minLevel": 50,
-    "maxLevel": 51,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HIGH_ARMOR",
-      "POISON"
-    ],
-    "drops": {
-      "Thick Leather": 0.7719,
-      "Rugged Leather": 0.1984,
-      "Aquamarine": 0.0508,
-      "Star Ruby": 0.0381,
-      "Thick Hide": 0.0297,
-      "Pattern: Turtle Scale Gloves": 0.02
-    }
-  },
-  {
-    "id": "burning_steppes_firegut_ogre_32_42",
-    "name": "Firegut Ogre (Burning Steppes)",
-    "mapID": 1428,
-    "zone": "Burning Steppes",
-    "x": 32.4,
-    "y": 42.9,
-    "minLevel": 50,
-    "maxLevel": 51,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 8.3,
-    "isQuestMob": true,
-    "tags": [
-      "FLEE_RUNNER",
-      "HEAVY_PACKS",
-      "HIGH_ARMOR",
-      "HUMANOID"
-    ],
-    "drops": {
-      "Aquamarine": 0.0383,
-      "Star Ruby": 0.0268
+      "Thick Hide": 0.0527
     }
   },
   {
@@ -4786,9 +4252,8 @@
       "Rugged Leather": 0.5101,
       "Thick Leather": 0.4232,
       "Evil Bat Eye": 0.2672,
-      "Star Ruby": 0.0909,
-      "Aquamarine": 0.0568,
-      "Rugged Hide": 0.0373
+      "Rugged Hide": 0.0373,
+      "Thick Hide": 0.0294
     }
   },
   {
@@ -4810,12 +4275,9 @@
       "HIGH_ARMOR"
     ],
     "drops": {
-      "Aquamarine": 0.0685,
       "Elemental Fire": 0.0672,
       "Heart of Fire": 0.0672,
-      "Star Ruby": 0.044,
-      "Essence of Fire": 0.0315,
-      "Plans: Mithril Scale Shoulders": 0.02
+      "Essence of Fire": 0.0315
     }
   },
   {
@@ -4836,12 +4298,7 @@
       "HIGH_ARMOR"
     ],
     "drops": {
-      "White Spider Meat": 0.4865,
-      "Star Ruby": 0.05,
-      "Aquamarine": 0.025,
-      "Pattern: Turtle Scale Gloves": 0.02,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Runic Leather Belt": 0.02
+      "White Spider Meat": 0.4865
     }
   },
   {
@@ -4864,12 +4321,7 @@
       "UNDEAD"
     ],
     "drops": {
-      "Ichor of Undeath": 0.056,
-      "Star Ruby": 0.0208,
-      "Aquamarine": 0.0208,
-      "Pattern: Runic Leather Pants": 0.02,
-      "Pattern: Wicked Leather Pants": 0.02,
-      "Pattern: Runic Leather Belt": 0.02
+      "Ichor of Undeath": 0.056
     }
   },
   {
@@ -4895,8 +4347,28 @@
       "Rugged Leather": 0.4599,
       "Heavy Scorpid Scale": 0.3954,
       "Thick Leather": 0.0946,
-      "Star Ruby": 0.0597,
       "Thick Hide": 0.0502
+    }
+  },
+  {
+    "id": "silithus_hivezora_wasp_24_63",
+    "name": "Hive'Zora Wasp (Silithus)",
+    "mapID": 1451,
+    "zone": "Silithus",
+    "x": 24.1,
+    "y": 63.9,
+    "minLevel": 58,
+    "maxLevel": 59,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "HIGH_ARMOR",
+      "POISON"
+    ],
+    "drops": {
+      "Broken Silithid Chitin": 0.2974
     }
   },
   {
@@ -4920,35 +4392,8 @@
       "Rugged Leather": 0.6427,
       "Bear Flank": 0.3654,
       "Warbear Leather": 0.192,
-      "Aquamarine": 0.12,
       "Thick Leather": 0.1013,
-      "Star Ruby": 0.08
-    }
-  },
-  {
-    "id": "silithus_hivezora_wasp_24_63",
-    "name": "Hive'Zora Wasp (Silithus)",
-    "mapID": 1451,
-    "zone": "Silithus",
-    "x": 24.1,
-    "y": 63.9,
-    "minLevel": 58,
-    "maxLevel": 59,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "HIGH_ARMOR",
-      "POISON"
-    ],
-    "drops": {
-      "Broken Silithid Chitin": 0.2974,
-      "Pattern: Runic Leather Belt": 0.047,
-      "Aquamarine": 0.0426,
-      "Star Ruby": 0.0426,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Wicked Leather Pants": 0.02
+      "Rugged Hide": 0.064
     }
   },
   {
@@ -4971,12 +4416,7 @@
       "POISON"
     ],
     "drops": {
-      "White Spider Meat": 0.4529,
-      "Aquamarine": 0.0388,
-      "Star Ruby": 0.0233,
-      "Breath of Wind": 0.02,
-      "Pattern: Runic Leather Gauntlets": 0.02,
-      "Pattern: Runic Leather Belt": 0.02
+      "White Spider Meat": 0.4529
     }
   },
   {
@@ -4999,10 +4439,211 @@
     "drops": {
       "Thick Leather": 0.7732,
       "Rugged Leather": 0.1938,
-      "Star Ruby": 0.1419,
-      "Aquamarine": 0.1014,
-      "Thick Hide": 0.033,
-      "Pattern: Runic Leather Gauntlets": 0.02
+      "Thick Hide": 0.033
+    }
+  },
+  {
+    "id": "feralas_dust_stormer_26_59",
+    "name": "Dust Stormer (Feralas)",
+    "mapID": 1444,
+    "zone": "Feralas",
+    "x": 26.8,
+    "y": 59.8,
+    "minLevel": 55,
+    "maxLevel": 57,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "ELEMENTAL",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Elemental Air": 0.1143,
+      "Breath of Wind": 0.1078,
+      "Essence of Air": 0.0723
+    }
+  },
+  {
+    "id": "feralas_stonelash_pincer_21_72",
+    "name": "Stonelash Pincer (Feralas)",
+    "mapID": 1444,
+    "zone": "Feralas",
+    "x": 21.6,
+    "y": 72.0,
+    "minLevel": 56,
+    "maxLevel": 56,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HIGH_ARMOR",
+      "POISON"
+    ],
+    "drops": {
+      "Mystery Meat": 0.4877,
+      "Rugged Leather": 0.4602,
+      "Heavy Scorpid Scale": 0.3824,
+      "Thick Leather": 0.1046,
+      "Thick Hide": 0.0527
+    }
+  },
+  {
+    "id": "azshara_coralshell_lurker_91_4",
+    "name": "Coralshell Lurker (Azshara)",
+    "mapID": 1447,
+    "zone": "Azshara",
+    "x": 91.5,
+    "y": 4.3,
+    "minLevel": 53,
+    "maxLevel": 54,
+    "faction": "Both",
+    "density": "Low",
+    "respawnMin": 5.5,
+    "isQuestMob": false,
+    "tags": [
+      "BEAST",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Rugged Leather": 0.5013,
+      "Turtle Scale": 0.469,
+      "Thick Leather": 0.4313,
+      "Big-mouth Clam": 0.4194,
+      "Turtle Meat": 0.3914,
+      "Rugged Hide": 0.0404
+    }
+  },
+  {
+    "id": "eastern_plaguelands_plaguebat_31_88",
+    "name": "Plaguebat (Eastern Plaguelands)",
+    "mapID": 1423,
+    "zone": "Eastern Plaguelands",
+    "x": 31.7,
+    "y": 88.0,
+    "minLevel": 53,
+    "maxLevel": 55,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.8,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Rugged Leather": 0.4974,
+      "Thick Leather": 0.4313,
+      "Evil Bat Eye": 0.2758,
+      "Rugged Hide": 0.0421,
+      "Thick Hide": 0.0292
+    }
+  },
+  {
+    "id": "feralas_stonelash_scorpid_30_64",
+    "name": "Stonelash Scorpid (Feralas)",
+    "mapID": 1444,
+    "zone": "Feralas",
+    "x": 30.9,
+    "y": 64.4,
+    "minLevel": 54,
+    "maxLevel": 55,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HIGH_ARMOR",
+      "POISON"
+    ],
+    "drops": {
+      "Mystery Meat": 0.47,
+      "Rugged Leather": 0.4407,
+      "Heavy Scorpid Scale": 0.415,
+      "Thick Leather": 0.0991,
+      "Thick Hide": 0.0451
+    }
+  },
+  {
+    "id": "eastern_plaguelands_plaguehound_91_62",
+    "name": "Plaguehound (Eastern Plaguelands)",
+    "mapID": 1423,
+    "zone": "Eastern Plaguelands",
+    "x": 91.8,
+    "y": 62.1,
+    "minLevel": 55,
+    "maxLevel": 56,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.8,
+    "isQuestMob": true,
+    "tags": [
+      "DEMON",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Rugged Leather": 0.5066,
+      "Red Wolf Meat": 0.4978,
+      "Tender Wolf Meat": 0.4963,
+      "Thick Leather": 0.4147,
+      "Rugged Hide": 0.0482,
+      "Thick Hide": 0.0305
+    }
+  },
+  {
+    "id": "silithus_stonelash_flayer_31_85",
+    "name": "Stonelash Flayer (Silithus)",
+    "mapID": 1451,
+    "zone": "Silithus",
+    "x": 31.2,
+    "y": 85.0,
+    "minLevel": 57,
+    "maxLevel": 58,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HIGH_ARMOR",
+      "POISON"
+    ],
+    "drops": {
+      "Mystery Meat": 0.4921,
+      "Rugged Leather": 0.4599,
+      "Heavy Scorpid Scale": 0.3954,
+      "Thick Leather": 0.0946,
+      "Thick Hide": 0.0502
+    }
+  },
+  {
+    "id": "eastern_plaguelands_noxious_plaguebat_81_69",
+    "name": "Noxious Plaguebat (Eastern Plaguelands)",
+    "mapID": 1423,
+    "zone": "Eastern Plaguelands",
+    "x": 81.4,
+    "y": 69.7,
+    "minLevel": 54,
+    "maxLevel": 56,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.8,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST",
+      "HIGH_ARMOR",
+      "POISON"
+    ],
+    "drops": {
+      "Rugged Leather": 0.5101,
+      "Thick Leather": 0.4232,
+      "Evil Bat Eye": 0.2672,
+      "Rugged Hide": 0.0373,
+      "Thick Hide": 0.0294
     }
   }
 ]

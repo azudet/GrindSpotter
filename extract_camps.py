@@ -174,7 +174,7 @@ def load_db_data(cur):
         WHERE clt.ChanceOrQuestChance > 0
     ''')
     for c_entry, item_id, item_name, chance in cur.fetchall():
-        rate = chance / 100.0 if chance > 1.0 else chance
+        rate = round(chance / 100.0, 4)
         if rate < 0.01:
             continue
         is_cloth = "Cloth" in item_name
@@ -195,7 +195,7 @@ def load_db_data(cur):
         WHERE slt.ChanceOrQuestChance > 0
     ''')
     for c_entry, item_id, item_name, chance in cur.fetchall():
-        rate = chance / 100.0 if chance > 1.0 else chance
+        rate = round(chance / 100.0, 4)
         if rate < 0.01:
             continue
         if "Leather" in item_name or "Hide" in item_name or "Scale" in item_name:

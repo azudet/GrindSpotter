@@ -1,4 +1,4 @@
--- GrindSpotter.lua - Part 1
+-- GrindSpotter.lua
 -- World of Warcraft Classic Era (1.15.x) Grinding Spot Recommender
 -- Pure client-side Lua
 
@@ -6,9 +6,9 @@ local ADDON_NAME, GrindSpotter = ...
 
 GrindSpotterDB = GrindSpotterDB or {}
 
--- -------------------------------------------------------------
+-- -----------------------------------------------------------------
 -- Helpers & Constants
--- -------------------------------------------------------------
+-- -----------------------------------------------------------------
 local CLASS_MELEE = {
     ["WARRIOR"] = true,
     ["ROGUE"] = true,
@@ -31,17 +31,14 @@ local function HasTag(tags, targetTag)
     return false
 end
 
--- -------------------------------------------------------------
+-- -----------------------------------------------------------------
 -- Skinning Math & Skill Resolver
--- Authentic Classic Math:
--- Rank 1-100: floor(rank / 10) + 10
--- Rank > 100: floor(rank / 5)
--- -------------------------------------------------------------
+-- ----------------------------------------------------------------
 local function GetPlayerSkinningRank()
     local numSkills = GetNumSkillLines and GetNumSkillLines() or 0
     for i = 1, numSkills do
         local skillName, _, _, skillRank, _, _, maxRank = GetSkillLineInfo(i)
-        if skillName and (skillName == "Skinning" or skillName:find("Skinning") or skillName:find("Kürschnerei") or skillName:find("Dépeçage") or skillName:find("Desuello") or skillName:find("Снятие шкур") or skillName:find("剥皮")) then
+        if skillName and (skillName == "Skinning" or skillName:find("Skinning") or skillName:find("Kürschnerei") or skillName:find("Dépeçage") or skillName:find("Desuello") or skillName:find("Снятие шкур") or skillName:find("刚皮")) then
             return skillRank, maxRank
         end
     end
@@ -67,11 +64,9 @@ local function GetRequiredSkinningRank(mobLevel)
     end
 end
 
--- -------------------------------------------------------------
+-- ----------------------------------------------------------------
 -- XP Calculation (Classic Era Mob Kill XP)
--- Formula: mobXP = (MobLevel * 5) + 45 (for equal level)
--- Adjusted by delta
--- -------------------------------------------------------------
+-- ----------------------------------------------------------------
 local function EstimateMobXP(playerLevel, mobLevel)
     if playerLevel >= 60 then return 0 end
     local levelDiff = mobLevel - playerLevel
@@ -91,105 +86,21 @@ local function EstimateMobXP(playerLevel, mobLevel)
     local baseXP = (mobLevel * 5) + 45
     if levelDiff == 0 then
         return baseXP
+    elseif levelDiff > 0 then
+        local bonusMultiplier = 1 + (0.05 * math.min(levelDiff, 4))
+        return math.floor(baseXP * bonusMultiplier)
+    else
+        local reduction = 1 - (math.abs(levelDiff) * 0.1)
+        return math.max(0, math.floor(baseXP * math.max(0.2, reduction)))
+    end
+end
 
--- -------------------------------------------------------------
+-- ----------------------------------------------------------------
 -- UI Creation
--- -------------------------------------------------------------
+-- ----------------------------------------------------------------
 local mainFrame = nil
 local resultCards = {}
 
-local function CreateMainUI()
-    if mainFrame then return mainFrame end
-
-    local f = CreateFrame("Frame", "GrindSpotterFrame", UIParent, "BasicFrameTemplateWithInset, BackdropTemplate")
-    f:SetSize(480, 560)
-    f:SetPoint("CENTER", UIParent, "CENTER", 0, 0)
-    f:SetMovable(true)
-    f:EnableMouse(true)
-    f:RegisterForDrag("LeftButton")
-    f:SetScript("OnDragStart", f.StartMoving)
-    f:SetScript("OnDragStop", function(self)
-        self:StopMovingOrSizing()
-        local point, _, relPoint, x, y = self:GetPoint()
-        GrindSpotterDB.posX = x
-        GrindSpotterDB.posY = y
-        GrindSpotterDB.point = point
-        GrindSpotterDB.relPoint = relPoint
-    end)
-    f:SetClampedToScreen(true)
-
-    f.TitleBg:SetHeight(28)
-    f.title = f:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge")
-    f.title:SetPoint("TOPLEFT", f.TitleBg, "TOPLEFT", 10, -5)
-    f.title:SetText("GrindSpotter |cff00ff00v1.0|r")
-
-    -- Query Box (Material or empty)
-    local queryLabel = f:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    queryLabel:SetPoint("TOPLEFT", f, "TOPLEFT", 18, -38)
-    queryLabel:SetText("Search (Item/Mob/Leave empty for XP):")
-
-    local queryBox = CreateFrame("EditBox", "GrindSpotterQueryBox", f, "InputBoxTemplate")
-    queryBox:SetSize(220, 24)
-    queryBox:SetPoint("TOPLEFT", queryLabel, "BOTTOMLEFT", 6, -4)
-    queryBox:SetAutoFocus(false)
-    f.queryBox = queryBox
-
-    -- Target Box (Quantity or Target Level)
-    local targetLabel = f:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    targetLabel:SetPoint("LEFT", queryLabel, "LEFT", 240, 0)
-    targetLabel:SetText("Target (Qty or Level):")
-
-    local targetBox = CreateFrame("EditBox", "GrindSpotterTargetBox", f, "InputBoxTemplate")
-    targetBox:SetSize(90, 24)
-    targetBox:SetPoint("TOPLEFT", targetLabel, "BOTTOMLEFT", 6, -4)
-    targetBox:SetAutoFocus(false)
-    targetBox:SetNumeric(true)
-    f.targetBox = targetBox
-
-    -- Search Action Button
-    local searchBtn = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
-    searchBtn:SetSize(80, 24)
-    searchBtn:SetPoint("LEFT", targetBox, "RIGHT", 10, 0)
-    searchBtn:SetText("Find Spots")
-    searchBtn:SetScript("OnClick", function()
-        GrindSpotter:RunSearch()
-    end)
-    f.searchBtn = searchBtn
-
-    queryBox:SetScript("OnEnterPressed", function() searchBtn:Click() end)
-    targetBox:SetScript("OnEnterPressed", function() searchBtn:Click() end)
-
-    -- Status & Skill Banner
-    local banner = CreateFrame("Frame", nil, f, "BackdropTemplate")
-    banner:SetPoint("TOPLEFT", queryBox, "BOTTOMLEFT", -6, -8)
-    banner:SetPoint("TOPRIGHT", f, "TOPRIGHT", -18, -88)
-    banner:SetHeight(32)
-    banner:SetBackdrop({
-        bgFile = "Interface\\Buttons\\WHITE8X8",
-        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-        edgeSize = 12,
-        insets = { left = 2, right = 2, top = 2, bottom = 2 },
-    })
-    banner:SetBackdropColor(0.1, 0.1, 0.1, 0.7)
-    banner:SetBackdropBorderColor(0.4, 0.4, 0.4, 0.8)
-
-    local bannerText = banner:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
-    bannerText:SetPoint("CENTER", banner, "CENTER", 0, 0)
-    bannerText:SetText("Enter query or leave blank for optimal level-up grinding spots.")
-    f.bannerText = bannerText
-
-    -- Scroll Area
-    local scrollFrame = CreateFrame("ScrollFrame", "GrindSpotterScrollFrame", f, "UIPanelScrollFrameTemplate")
-    scrollFrame:SetPoint("TOPLEFT", banner, "BOTTOMLEFT", 0, -6)
-    scrollFrame:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -32, 14)
-
-    local content = CreateFrame("Frame", nil, scrollFrame)
-    content:SetSize(415, 600)
-    scrollFrame:SetScrollChild(content)
-
--- -------------------------------------------------------------
--- Card Display Component
--- -------------------------------------------------------------
 local function CreateResultCard(parent, index)
     local card = CreateFrame("Frame", "GrindSpotterCard"..index, parent, "BackdropTemplate")
     card:SetSize(410, 105)
@@ -235,9 +146,99 @@ local function CreateResultCard(parent, index)
     return card
 end
 
--- -------------------------------------------------------------
--- Waypoint Integration (TomTom & Blizzard C_Map Native Fallback)
--- -------------------------------------------------------------
+local function CreateMainUI()
+    if mainFrame then return mainFrame end
+
+    local f = CreateFrame("Frame", "GrindSpotterFrame", UIParent, "BasicFrameTemplateWithInset, BackdropTemplate")
+    f:SetSize(480, 560)
+    f:SetPoint("CENTER", UIParent, "CENTER", 0, 0)
+    f:SetMovable(true)
+    f:EnableMouse(true)
+    f:RegisterForDrag("LeftButton")
+    f:SetScript("OnDragStart", f.StartMoving)
+    f:SetScript("OnDragStop", function(self)
+        self:StopMovingOrSizing()
+        local point, _, relPoint, x, y = self:GetPoint()
+        GrindSpotterDB.posX = x
+        GrindSpotterDB.posY = y
+        GrindSpotterDB.point = point
+        GrindSpotterDB.relPoint = relPoint
+    end)
+    f:SetClampedToScreen(true)
+
+    f.TitleBg:SetHeight(28)
+    f.title = f:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge")
+    f.title:SetPoint("TOPLEFT", f.TitleBg, "TOPLEFT", 10, -5)
+    f.title:SetText("GrindSpotter |cff00ff00v1.0|r")
+
+    local queryLabel = f:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    queryLabel:SetPoint("TOPLEFT", f, "TOPLEFT", 18, -38)
+    queryLabel:SetText("Search (Item/Mob/Leave empty for XP):")
+
+    local queryBox = CreateFrame("EditBox", "GrindSpotterQueryBox", f, "InputBoxTemplate")
+    queryBox:SetSize(220, 24)
+    queryBox:SetPoint("TOPLEFT", queryLabel, "BOTTOMLEFT", 6, -4)
+    queryBox:SetAutoFocus(false)
+    f.queryBox = queryBox
+
+    local targetLabel = f:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    targetLabel:SetPoint("LEFT", queryLabel, "LEFT", 240, 0)
+    targetLabel:SetText("Target (Qty or Level):")
+
+    local targetBox = CreateFrame("EditBox", "GrindSpotterTargetBox", f, "InputBoxTemplate")
+    targetBox:SetSize(90, 24)
+    targetBox:SetPoint("TOPLEFT", targetLabel, "BOTTOMLEFT", 6, -4)
+    targetBox:SetAutoFocus(false)
+    targetBox:SetNumeric(true)
+    f.targetBox = targetBox
+
+    local searchBtn = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
+    searchBtn:SetSize(80, 24)
+    searchBtn:SetPoint("LEFT", targetBox, "RIGHT", 10, 0)
+    searchBtn:SetText("Find Spots")
+    searchBtn:SetScript("OnClick", function()
+        GrindSpotter:RunSearch()
+    end)
+    f.searchBtn = searchBtn
+
+    queryBox:SetScript("OnEnterPressed", function() searchBtn:Click() end)
+    targetBox:SetScript("OnEnterPressed", function() searchBtn:Click() end)
+
+    local banner = CreateFrame("Frame", nil, f, "BackdropTemplate")
+    banner:SetPoint("TOPLEFT", queryBox, "BOTTOMLEFT", -6, -8)
+    banner:SetPoint("TOPRIGHT", f, "TOPRIGHT", -18, -88)
+    banner:SetHeight(32)
+    banner:SetBackdrop({
+        bgFile = "Interface\\Buttons\\WHITE8X8",
+        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+        edgeSize = 12,
+        insets = { left = 2, right = 2, top = 2, bottom = 2 },
+    })
+    banner:SetBackdropColor(0.1, 0.1, 0.1, 0.7)
+    banner:SetBackdropBorderColor(0.4, 0.4, 0.4, 0.8)
+
+    local bannerText = banner:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+    bannerText:SetPoint("CENTER", banner, "CENTER", 0, 0)
+    bannerText:SetText("Enter query or leave blank for optimal level-up grinding spots.")
+    f.bannerText = bannerText
+
+    local scrollFrame = CreateFrame("ScrollFrame", "GrindSpotterScrollFrame", f, "UIPanelScrollFrameTemplate")
+    scrollFrame:SetPoint("TOPLEFT", banner, "BOTTOMLEFT", 0, -6)
+    scrollFrame:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -32, 14)
+
+    local content = CreateFrame("Frame", nil, scrollFrame)
+    content:SetSize(415, 600)
+    scrollFrame:SetScrollChild(content)
+
+    f.content = content
+    mainFrame = f
+    f:Hide()
+    return f
+end
+
+-- ----------------------------------------------------------------
+-- Waypoint Integration
+-- ----------------------------------------------------------------
 function GrindSpotter:SetWaypoint(mapID, x, y, title)
     if TomTom and type(TomTom.AddWaypoint) == "function" then
         TomTom:AddWaypoint(mapID, x / 100, y / 100, {
@@ -246,7 +247,7 @@ function GrindSpotter:SetWaypoint(mapID, x, y, title)
             minimap = true,
             world = true,
         })
-        DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00GrindSpotter:|r TomTom waypoint set for |cffffd100" .. (title or "Spot") .. "|r at (" .. string.format("%.1f, %.1f", x, y) .. ") in map " .. mapID)
+        DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00GrindSpotter:|r TomTom waypoint set for |cffffd100" .. (title or "Spot") .. "|r at (" .. string.format("%.1f, %.1f", x, y) .. ")")
         return
     end
 
@@ -256,10 +257,16 @@ function GrindSpotter:SetWaypoint(mapID, x, y, title)
         if C_SuperTrack and C_SuperTrack.SetSuperTrackedUserWaypoint then
             C_SuperTrack.SetSuperTrackedUserWaypoint(true)
         end
+        DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00GrindSpotter:|r Blizzard map pin set for |cffffd100" .. (title or "Spot") .. "|r at (" .. string.format("%.1f, %.1f", x, y) .. ")")
+        return
+    end
 
--- -------------------------------------------------------------
+    DEFAULT_CHAT_FRAME:AddMessage("|cffff4444GrindSpotter:|r No waypoint addon (TomTom) found and native waypoints unavailable.")
+end
+
+-- ----------------------------------------------------------------
 -- Scoring & Recommendation Engine
--- -------------------------------------------------------------
+-- ----------------------------------------------------------------
 function GrindSpotter:RunSearch()
     if not mainFrame then return end
 
@@ -271,9 +278,8 @@ function GrindSpotter:RunSearch()
     local skinningRank, maxSkinningRank = GetPlayerSkinningRank()
     local maxSkinnableLevel = GetMaxSkinnableMobLevel(skinningRank)
 
-    local isLeatherSearch = (query:find("leather") or query:find("hide") or query:find("skin") or query:find("cuir") or query:find("leder") or query:find("кожа") or query:find("皮"))
+    local isLeatherSearch = (query:find("leather") or query:find("hide") or query:find("skin"))
 
-    -- Update banner
     if isLeatherSearch then
         if skinningRank <= 0 then
             mainFrame.bannerText:SetText("|cffff5555Warning: No Skinning skill learned!|r Max skinnable mob level: 0")
@@ -330,6 +336,16 @@ function GrindSpotter:RunSearch()
                 local avgMobLevel = (camp.minLevel + camp.maxLevel) / 2
                 local levelDiff = avgMobLevel - playerLevel
 
+                -- Level difference weighting
+                if levelDiff >= -2 and levelDiff <= 1 then
+                    score = score + 25
+                elseif levelDiff > 3 then
+                    score = score - (levelDiff * 15)
+                    table.insert(warnings, "Mob level high (+daze/misses)")
+                elseif levelDiff < -5 then
+                    score = score - (math.abs(levelDiff) * 12)
+                end
+
                 -- Combat & Class Suitability
                 if CLASS_MELEE[playerClass] then
                     if HasTag(camp.tags, "HIGH_ARMOR") then
@@ -380,6 +396,11 @@ function GrindSpotter:RunSearch()
                 if isLeatherSearch or query == "leather" or query == "skinning" then
                     if maxSkinnableLevel < camp.maxLevel then
                         score = score - 35
+                        table.insert(warnings, string.format("Skinning Bottleneck! Req Rank %d (You: %d)", reqRank, skinningRank))
+                    else
+                        table.insert(notes, "Skinnable (Knife ready)")
+                    end
+                end
 
                 -- Estimates (Kills required)
                 local estimateStr = ""
@@ -420,10 +441,6 @@ function GrindSpotter:RunSearch()
     table.sort(scoredResults, function(a, b)
         return a.score > b.score
     end)
-
-                        table.insert(warnings, string.format("Skinning Bottleneck! Req Rank %d (You: %d)", reqRank, skinningRank))
-                    else
-                        table.insert(notes, "Skinnable (Knife ready)")
 
     for _, card in ipairs(resultCards) do
         card:Hide()
@@ -484,14 +501,9 @@ function GrindSpotter:RunSearch()
     end
 end
 
-                    end
-                end
-
-
-
--- -------------------------------------------------------------
+-- ----------------------------------------------------------------
 -- Event Handling & Slash Command
--- -------------------------------------------------------------
+-- ----------------------------------------------------------------
 local eventFrame = CreateFrame("Frame")
 eventFrame:RegisterEvent("ADDON_LOADED")
 eventFrame:RegisterEvent("SKILL_LINES_CHANGED")
@@ -522,34 +534,3 @@ SlashCmdList["GRINDSPOTTER"] = function(msg)
     end
 end
 
-                if levelDiff >= -2 and levelDiff <= 1 then
-                    score = score + 25
-                elseif levelDiff > 3 then
-                    score = score - (levelDiff * 15)
-                    table.insert(warnings, "Mob level high (+daze/misses)")
-                elseif levelDiff < -5 then
-                    score = score - (math.abs(levelDiff) * 12)
-                end
-
-        DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00GrindSpotter:|r Blizzard map pin set for |cffffd100" .. (title or "Spot") .. "|r at (" .. string.format("%.1f, %.1f", x, y) .. ")")
-        return
-    end
-
-    DEFAULT_CHAT_FRAME:AddMessage("|cffff4444GrindSpotter:|r No waypoint addon (TomTom) found and native waypoints unavailable.")
-end
-
-    f.content = content
-
-    mainFrame = f
-    f:Hide()
-    return f
-end
-
-    elseif levelDiff > 0 then
-        local bonusMultiplier = 1 + (0.05 * math.min(levelDiff, 4))
-        return math.floor(baseXP * bonusMultiplier)
-    else
-        local reduction = 1 - (math.abs(levelDiff) * 0.1)
-        return math.max(0, math.floor(baseXP * math.max(0.2, reduction)))
-    end
-end
