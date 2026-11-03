@@ -149,5 +149,17 @@ class TestGrindSpotterLogicSimulation(unittest.TestCase):
         self.assertGreater(estimate_mob_xp(20, 22), estimate_mob_xp(20, 20))
 
 
+
+class TestLuaSyntaxValidation(unittest.TestCase):
+    def test_grindspotter_lua_syntax(self):
+        from luaparser import ast
+        script_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        lua_path = os.path.join(script_dir, "GrindSpotter.lua")
+        with open(lua_path, "r", encoding="utf-8") as f:
+            code = f.read()
+        tree = ast.parse(code)
+        self.assertIsNotNone(tree, "GrindSpotter.lua AST parsing failed")
+        self.assertTrue(len(tree.body.body) > 0, "GrindSpotter.lua should have parsed statements")
+
 if __name__ == "__main__":
     unittest.main()

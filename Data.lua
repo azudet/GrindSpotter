@@ -7,7 +7,7 @@ GrindSpotterData.camps = {
     {
         id = "mulgore_venture_co._worker_60_32",
         name = "Venture Co. Worker (Mulgore)",
-        creatureEntry = 0,
+        creatureEntry = 2978,
         mapID = 1412,
         zone = "Mulgore",
         x = 60.60,
@@ -28,7 +28,7 @@ GrindSpotterData.camps = {
     {
         id = "dun_morogh_wendigo_44_50",
         name = "Wendigo & Young Wendigo (Dun Morogh)",
-        creatureEntry = 0,
+        creatureEntry = 1135,
         mapID = 1426,
         zone = "Dun Morogh",
         x = 44.80,
@@ -50,7 +50,7 @@ GrindSpotterData.camps = {
     {
         id = "durotar_mottled_boar_22_65",
         name = "Mottled Boar (Durotar)",
-        creatureEntry = 0,
+        creatureEntry = 3098,
         mapID = 1411,
         zone = "Durotar",
         x = 22.90,
@@ -70,7 +70,7 @@ GrindSpotterData.camps = {
     {
         id = "tirisfal_glades_night_web_spider_25_56",
         name = "Night Web Spider & Young Night Web Spider (Tirisfal Glades)",
-        creatureEntry = 0,
+        creatureEntry = 1505,
         mapID = 1420,
         zone = "Tirisfal Glades",
         x = 25.80,
@@ -89,7 +89,7 @@ GrindSpotterData.camps = {
     {
         id = "elwynn_forest_rockhide_boar_49_67",
         name = "Rockhide Boar (Elwynn Forest)",
-        creatureEntry = 0,
+        creatureEntry = 524,
         mapID = 1429,
         zone = "Elwynn Forest",
         x = 49.30,
@@ -114,7 +114,7 @@ GrindSpotterData.camps = {
     {
         id = "mulgore_plainstrider_37_81",
         name = "Plainstrider (Mulgore)",
-        creatureEntry = 0,
+        creatureEntry = 2955,
         mapID = 1412,
         zone = "Mulgore",
         x = 37.90,
@@ -134,7 +134,7 @@ GrindSpotterData.camps = {
     {
         id = "dun_morogh_small_crag_boar_15_82",
         name = "Small Crag Boar (Dun Morogh)",
-        creatureEntry = 0,
+        creatureEntry = 708,
         mapID = 1426,
         zone = "Dun Morogh",
         x = 15.20,
@@ -154,7 +154,7 @@ GrindSpotterData.camps = {
     {
         id = "tirisfal_glades_darkeye_bonecaster_60_20",
         name = "Darkeye Bonecaster (Tirisfal Glades)",
-        creatureEntry = 0,
+        creatureEntry = 1522,
         mapID = 1420,
         zone = "Tirisfal Glades",
         x = 60.50,
@@ -175,7 +175,7 @@ GrindSpotterData.camps = {
     {
         id = "durotar_elder_mottled_boar_23_27",
         name = "Elder Mottled Boar (Durotar)",
-        creatureEntry = 0,
+        creatureEntry = 3100,
         mapID = 1411,
         zone = "Durotar",
         x = 23.90,
@@ -200,7 +200,7 @@ GrindSpotterData.camps = {
     {
         id = "teldrassil_webwood_spider_76_18",
         name = "Webwood Spider (Teldrassil)",
-        creatureEntry = 0,
+        creatureEntry = 1986,
         mapID = 1438,
         zone = "Teldrassil",
         x = 76.10,
@@ -219,7 +219,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_theramore_marine_89_66",
         name = "Theramore Marine (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3385,
         mapID = 1413,
         zone = "The Barrens",
         x = 89.00,
@@ -242,7 +242,7 @@ GrindSpotterData.camps = {
     {
         id = "darkshore_rabid_thistle_bear_30_24",
         name = "Rabid Thistle Bear & Thistle Bear (Darkshore)",
-        creatureEntry = 0,
+        creatureEntry = 2163,
         mapID = 1439,
         zone = "Darkshore",
         x = 30.30,
@@ -268,7 +268,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_venture_co._drudger_73_17",
         name = "Venture Co. Drudger (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3284,
         mapID = 1413,
         zone = "The Barrens",
         x = 73.50,
@@ -292,7 +292,7 @@ GrindSpotterData.camps = {
     {
         id = "westfall_riverpaw_taskmaster_66_74",
         name = "Riverpaw Taskmaster (Westfall)",
-        creatureEntry = 0,
+        creatureEntry = 98,
         mapID = 1436,
         zone = "Westfall",
         x = 66.10,
@@ -316,7 +316,7 @@ GrindSpotterData.camps = {
     {
         id = "alterac_mountains_vile_fin_tidecaller_60_24",
         name = "Vile Fin Tidecaller (Alterac Mountains)",
-        creatureEntry = 0,
+        creatureEntry = 1958,
         mapID = 1416,
         zone = "Alterac Mountains",
         x = 60.50,
@@ -340,7 +340,7 @@ GrindSpotterData.camps = {
     {
         id = "westfall_defias_digger_35_75",
         name = "Defias Digger (Westfall)",
-        creatureEntry = 0,
+        creatureEntry = 824,
         mapID = 1436,
         zone = "Westfall",
         x = 35.10,
@@ -363,7 +363,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_witchwing_slayer_20_25",
         name = "Witchwing Slayer (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3278,
         mapID = 1413,
         zone = "The Barrens",
         x = 20.80,
@@ -387,7 +387,7 @@ GrindSpotterData.camps = {
     {
         id = "tirisfal_glades_lordaeron_citizen_86_69",
         name = "Lordaeron Citizen (Tirisfal Glades)",
-        creatureEntry = 0,
+        creatureEntry = 3617,
         mapID = 1420,
         zone = "Tirisfal Glades",
         x = 86.30,
@@ -406,7 +406,7 @@ GrindSpotterData.camps = {
     {
         id = "stonetalon_mountains_venture_co._logger_72_64",
         name = "Venture Co. Logger (Stonetalon Mountains)",
-        creatureEntry = 0,
+        creatureEntry = 3989,
         mapID = 1442,
         zone = "Stonetalon Mountains",
         x = 72.20,
@@ -430,7 +430,7 @@ GrindSpotterData.camps = {
     {
         id = "silverpine_forest_vile_fin_lakestalker_82_20",
         name = "Vile Fin Lakestalker (Silverpine Forest)",
-        creatureEntry = 0,
+        creatureEntry = 1909,
         mapID = 1421,
         zone = "Silverpine Forest",
         x = 82.60,
@@ -454,7 +454,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_savannah_prowler_67_25",
         name = "Savannah Prowler (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3425,
         mapID = 1413,
         zone = "The Barrens",
         x = 67.60,
@@ -479,7 +479,7 @@ GrindSpotterData.camps = {
     {
         id = "silverpine_forest_dalaran_apprentice_34_79",
         name = "Dalaran Apprentice (Silverpine Forest)",
-        creatureEntry = 0,
+        creatureEntry = 1867,
         mapID = 1421,
         zone = "Silverpine Forest",
         x = 34.80,
@@ -501,7 +501,7 @@ GrindSpotterData.camps = {
     {
         id = "ashenvale_wild_buck_15_24",
         name = "Wild Buck (Ashenvale)",
-        creatureEntry = 0,
+        creatureEntry = 3816,
         mapID = 1440,
         zone = "Ashenvale",
         x = 15.70,
@@ -526,7 +526,7 @@ GrindSpotterData.camps = {
     {
         id = "darkshore_stormscale_myrmidon_49_13",
         name = "Stormscale Myrmidon (Darkshore)",
-        creatureEntry = 0,
+        creatureEntry = 2181,
         mapID = 1439,
         zone = "Darkshore",
         x = 49.60,
@@ -549,7 +549,7 @@ GrindSpotterData.camps = {
     {
         id = "silverpine_forest_moonrage_whitescalp_40_26",
         name = "Moonrage Whitescalp (Silverpine Forest)",
-        creatureEntry = 0,
+        creatureEntry = 1769,
         mapID = 1421,
         zone = "Silverpine Forest",
         x = 40.50,
@@ -574,7 +574,7 @@ GrindSpotterData.camps = {
     {
         id = "darkshore_foreststrider_36_28",
         name = "Foreststrider (Darkshore)",
-        creatureEntry = 0,
+        creatureEntry = 2322,
         mapID = 1439,
         zone = "Darkshore",
         x = 36.10,
@@ -601,7 +601,7 @@ GrindSpotterData.camps = {
     {
         id = "felwood_giant_foreststrider_21_77",
         name = "Giant Foreststrider (Felwood)",
-        creatureEntry = 0,
+        creatureEntry = 2323,
         mapID = 1448,
         zone = "Felwood",
         x = 21.70,
@@ -629,7 +629,7 @@ GrindSpotterData.camps = {
     {
         id = "westfall_murloc_netter_23_24",
         name = "Murloc Netter (Westfall)",
-        creatureEntry = 0,
+        creatureEntry = 513,
         mapID = 1436,
         zone = "Westfall",
         x = 23.30,
@@ -653,7 +653,7 @@ GrindSpotterData.camps = {
     {
         id = "redridge_mountains_redridge_basher_14_16",
         name = "Redridge Basher (Redridge Mountains)",
-        creatureEntry = 0,
+        creatureEntry = 446,
         mapID = 1433,
         zone = "Redridge Mountains",
         x = 14.50,
@@ -677,7 +677,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_fleeting_plainstrider_75_40",
         name = "Fleeting Plainstrider (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3246,
         mapID = 1413,
         zone = "The Barrens",
         x = 75.40,
@@ -702,7 +702,7 @@ GrindSpotterData.camps = {
     {
         id = "westfall_goretusk_40_58",
         name = "Goretusk (Westfall)",
-        creatureEntry = 0,
+        creatureEntry = 157,
         mapID = 1436,
         zone = "Westfall",
         x = 40.40,
@@ -733,7 +733,7 @@ GrindSpotterData.camps = {
     {
         id = "tirisfal_glades_worg_72_85",
         name = "Worg (Tirisfal Glades)",
-        creatureEntry = 0,
+        creatureEntry = 1765,
         mapID = 1420,
         zone = "Tirisfal Glades",
         x = 72.20,
@@ -756,7 +756,7 @@ GrindSpotterData.camps = {
     {
         id = "darkshore_darkshore_thresher_13_35",
         name = "Darkshore Thresher (Darkshore)",
-        creatureEntry = 0,
+        creatureEntry = 2185,
         mapID = 1439,
         zone = "Darkshore",
         x = 13.70,
@@ -783,7 +783,7 @@ GrindSpotterData.camps = {
     {
         id = "loch_modan_stonesplinter_trogg_30_72",
         name = "Stonesplinter Trogg (Loch Modan)",
-        creatureEntry = 0,
+        creatureEntry = 1161,
         mapID = 1432,
         zone = "Loch Modan",
         x = 30.20,
@@ -807,7 +807,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_venture_co._enforcer_86_13",
         name = "Venture Co. Enforcer (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3283,
         mapID = 1413,
         zone = "The Barrens",
         x = 86.60,
@@ -830,7 +830,7 @@ GrindSpotterData.camps = {
     {
         id = "loch_modan_loch_frenzy_57_8",
         name = "Loch Frenzy (Loch Modan)",
-        creatureEntry = 0,
+        creatureEntry = 1193,
         mapID = 1432,
         zone = "Loch Modan",
         x = 57.90,
@@ -854,7 +854,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_savannah_prowler_34_44",
         name = "Savannah Prowler (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3425,
         mapID = 1413,
         zone = "The Barrens",
         x = 34.00,
@@ -879,7 +879,7 @@ GrindSpotterData.camps = {
     {
         id = "silverpine_forest_vile_fin_shredder_60_14",
         name = "Vile Fin Shredder (Silverpine Forest)",
-        creatureEntry = 0,
+        creatureEntry = 1767,
         mapID = 1421,
         zone = "Silverpine Forest",
         x = 60.00,
@@ -902,7 +902,7 @@ GrindSpotterData.camps = {
     {
         id = "westfall_riverpaw_bandit_57_70",
         name = "Riverpaw Bandit (Westfall)",
-        creatureEntry = 0,
+        creatureEntry = 452,
         mapID = 1436,
         zone = "Westfall",
         x = 57.40,
@@ -926,7 +926,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_oasis_snapjaw_44_51",
         name = "Oasis Snapjaw (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3461,
         mapID = 1413,
         zone = "The Barrens",
         x = 44.60,
@@ -951,7 +951,7 @@ GrindSpotterData.camps = {
     {
         id = "westfall_goretusk_30_36",
         name = "Goretusk & Young Goretusk (Westfall)",
-        creatureEntry = 0,
+        creatureEntry = 454,
         mapID = 1436,
         zone = "Westfall",
         x = 30.70,
@@ -982,7 +982,7 @@ GrindSpotterData.camps = {
     {
         id = "silverpine_forest_moonrage_glutton_11_32",
         name = "Moonrage Glutton (Silverpine Forest)",
-        creatureEntry = 0,
+        creatureEntry = 1779,
         mapID = 1421,
         zone = "Silverpine Forest",
         x = 11.40,
@@ -1007,7 +1007,7 @@ GrindSpotterData.camps = {
     {
         id = "darkshore_moonkin_27_51",
         name = "Moonkin & Young Moonkin (Darkshore)",
-        creatureEntry = 0,
+        creatureEntry = 10158,
         mapID = 1439,
         zone = "Darkshore",
         x = 27.80,
@@ -1031,7 +1031,7 @@ GrindSpotterData.camps = {
     {
         id = "duskwood_rabid_dire_wolf_22_22",
         name = "Rabid Dire Wolf & Starving Dire Wolf (Duskwood)",
-        creatureEntry = 0,
+        creatureEntry = 213,
         mapID = 1431,
         zone = "Duskwood",
         x = 22.40,
@@ -1056,7 +1056,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_burning_blade_bruiser_46_28",
         name = "Burning Blade Bruiser (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3379,
         mapID = 1413,
         zone = "The Barrens",
         x = 46.60,
@@ -1080,7 +1080,7 @@ GrindSpotterData.camps = {
     {
         id = "wetlands_dragonmaw_raider_41_44",
         name = "Dragonmaw Raider (Wetlands)",
-        creatureEntry = 0,
+        creatureEntry = 1034,
         mapID = 1437,
         zone = "Wetlands",
         x = 41.60,
@@ -1102,7 +1102,7 @@ GrindSpotterData.camps = {
     {
         id = "stonetalon_mountains_windshear_digger_83_76",
         name = "Windshear Digger (Stonetalon Mountains)",
-        creatureEntry = 0,
+        creatureEntry = 3999,
         mapID = 1442,
         zone = "Stonetalon Mountains",
         x = 83.70,
@@ -1124,7 +1124,7 @@ GrindSpotterData.camps = {
     {
         id = "hillsbrad_foothills_syndicate_watchman_94_39",
         name = "Syndicate Watchman (Hillsbrad Foothills)",
-        creatureEntry = 0,
+        creatureEntry = 2261,
         mapID = 1424,
         zone = "Hillsbrad Foothills",
         x = 94.00,
@@ -1147,7 +1147,7 @@ GrindSpotterData.camps = {
     {
         id = "duskwood_nightbane_dark_runner_59_76",
         name = "Nightbane Dark Runner (Duskwood)",
-        creatureEntry = 0,
+        creatureEntry = 205,
         mapID = 1431,
         zone = "Duskwood",
         x = 59.50,
@@ -1170,7 +1170,7 @@ GrindSpotterData.camps = {
     {
         id = "hillsbrad_foothills_hillsbrad_miner_28_54",
         name = "Hillsbrad Miner (Hillsbrad Foothills)",
-        creatureEntry = 0,
+        creatureEntry = 2269,
         mapID = 1424,
         zone = "Hillsbrad Foothills",
         x = 28.70,
@@ -1191,7 +1191,7 @@ GrindSpotterData.camps = {
     {
         id = "wetlands_wetlands_crocolisk_25_25",
         name = "Wetlands Crocolisk & Young Wetlands Crocolisk (Wetlands)",
-        creatureEntry = 0,
+        creatureEntry = 1400,
         mapID = 1437,
         zone = "Wetlands",
         x = 25.50,
@@ -1217,7 +1217,7 @@ GrindSpotterData.camps = {
     {
         id = "wetlands_highland_razormaw_79_27",
         name = "Highland Razormaw (Wetlands)",
-        creatureEntry = 0,
+        creatureEntry = 1018,
         mapID = 1437,
         zone = "Wetlands",
         x = 79.40,
@@ -1243,7 +1243,7 @@ GrindSpotterData.camps = {
     {
         id = "duskwood_black_widow_hatchling_18_51",
         name = "Black Widow Hatchling (Duskwood)",
-        creatureEntry = 0,
+        creatureEntry = 930,
         mapID = 1431,
         zone = "Duskwood",
         x = 18.50,
@@ -1263,7 +1263,7 @@ GrindSpotterData.camps = {
     {
         id = "thousand_needles_baeldun_excavator_67_8",
         name = "Bael'dun Excavator (Thousand Needles)",
-        creatureEntry = 0,
+        creatureEntry = 3374,
         mapID = 1441,
         zone = "Thousand Needles",
         x = 67.80,
@@ -1285,7 +1285,7 @@ GrindSpotterData.camps = {
     {
         id = "hillsbrad_foothills_starving_mountain_lion_60_35",
         name = "Starving Mountain Lion (Hillsbrad Foothills)",
-        creatureEntry = 0,
+        creatureEntry = 2384,
         mapID = 1424,
         zone = "Hillsbrad Foothills",
         x = 60.40,
@@ -1309,7 +1309,7 @@ GrindSpotterData.camps = {
     {
         id = "ashenvale_befouled_water_elemental_59_80",
         name = "Befouled Water Elemental (Ashenvale)",
-        creatureEntry = 0,
+        creatureEntry = 3917,
         mapID = 1440,
         zone = "Ashenvale",
         x = 59.70,
@@ -1335,7 +1335,7 @@ GrindSpotterData.camps = {
     {
         id = "ashenvale_ashenvale_bear_47_70",
         name = "Ashenvale Bear (Ashenvale)",
-        creatureEntry = 0,
+        creatureEntry = 3809,
         mapID = 1440,
         zone = "Ashenvale",
         x = 47.30,
@@ -1360,7 +1360,7 @@ GrindSpotterData.camps = {
     {
         id = "ashenvale_elder_shadowhorn_stag_72_21",
         name = "Elder Shadowhorn Stag (Ashenvale)",
-        creatureEntry = 0,
+        creatureEntry = 3818,
         mapID = 1440,
         zone = "Ashenvale",
         x = 72.10,
@@ -1384,7 +1384,7 @@ GrindSpotterData.camps = {
     {
         id = "wetlands_leech_stalker_54_69",
         name = "Leech Stalker (Wetlands)",
-        creatureEntry = 0,
+        creatureEntry = 1111,
         mapID = 1437,
         zone = "Wetlands",
         x = 54.40,
@@ -1404,7 +1404,7 @@ GrindSpotterData.camps = {
     {
         id = "ashenvale_elder_shadowhorn_stag_78_36",
         name = "Elder Shadowhorn Stag (Ashenvale)",
-        creatureEntry = 0,
+        creatureEntry = 3818,
         mapID = 1440,
         zone = "Ashenvale",
         x = 78.80,
@@ -1428,7 +1428,7 @@ GrindSpotterData.camps = {
     {
         id = "ashenvale_ashenvale_bear_66_53",
         name = "Ashenvale Bear (Ashenvale)",
-        creatureEntry = 0,
+        creatureEntry = 3809,
         mapID = 1440,
         zone = "Ashenvale",
         x = 66.60,
@@ -1453,7 +1453,7 @@ GrindSpotterData.camps = {
     {
         id = "duskwood_nightbane_dark_runner_57_45",
         name = "Nightbane Dark Runner (Duskwood)",
-        creatureEntry = 0,
+        creatureEntry = 205,
         mapID = 1431,
         zone = "Duskwood",
         x = 57.40,
@@ -1476,7 +1476,7 @@ GrindSpotterData.camps = {
     {
         id = "hillsbrad_foothills_torn_fin_coastrunner_28_74",
         name = "Torn Fin Coastrunner (Hillsbrad Foothills)",
-        creatureEntry = 0,
+        creatureEntry = 2375,
         mapID = 1424,
         zone = "Hillsbrad Foothills",
         x = 28.40,
@@ -1498,7 +1498,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_thunderhead_43_77",
         name = "Thunderhead (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3239,
         mapID = 1413,
         zone = "The Barrens",
         x = 43.20,
@@ -1523,7 +1523,7 @@ GrindSpotterData.camps = {
     {
         id = "ashenvale_shadowhorn_stag_45_76",
         name = "Shadowhorn Stag (Ashenvale)",
-        creatureEntry = 0,
+        creatureEntry = 3817,
         mapID = 1440,
         zone = "Ashenvale",
         x = 45.40,
@@ -1547,7 +1547,7 @@ GrindSpotterData.camps = {
     {
         id = "stonetalon_mountains_bloodfury_windcaller_18_78",
         name = "Bloodfury Windcaller (Stonetalon Mountains)",
-        creatureEntry = 0,
+        creatureEntry = 4026,
         mapID = 1442,
         zone = "Stonetalon Mountains",
         x = 18.00,
@@ -1569,7 +1569,7 @@ GrindSpotterData.camps = {
     {
         id = "duskwood_black_ravager_43_71",
         name = "Black Ravager & Young Black Ravager (Duskwood)",
-        creatureEntry = 0,
+        creatureEntry = 923,
         mapID = 1431,
         zone = "Duskwood",
         x = 43.10,
@@ -1594,7 +1594,7 @@ GrindSpotterData.camps = {
     {
         id = "the_barrens_thunderhead_50_72",
         name = "Thunderhead (The Barrens)",
-        creatureEntry = 0,
+        creatureEntry = 3239,
         mapID = 1413,
         zone = "The Barrens",
         x = 50.90,
@@ -1619,7 +1619,7 @@ GrindSpotterData.camps = {
     {
         id = "hillsbrad_foothills_hillsbrad_farmhand_33_35",
         name = "Hillsbrad Farmhand (Hillsbrad Foothills)",
-        creatureEntry = 0,
+        creatureEntry = 2360,
         mapID = 1424,
         zone = "Hillsbrad Foothills",
         x = 33.40,
@@ -1641,7 +1641,7 @@ GrindSpotterData.camps = {
     {
         id = "hillsbrad_foothills_elder_gray_bear_32_60",
         name = "Elder Gray Bear (Hillsbrad Foothills)",
-        creatureEntry = 0,
+        creatureEntry = 2356,
         mapID = 1424,
         zone = "Hillsbrad Foothills",
         x = 32.90,
@@ -1666,7 +1666,7 @@ GrindSpotterData.camps = {
     {
         id = "wetlands_wetlands_crocolisk_9_27",
         name = "Wetlands Crocolisk & Young Wetlands Crocolisk (Wetlands)",
-        creatureEntry = 0,
+        creatureEntry = 1400,
         mapID = 1437,
         zone = "Wetlands",
         x = 9.80,
@@ -1692,7 +1692,7 @@ GrindSpotterData.camps = {
     {
         id = "azshara_horde_scout_5_63",
         name = "Horde Scout (Azshara)",
-        creatureEntry = 0,
+        creatureEntry = 11680,
         mapID = 1447,
         zone = "Azshara",
         x = 5.90,
@@ -1714,7 +1714,7 @@ GrindSpotterData.camps = {
     {
         id = "darkshore_stormscale_warrior_53_11",
         name = "Stormscale Warrior (Darkshore)",
-        creatureEntry = 0,
+        creatureEntry = 2183,
         mapID = 1439,
         zone = "Darkshore",
         x = 53.50,
@@ -1736,7 +1736,7 @@ GrindSpotterData.camps = {
     {
         id = "wetlands_mosshide_mongrel_68_78",
         name = "Mosshide Mongrel (Wetlands)",
-        creatureEntry = 0,
+        creatureEntry = 1008,
         mapID = 1437,
         zone = "Wetlands",
         x = 68.80,
@@ -1758,7 +1758,7 @@ GrindSpotterData.camps = {
     {
         id = "ashenvale_laughing_sister_77_56",
         name = "Laughing Sister (Ashenvale)",
-        creatureEntry = 0,
+        creatureEntry = 4054,
         mapID = 1440,
         zone = "Ashenvale",
         x = 77.20,
@@ -1780,7 +1780,7 @@ GrindSpotterData.camps = {
     {
         id = "hillsbrad_foothills_daggerspine_shorestalker_75_84",
         name = "Daggerspine Shorestalker (Hillsbrad Foothills)",
-        creatureEntry = 0,
+        creatureEntry = 2368,
         mapID = 1424,
         zone = "Hillsbrad Foothills",
         x = 75.00,
@@ -1804,7 +1804,7 @@ GrindSpotterData.camps = {
     {
         id = "hillsbrad_foothills_vicious_gray_bear_45_37",
         name = "Vicious Gray Bear (Hillsbrad Foothills)",
-        creatureEntry = 0,
+        creatureEntry = 2354,
         mapID = 1424,
         zone = "Hillsbrad Foothills",
         x = 45.80,
@@ -1829,7 +1829,7 @@ GrindSpotterData.camps = {
     {
         id = "burning_steppes_blackrock_champion_15_82",
         name = "Blackrock Champion (Burning Steppes)",
-        creatureEntry = 0,
+        creatureEntry = 435,
         mapID = 1428,
         zone = "Burning Steppes",
         x = 15.40,
@@ -1852,7 +1852,7 @@ GrindSpotterData.camps = {
     {
         id = "wetlands_dragonmaw_bonewarder_45_47",
         name = "Dragonmaw Bonewarder (Wetlands)",
-        creatureEntry = 0,
+        creatureEntry = 1057,
         mapID = 1437,
         zone = "Wetlands",
         x = 45.70,
@@ -1872,7 +1872,7 @@ GrindSpotterData.camps = {
     {
         id = "ashenvale_elder_shadowhorn_stag_90_75",
         name = "Elder Shadowhorn Stag (Ashenvale)",
-        creatureEntry = 0,
+        creatureEntry = 3818,
         mapID = 1440,
         zone = "Ashenvale",
         x = 90.90,
@@ -1896,7 +1896,7 @@ GrindSpotterData.camps = {
     {
         id = "dustwallow_marsh_young_murk_thresher_91_59",
         name = "Young Murk Thresher (Dustwallow Marsh)",
-        creatureEntry = 0,
+        creatureEntry = 4388,
         mapID = 1445,
         zone = "Dustwallow Marsh",
         x = 91.90,
@@ -1918,7 +1918,7 @@ GrindSpotterData.camps = {
     {
         id = "badlands_feral_crag_coyote_58_70",
         name = "Feral Crag Coyote (Badlands)",
-        creatureEntry = 0,
+        creatureEntry = 2728,
         mapID = 1418,
         zone = "Badlands",
         x = 58.80,
@@ -1940,7 +1940,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_venture_co._geologist_47_22",
         name = "Venture Co. Geologist (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 1096,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 47.60,
@@ -1961,7 +1961,7 @@ GrindSpotterData.camps = {
     {
         id = "badlands_elder_crag_coyote_24_75",
         name = "Elder Crag Coyote (Badlands)",
-        creatureEntry = 0,
+        creatureEntry = 2729,
         mapID = 1418,
         zone = "Badlands",
         x = 24.70,
@@ -1983,7 +1983,7 @@ GrindSpotterData.camps = {
     {
         id = "swamp_of_sorrows_swamp_jaguar_51_39",
         name = "Swamp Jaguar (Swamp of Sorrows)",
-        creatureEntry = 0,
+        creatureEntry = 767,
         mapID = 1435,
         zone = "Swamp of Sorrows",
         x = 51.90,
@@ -2005,7 +2005,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_jungle_stalker_18_45",
         name = "Jungle Stalker & Young Jungle Stalker (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 687,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 18.70,
@@ -2029,7 +2029,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_highland_strider_66_26",
         name = "Highland Strider (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 2559,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 66.10,
@@ -2053,7 +2053,7 @@ GrindSpotterData.camps = {
     {
         id = "dustwallow_marsh_drywallow_snapper_37_42",
         name = "Drywallow Snapper (Dustwallow Marsh)",
-        creatureEntry = 0,
+        creatureEntry = 4343,
         mapID = 1445,
         zone = "Dustwallow Marsh",
         x = 37.50,
@@ -2075,7 +2075,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_witherbark_headhunter_71_64",
         name = "Witherbark Headhunter (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 2556,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 71.00,
@@ -2096,7 +2096,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_highland_thrasher_25_14",
         name = "Highland Thrasher (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 2560,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 25.60,
@@ -2121,7 +2121,7 @@ GrindSpotterData.camps = {
     {
         id = "badlands_crag_coyote_49_53",
         name = "Crag Coyote (Badlands)",
-        creatureEntry = 0,
+        creatureEntry = 2727,
         mapID = 1418,
         zone = "Badlands",
         x = 49.20,
@@ -2145,7 +2145,7 @@ GrindSpotterData.camps = {
     {
         id = "dustwallow_marsh_theramore_deserter_26_57",
         name = "Theramore Deserter (Dustwallow Marsh)",
-        creatureEntry = 0,
+        creatureEntry = 5057,
         mapID = 1445,
         zone = "Dustwallow Marsh",
         x = 26.80,
@@ -2165,7 +2165,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_jungle_thunderer_44_30",
         name = "Jungle Thunderer (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 1114,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 44.60,
@@ -2186,7 +2186,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_hammerfall_peon_60_40",
         name = "Hammerfall Peon (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 2618,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 60.40,
@@ -2208,7 +2208,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_highland_thrasher_21_50",
         name = "Highland Thrasher (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 2560,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 21.50,
@@ -2233,7 +2233,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_highland_strider_28_26",
         name = "Highland Strider (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 2559,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 28.60,
@@ -2257,7 +2257,7 @@ GrindSpotterData.camps = {
     {
         id = "dustwallow_marsh_mottled_drywallow_crocolisk_29_62",
         name = "Mottled Drywallow Crocolisk (Dustwallow Marsh)",
-        creatureEntry = 0,
+        creatureEntry = 4344,
         mapID = 1445,
         zone = "Dustwallow Marsh",
         x = 29.90,
@@ -2279,7 +2279,7 @@ GrindSpotterData.camps = {
     {
         id = "desolace_scorpashi_snapper_41_22",
         name = "Scorpashi Snapper (Desolace)",
-        creatureEntry = 0,
+        creatureEntry = 4696,
         mapID = 1443,
         zone = "Desolace",
         x = 41.70,
@@ -2303,7 +2303,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_dabyrie_laborer_50_18",
         name = "Dabyrie Laborer (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 2582,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 50.70,
@@ -2324,7 +2324,7 @@ GrindSpotterData.camps = {
     {
         id = "desolace_undead_ravager_36_89",
         name = "Undead Ravager (Desolace)",
-        creatureEntry = 0,
+        creatureEntry = 11561,
         mapID = 1443,
         zone = "Desolace",
         x = 36.00,
@@ -2344,7 +2344,7 @@ GrindSpotterData.camps = {
     {
         id = "alterac_mountains_snapjaw_50_40",
         name = "Snapjaw (Alterac Mountains)",
-        creatureEntry = 0,
+        creatureEntry = 2408,
         mapID = 1416,
         zone = "Alterac Mountains",
         x = 50.40,
@@ -2368,7 +2368,7 @@ GrindSpotterData.camps = {
     {
         id = "dustwallow_marsh_mottled_drywallow_crocolisk_30_51",
         name = "Mottled Drywallow Crocolisk (Dustwallow Marsh)",
-        creatureEntry = 0,
+        creatureEntry = 4344,
         mapID = 1445,
         zone = "Dustwallow Marsh",
         x = 30.90,
@@ -2390,7 +2390,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_stranglethorn_raptor_9_18",
         name = "Stranglethorn Raptor & Young Stranglethorn Raptor (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 685,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 9.60,
@@ -2416,7 +2416,7 @@ GrindSpotterData.camps = {
     {
         id = "badlands_ridge_huntress_39_67",
         name = "Ridge Huntress (Badlands)",
-        creatureEntry = 0,
+        creatureEntry = 2732,
         mapID = 1418,
         zone = "Badlands",
         x = 39.50,
@@ -2438,7 +2438,7 @@ GrindSpotterData.camps = {
     {
         id = "alterac_mountains_snapjaw_76_16",
         name = "Snapjaw (Alterac Mountains)",
-        creatureEntry = 0,
+        creatureEntry = 2408,
         mapID = 1416,
         zone = "Alterac Mountains",
         x = 76.60,
@@ -2462,7 +2462,7 @@ GrindSpotterData.camps = {
     {
         id = "desolace_dread_swoop_43_57",
         name = "Dread Swoop (Desolace)",
-        creatureEntry = 0,
+        creatureEntry = 4692,
         mapID = 1443,
         zone = "Desolace",
         x = 43.60,
@@ -2481,7 +2481,7 @@ GrindSpotterData.camps = {
     {
         id = "swamp_of_sorrows_young_sawtooth_crocolisk_44_41",
         name = "Young Sawtooth Crocolisk (Swamp of Sorrows)",
-        creatureEntry = 0,
+        creatureEntry = 1084,
         mapID = 1435,
         zone = "Swamp of Sorrows",
         x = 44.70,
@@ -2505,7 +2505,7 @@ GrindSpotterData.camps = {
     {
         id = "swamp_of_sorrows_sawtooth_crocolisk_76_44",
         name = "Sawtooth Crocolisk (Swamp of Sorrows)",
-        creatureEntry = 0,
+        creatureEntry = 1082,
         mapID = 1435,
         zone = "Swamp of Sorrows",
         x = 76.00,
@@ -2528,7 +2528,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_highland_strider_45_26",
         name = "Highland Strider (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 2559,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 45.20,
@@ -2552,7 +2552,7 @@ GrindSpotterData.camps = {
     {
         id = "desolace_burning_blade_felsworn_26_24",
         name = "Burning Blade Felsworn (Desolace)",
-        creatureEntry = 0,
+        creatureEntry = 4666,
         mapID = 1443,
         zone = "Desolace",
         x = 26.90,
@@ -2573,7 +2573,7 @@ GrindSpotterData.camps = {
     {
         id = "badlands_shadowforge_warrior_37_40",
         name = "Shadowforge Warrior (Badlands)",
-        creatureEntry = 0,
+        creatureEntry = 2743,
         mapID = 1418,
         zone = "Badlands",
         x = 37.60,
@@ -2593,7 +2593,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_syndicate_highwayman_14_6",
         name = "Syndicate Highwayman (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 2586,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 14.50,
@@ -2614,7 +2614,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_plains_creeper_71_32",
         name = "Plains Creeper (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 2563,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 71.40,
@@ -2633,7 +2633,7 @@ GrindSpotterData.camps = {
     {
         id = "dustwallow_marsh_mirefin_murloc_66_10",
         name = "Mirefin Murloc (Dustwallow Marsh)",
-        creatureEntry = 0,
+        creatureEntry = 4359,
         mapID = 1445,
         zone = "Dustwallow Marsh",
         x = 66.20,
@@ -2654,7 +2654,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_snapjaw_crocolisk_40_21",
         name = "Snapjaw Crocolisk (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 1152,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 40.50,
@@ -2678,7 +2678,7 @@ GrindSpotterData.camps = {
     {
         id = "swamp_of_sorrows_nethergarde_miner_69_66",
         name = "Nethergarde Miner (Swamp of Sorrows)",
-        creatureEntry = 0,
+        creatureEntry = 5996,
         mapID = 1435,
         zone = "Swamp of Sorrows",
         x = 69.10,
@@ -2697,7 +2697,7 @@ GrindSpotterData.camps = {
     {
         id = "blasted_lands_nethergarde_soldier_47_33",
         name = "Nethergarde Soldier (Blasted Lands)",
-        creatureEntry = 0,
+        creatureEntry = 5999,
         mapID = 1419,
         zone = "Blasted Lands",
         x = 47.90,
@@ -2718,7 +2718,7 @@ GrindSpotterData.camps = {
     {
         id = "searing_gorge_slave_worker_11_34",
         name = "Slave Worker (Searing Gorge)",
-        creatureEntry = 0,
+        creatureEntry = 5843,
         mapID = 1427,
         zone = "Searing Gorge",
         x = 11.90,
@@ -2738,7 +2738,7 @@ GrindSpotterData.camps = {
     {
         id = "blasted_lands_nethergarde_miner_57_22",
         name = "Nethergarde Miner (Blasted Lands)",
-        creatureEntry = 0,
+        creatureEntry = 5996,
         mapID = 1419,
         zone = "Blasted Lands",
         x = 57.40,
@@ -2757,7 +2757,7 @@ GrindSpotterData.camps = {
     {
         id = "dustwallow_marsh_drywallow_daggermaw_51_83",
         name = "Drywallow Daggermaw (Dustwallow Marsh)",
-        creatureEntry = 0,
+        creatureEntry = 4345,
         mapID = 1445,
         zone = "Dustwallow Marsh",
         x = 51.40,
@@ -2779,7 +2779,7 @@ GrindSpotterData.camps = {
     {
         id = "the_hinterlands_silvermane_stalker_91_40",
         name = "Silvermane Stalker (The Hinterlands)",
-        creatureEntry = 0,
+        creatureEntry = 2926,
         mapID = 1425,
         zone = "The Hinterlands",
         x = 91.70,
@@ -2802,7 +2802,7 @@ GrindSpotterData.camps = {
     {
         id = "tanaris_surf_glider_84_87",
         name = "Surf Glider (Tanaris)",
-        creatureEntry = 0,
+        creatureEntry = 5431,
         mapID = 1446,
         zone = "Tanaris",
         x = 84.10,
@@ -2826,7 +2826,7 @@ GrindSpotterData.camps = {
     {
         id = "tanaris_surf_glider_73_82",
         name = "Surf Glider (Tanaris)",
-        creatureEntry = 0,
+        creatureEntry = 5431,
         mapID = 1446,
         zone = "Tanaris",
         x = 73.90,
@@ -2850,7 +2850,7 @@ GrindSpotterData.camps = {
     {
         id = "felwood_jadefire_satyr_72_90",
         name = "Jadefire Satyr (Felwood)",
-        creatureEntry = 0,
+        creatureEntry = 7105,
         mapID = 1448,
         zone = "Felwood",
         x = 72.50,
@@ -2869,7 +2869,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_naga_explorer_11_64",
         name = "Naga Explorer (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 1907,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 11.00,
@@ -2889,7 +2889,7 @@ GrindSpotterData.camps = {
     {
         id = "tanaris_rabid_blisterpaw_60_39",
         name = "Rabid Blisterpaw (Tanaris)",
-        creatureEntry = 0,
+        creatureEntry = 5427,
         mapID = 1446,
         zone = "Tanaris",
         x = 60.00,
@@ -2913,7 +2913,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_elder_mistvale_gorilla_24_68",
         name = "Elder Mistvale Gorilla (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 1557,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 24.60,
@@ -2934,7 +2934,7 @@ GrindSpotterData.camps = {
     {
         id = "the_hinterlands_mangy_silvermane_11_38",
         name = "Mangy Silvermane (The Hinterlands)",
-        creatureEntry = 0,
+        creatureEntry = 2923,
         mapID = 1425,
         zone = "The Hinterlands",
         x = 11.20,
@@ -2959,7 +2959,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_ironjaw_basilisk_44_50",
         name = "Ironjaw Basilisk (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 1551,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 44.70,
@@ -2983,7 +2983,7 @@ GrindSpotterData.camps = {
     {
         id = "dustwallow_marsh_drywallow_daggermaw_50_67",
         name = "Drywallow Daggermaw (Dustwallow Marsh)",
-        creatureEntry = 0,
+        creatureEntry = 4345,
         mapID = 1445,
         zone = "Dustwallow Marsh",
         x = 50.00,
@@ -3005,7 +3005,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_frayfeather_skystormer_23_45",
         name = "Frayfeather Skystormer (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 5305,
         mapID = 1444,
         zone = "Feralas",
         x = 23.70,
@@ -3027,7 +3027,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_venture_co._strip_miner_41_45",
         name = "Venture Co. Strip Miner (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 674,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 41.70,
@@ -3047,7 +3047,7 @@ GrindSpotterData.camps = {
     {
         id = "tanaris_surf_glider_95_82",
         name = "Surf Glider (Tanaris)",
-        creatureEntry = 0,
+        creatureEntry = 5431,
         mapID = 1446,
         zone = "Tanaris",
         x = 95.30,
@@ -3071,7 +3071,7 @@ GrindSpotterData.camps = {
     {
         id = "tanaris_blisterpaw_hyena_78_45",
         name = "Blisterpaw Hyena (Tanaris)",
-        creatureEntry = 0,
+        creatureEntry = 5426,
         mapID = 1446,
         zone = "Tanaris",
         x = 78.00,
@@ -3096,7 +3096,7 @@ GrindSpotterData.camps = {
     {
         id = "dustwallow_marsh_firemane_flamecaller_58_91",
         name = "Firemane Flamecaller (Dustwallow Marsh)",
-        creatureEntry = 0,
+        creatureEntry = 4334,
         mapID = 1445,
         zone = "Dustwallow Marsh",
         x = 58.40,
@@ -3118,7 +3118,7 @@ GrindSpotterData.camps = {
     {
         id = "the_hinterlands_silvermane_wolf_38_36",
         name = "Silvermane Wolf (The Hinterlands)",
-        creatureEntry = 0,
+        creatureEntry = 2924,
         mapID = 1425,
         zone = "The Hinterlands",
         x = 38.50,
@@ -3142,7 +3142,7 @@ GrindSpotterData.camps = {
     {
         id = "arathi_highlands_refuge_pointe_defender_36_27",
         name = "Refuge Pointe Defender (Arathi Highlands)",
-        creatureEntry = 0,
+        creatureEntry = 10696,
         mapID = 1417,
         zone = "Arathi Highlands",
         x = 36.00,
@@ -3162,7 +3162,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_sprite_darter_43_21",
         name = "Sprite Darter (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 5278,
         mapID = 1444,
         zone = "Feralas",
         x = 43.00,
@@ -3187,7 +3187,7 @@ GrindSpotterData.camps = {
     {
         id = "felwood_felpaw_wolf_92_85",
         name = "Felpaw Wolf (Felwood)",
-        creatureEntry = 0,
+        creatureEntry = 8959,
         mapID = 1448,
         zone = "Felwood",
         x = 92.70,
@@ -3211,7 +3211,7 @@ GrindSpotterData.camps = {
     {
         id = "ungoro_crater_ravasaur_83_77",
         name = "Ravasaur (Un'Goro Crater)",
-        creatureEntry = 0,
+        creatureEntry = 6505,
         mapID = 1449,
         zone = "Un'Goro Crater",
         x = 83.40,
@@ -3232,7 +3232,7 @@ GrindSpotterData.camps = {
     {
         id = "tanaris_blisterpaw_hyena_93_48",
         name = "Blisterpaw Hyena (Tanaris)",
-        creatureEntry = 0,
+        creatureEntry = 5426,
         mapID = 1446,
         zone = "Tanaris",
         x = 93.30,
@@ -3257,7 +3257,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_southern_sand_crawler_16_88",
         name = "Southern Sand Crawler (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 2544,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 16.80,
@@ -3279,7 +3279,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_longtooth_howler_46_34",
         name = "Longtooth Howler (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 5287,
         mapID = 1444,
         zone = "Feralas",
         x = 46.60,
@@ -3303,7 +3303,7 @@ GrindSpotterData.camps = {
     {
         id = "blasted_lands_marsh_inkspewer_89_17",
         name = "Marsh Inkspewer (Blasted Lands)",
-        creatureEntry = 0,
+        creatureEntry = 750,
         mapID = 1419,
         zone = "Blasted Lands",
         x = 89.80,
@@ -3323,7 +3323,7 @@ GrindSpotterData.camps = {
     {
         id = "tanaris_scorpid_tail_lasher_91_34",
         name = "Scorpid Tail Lasher (Tanaris)",
-        creatureEntry = 0,
+        creatureEntry = 5423,
         mapID = 1446,
         zone = "Tanaris",
         x = 91.20,
@@ -3348,7 +3348,7 @@ GrindSpotterData.camps = {
     {
         id = "felwood_angerclaw_mauler_77_67",
         name = "Angerclaw Mauler (Felwood)",
-        creatureEntry = 0,
+        creatureEntry = 8958,
         mapID = 1448,
         zone = "Felwood",
         x = 77.80,
@@ -3371,7 +3371,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_longtooth_runner_71_13",
         name = "Longtooth Runner (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 5286,
         mapID = 1444,
         zone = "Feralas",
         x = 71.90,
@@ -3395,7 +3395,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_longtooth_runner_58_12",
         name = "Longtooth Runner (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 5286,
         mapID = 1444,
         zone = "Feralas",
         x = 58.40,
@@ -3419,7 +3419,7 @@ GrindSpotterData.camps = {
     {
         id = "tanaris_rabid_blisterpaw_40_57",
         name = "Rabid Blisterpaw (Tanaris)",
-        creatureEntry = 0,
+        creatureEntry = 5427,
         mapID = 1446,
         zone = "Tanaris",
         x = 40.60,
@@ -3443,7 +3443,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_woodpaw_mystic_42_27",
         name = "Woodpaw Mystic (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 5254,
         mapID = 1444,
         zone = "Feralas",
         x = 42.10,
@@ -3463,7 +3463,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_hivezora_wasp_20_84",
         name = "Hive'Zora Wasp (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 11727,
         mapID = 1444,
         zone = "Feralas",
         x = 20.30,
@@ -3482,7 +3482,7 @@ GrindSpotterData.camps = {
     {
         id = "darkshore_shatterspear_troll_64_13",
         name = "Shatterspear Troll (Darkshore)",
-        creatureEntry = 0,
+        creatureEntry = 10919,
         mapID = 1439,
         zone = "Darkshore",
         x = 64.30,
@@ -3501,7 +3501,7 @@ GrindSpotterData.camps = {
     {
         id = "western_plaguelands_skeletal_acolyte_73_88",
         name = "Skeletal Acolyte (Western Plaguelands)",
-        creatureEntry = 0,
+        creatureEntry = 1789,
         mapID = 1422,
         zone = "Western Plaguelands",
         x = 73.60,
@@ -3520,7 +3520,7 @@ GrindSpotterData.camps = {
     {
         id = "silithus_stonelash_pincer_26_59",
         name = "Stonelash Pincer (Silithus)",
-        creatureEntry = 0,
+        creatureEntry = 11736,
         mapID = 1451,
         zone = "Silithus",
         x = 26.20,
@@ -3543,7 +3543,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_hivezora_wasp_23_78",
         name = "Hive'Zora Wasp (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 11727,
         mapID = 1444,
         zone = "Feralas",
         x = 23.20,
@@ -3562,7 +3562,7 @@ GrindSpotterData.camps = {
     {
         id = "silithus_rock_stalker_19_77",
         name = "Rock Stalker (Silithus)",
-        creatureEntry = 0,
+        creatureEntry = 11739,
         mapID = 1451,
         zone = "Silithus",
         x = 19.80,
@@ -3581,7 +3581,7 @@ GrindSpotterData.camps = {
     {
         id = "eastern_plaguelands_frenzied_plaguehound_84_30",
         name = "Frenzied Plaguehound (Eastern Plaguelands)",
-        creatureEntry = 0,
+        creatureEntry = 8598,
         mapID = 1423,
         zone = "Eastern Plaguelands",
         x = 84.90,
@@ -3604,7 +3604,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_gordok_hyena_34_4",
         name = "Gordok Hyena (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 12418,
         mapID = 1444,
         zone = "Feralas",
         x = 34.20,
@@ -3630,7 +3630,7 @@ GrindSpotterData.camps = {
     {
         id = "silithus_stonelash_pincer_42_61",
         name = "Stonelash Pincer (Silithus)",
-        creatureEntry = 0,
+        creatureEntry = 11736,
         mapID = 1451,
         zone = "Silithus",
         x = 42.50,
@@ -3653,7 +3653,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_dust_stormer_18_64",
         name = "Dust Stormer (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 11744,
         mapID = 1444,
         zone = "Feralas",
         x = 18.70,
@@ -3675,7 +3675,7 @@ GrindSpotterData.camps = {
     {
         id = "silithus_stonelash_flayer_12_80",
         name = "Stonelash Flayer (Silithus)",
-        creatureEntry = 0,
+        creatureEntry = 11737,
         mapID = 1451,
         zone = "Silithus",
         x = 12.80,
@@ -3698,7 +3698,7 @@ GrindSpotterData.camps = {
     {
         id = "ungoro_crater_gorishi_reaver_63_81",
         name = "Gorishi Reaver (Un'Goro Crater)",
-        creatureEntry = 0,
+        creatureEntry = 6553,
         mapID = 1449,
         zone = "Un'Goro Crater",
         x = 63.30,
@@ -3718,7 +3718,7 @@ GrindSpotterData.camps = {
     {
         id = "winterspring_ice_thistle_yeti_96_39",
         name = "Ice Thistle Yeti (Winterspring)",
-        creatureEntry = 0,
+        creatureEntry = 7458,
         mapID = 1452,
         zone = "Winterspring",
         x = 96.00,
@@ -3740,7 +3740,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_stonelash_pincer_28_71",
         name = "Stonelash Pincer (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 11736,
         mapID = 1444,
         zone = "Feralas",
         x = 28.70,
@@ -3763,7 +3763,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_stonelash_scorpid_50_64",
         name = "Stonelash Scorpid (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 11735,
         mapID = 1444,
         zone = "Feralas",
         x = 50.70,
@@ -3786,7 +3786,7 @@ GrindSpotterData.camps = {
     {
         id = "western_plaguelands_soulless_ghoul_67_92",
         name = "Soulless Ghoul (Western Plaguelands)",
-        creatureEntry = 0,
+        creatureEntry = 1794,
         mapID = 1422,
         zone = "Western Plaguelands",
         x = 67.80,
@@ -3805,7 +3805,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_desert_rumbler_21_58",
         name = "Desert Rumbler (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 11746,
         mapID = 1444,
         zone = "Feralas",
         x = 21.30,
@@ -3828,7 +3828,7 @@ GrindSpotterData.camps = {
     {
         id = "eastern_plaguelands_plagued_swine_30_24",
         name = "Plagued Swine (Eastern Plaguelands)",
-        creatureEntry = 0,
+        creatureEntry = 16117,
         mapID = 1423,
         zone = "Eastern Plaguelands",
         x = 30.50,
@@ -3851,7 +3851,7 @@ GrindSpotterData.camps = {
     {
         id = "ungoro_crater_diemetradon_64_65",
         name = "Diemetradon (Un'Goro Crater)",
-        creatureEntry = 0,
+        creatureEntry = 9163,
         mapID = 1449,
         zone = "Un'Goro Crater",
         x = 64.60,
@@ -3873,7 +3873,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_dredge_striker_46_60",
         name = "Dredge Striker (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 11740,
         mapID = 1444,
         zone = "Feralas",
         x = 46.10,
@@ -3894,7 +3894,7 @@ GrindSpotterData.camps = {
     {
         id = "western_plaguelands_rotting_cadaver_76_66",
         name = "Rotting Cadaver (Western Plaguelands)",
-        creatureEntry = 0,
+        creatureEntry = 4474,
         mapID = 1422,
         zone = "Western Plaguelands",
         x = 76.20,
@@ -3913,7 +3913,7 @@ GrindSpotterData.camps = {
     {
         id = "western_plaguelands_skeletal_flayer_59_72",
         name = "Skeletal Flayer (Western Plaguelands)",
-        creatureEntry = 0,
+        creatureEntry = 1783,
         mapID = 1422,
         zone = "Western Plaguelands",
         x = 59.00,
@@ -3933,7 +3933,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_gordok_hyena_27_17",
         name = "Gordok Hyena (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 12418,
         mapID = 1444,
         zone = "Feralas",
         x = 27.90,
@@ -3959,7 +3959,7 @@ GrindSpotterData.camps = {
     {
         id = "tanaris_venomhide_ravasaur_20_19",
         name = "Venomhide Ravasaur (Tanaris)",
-        creatureEntry = 0,
+        creatureEntry = 6508,
         mapID = 1446,
         zone = "Tanaris",
         x = 20.70,
@@ -3980,7 +3980,7 @@ GrindSpotterData.camps = {
     {
         id = "silithus_stonelash_pincer_55_62",
         name = "Stonelash Pincer (Silithus)",
-        creatureEntry = 0,
+        creatureEntry = 11736,
         mapID = 1451,
         zone = "Silithus",
         x = 55.60,
@@ -4003,7 +4003,7 @@ GrindSpotterData.camps = {
     {
         id = "eastern_plaguelands_noxious_plaguebat_90_57",
         name = "Noxious Plaguebat (Eastern Plaguelands)",
-        creatureEntry = 0,
+        creatureEntry = 8601,
         mapID = 1423,
         zone = "Eastern Plaguelands",
         x = 90.80,
@@ -4026,7 +4026,7 @@ GrindSpotterData.camps = {
     {
         id = "ungoro_crater_living_blaze_67_48",
         name = "Living Blaze (Un'Goro Crater)",
-        creatureEntry = 0,
+        creatureEntry = 6521,
         mapID = 1449,
         zone = "Un'Goro Crater",
         x = 67.00,
@@ -4047,7 +4047,7 @@ GrindSpotterData.camps = {
     {
         id = "western_plaguelands_venom_mist_lurker_53_80",
         name = "Venom Mist Lurker (Western Plaguelands)",
-        creatureEntry = 0,
+        creatureEntry = 1822,
         mapID = 1422,
         zone = "Western Plaguelands",
         x = 53.00,
@@ -4066,7 +4066,7 @@ GrindSpotterData.camps = {
     {
         id = "eastern_plaguelands_wailing_death_8_94",
         name = "Wailing Death (Eastern Plaguelands)",
-        creatureEntry = 0,
+        creatureEntry = 1804,
         mapID = 1423,
         zone = "Eastern Plaguelands",
         x = 8.80,
@@ -4085,7 +4085,7 @@ GrindSpotterData.camps = {
     {
         id = "burning_steppes_firegut_brute_37_38",
         name = "Firegut Brute (Burning Steppes)",
-        creatureEntry = 0,
+        creatureEntry = 7035,
         mapID = 1428,
         zone = "Burning Steppes",
         x = 37.90,
@@ -4104,7 +4104,7 @@ GrindSpotterData.camps = {
     {
         id = "silithus_stonelash_flayer_24_72",
         name = "Stonelash Flayer (Silithus)",
-        creatureEntry = 0,
+        creatureEntry = 11737,
         mapID = 1451,
         zone = "Silithus",
         x = 24.10,
@@ -4127,7 +4127,7 @@ GrindSpotterData.camps = {
     {
         id = "silithus_hivezora_wasp_24_63",
         name = "Hive'Zora Wasp (Silithus)",
-        creatureEntry = 0,
+        creatureEntry = 11727,
         mapID = 1451,
         zone = "Silithus",
         x = 24.10,
@@ -4146,7 +4146,7 @@ GrindSpotterData.camps = {
     {
         id = "winterspring_rabid_shardtooth_78_76",
         name = "Rabid Shardtooth (Winterspring)",
-        creatureEntry = 0,
+        creatureEntry = 7446,
         mapID = 1452,
         zone = "Winterspring",
         x = 78.80,
@@ -4170,7 +4170,7 @@ GrindSpotterData.camps = {
     {
         id = "silithus_rock_stalker_31_72",
         name = "Rock Stalker (Silithus)",
-        creatureEntry = 0,
+        creatureEntry = 11739,
         mapID = 1451,
         zone = "Silithus",
         x = 31.90,
@@ -4189,7 +4189,7 @@ GrindSpotterData.camps = {
     {
         id = "stranglethorn_vale_skymane_gorilla_40_83",
         name = "Skymane Gorilla (Stranglethorn Vale)",
-        creatureEntry = 0,
+        creatureEntry = 2521,
         mapID = 1434,
         zone = "Stranglethorn Vale",
         x = 40.40,
@@ -4212,7 +4212,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_dust_stormer_26_59",
         name = "Dust Stormer (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 11744,
         mapID = 1444,
         zone = "Feralas",
         x = 26.80,
@@ -4234,7 +4234,7 @@ GrindSpotterData.camps = {
     {
         id = "darkshore_irontree_stomper_58_49",
         name = "Irontree Stomper (Darkshore)",
-        creatureEntry = 0,
+        creatureEntry = 7139,
         mapID = 1439,
         zone = "Darkshore",
         x = 58.00,
@@ -4253,7 +4253,7 @@ GrindSpotterData.camps = {
     {
         id = "deadwind_pass_unliving_resident_40_69",
         name = "Unliving Resident (Deadwind Pass)",
-        creatureEntry = 0,
+        creatureEntry = 12380,
         mapID = 1430,
         zone = "Deadwind Pass",
         x = 40.90,
@@ -4272,7 +4272,7 @@ GrindSpotterData.camps = {
     {
         id = "feralas_stonelash_pincer_21_72",
         name = "Stonelash Pincer (Feralas)",
-        creatureEntry = 0,
+        creatureEntry = 11736,
         mapID = 1444,
         zone = "Feralas",
         x = 21.60,
@@ -4295,7 +4295,7 @@ GrindSpotterData.camps = {
     {
         id = "azshara_coralshell_lurker_91_4",
         name = "Coralshell Lurker (Azshara)",
-        creatureEntry = 0,
+        creatureEntry = 6352,
         mapID = 1447,
         zone = "Azshara",
         x = 91.50,
