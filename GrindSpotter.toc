@@ -3,6 +3,7 @@
 ## Notes: Intelligent Classic Era grinding spot recommender with drop calculations, class suitability, and skinning checks.
 ## Author: Cline
 ## Version: 1.0.0
+## IconTexture: Interface\Icons\INV_Misc_Book_09
 ## SavedVariables: GrindSpotterDB
 
 Data.lua

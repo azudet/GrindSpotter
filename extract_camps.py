@@ -320,6 +320,8 @@ def cluster_spawns(all_spawns, quest_creature_ids, creature_spell_tags, creature
                 tags.add("CASUAL_PULL")
 
             camp_faction = zone_info["faction"]
+            if type_tag in ("BEAST", "DRAGONKIN", "ELEMENTAL"):
+                camp_faction = "Both"
 
             if len(names) == 1:
                 camp_name = f"{names[0]} ({zone_info['zone']})"

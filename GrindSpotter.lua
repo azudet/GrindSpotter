@@ -92,7 +92,7 @@ local function IsFuzzyMatch(needle, haystack)
     local maxDist = 1
     if needleLen > 7 then
         maxDist = 3
-    elseif needleLen > 4 then
+    elseif needleLen >= 4 then
         maxDist = 2
     else
         maxDist = 1
@@ -247,8 +247,20 @@ function GrindSpotter:SelectCamp(campResult)
     elseif camp.maxLevel >= (playerLevel - 4) then lvlColor = "|cff40ff40"
     else lvlColor = "|cff808080" end
 
+    -- Travel status
+    local curMap = (C_Map and C_Map.GetBestMapForUnit) and C_Map.GetBestMapForUnit("player") or nil
+    local curContinent = curMap and GetContinentMapID(curMap) or nil
+    local campContinent = camp.mapID and GetContinentMapID(camp.mapID) or nil
+
+    local travelBadge = ""
+    if curMap and camp.mapID and curMap == camp.mapID then
+        travelBadge = " |cff00ff00[ Local Zone - No Travel Required ]|r"
+    elseif curContinent and campContinent and curContinent ~= campContinent then
+        travelBadge = " |cffff4444[ Other Continent - Requires Boat/Zeppelin ]|r"
+    end
+
     rightPage.campNameText:SetText(string.format("|cffffffff%s|r", camp.name))
-    rightPage.campSubText:SetText(string.format("%s • %s [Lv %d-%d]|r • (%.1f, %.1f)", camp.zone, lvlColor, camp.minLevel, camp.maxLevel, camp.x, camp.y))
+    rightPage.campSubText:SetText(string.format("%s • %s [Lv %d-%d]|r • (%.1f, %.1f)%s", camp.zone, lvlColor, camp.minLevel, camp.maxLevel, camp.x, camp.y, travelBadge))
 
     local score = (type(campResult) == "table" and campResult.score) or nil
     if score then
@@ -265,10 +277,16 @@ function GrindSpotter:SelectCamp(campResult)
         elseif rightPage.modelFrame.SetModel then
             rightPage.modelFrame:SetModel("")
         end
-        if camp.creatureEntry and camp.creatureEntry > 0 then
-            rightPage.modelFrame:SetCreature(camp.creatureEntry)
-        end
         rightPage.modelFrame:SetRotation(0.3)
+        C_Timer.After(0.05, function()
+            if rightPage.modelFrame and camp.creatureEntry and camp.creatureEntry > 0 then
+                rightPage.modelFrame:Show()
+                rightPage.modelFrame:SetCreature(camp.creatureEntry)
+                if rightPage.modelFrame.SetCustomCamera then
+                    rightPage.modelFrame:SetCustomCamera(0)
+                end
+            end
+        end)
     end
 
     -- 3. Under the model: Class Hazard warnings & Skinning requirements
@@ -313,8 +331,11 @@ function GrindSpotter:SelectCamp(campResult)
     local isBeast = HasTag(camp.tags, "BEAST") or HasTag(camp.tags, "DRAGONKIN")
     
     if isBeast or HasTag(camp.tags, "SKINNING") then
-        local skinnableColor = (skinningRank >= reqRank) and "|cff00ff00" or "|cffff4444"
-        rightPage.skinningText:SetText(string.format("Skinning Req: %s%d|r (Your Rank: |cffffd100%d/%d|r)", skinnableColor, reqRank, skinningRank, maxSkinningRank))
+        if skinningRank >= reqRank then
+            rightPage.skinningText:SetText(string.format("|cff00ff00[ Knife Ready: Skill %d/%d ]|r", skinningRank, reqRank))
+        else
+            rightPage.skinningText:SetText(string.format("|cffff4444[ ⛔ Bottleneck: Requires Skinning %d (You: %d) ]|r", reqRank, skinningRank))
+        end
     else
         rightPage.skinningText:SetText("|cff808080Skinning: Not skinnable|r")
     end
@@ -369,23 +390,14 @@ local function CreateResultCard(parent, index)
     highlight:SetAllPoints(card)
     card.highlight = highlight
 
-    local selectBorder = card:CreateTexture(nil, "OVERLAY")
-    selectBorder:SetTexture("Interface\\Buttons\\CheckButtonHilight")
-    selectBorder:SetBlendMode("ADD")
-    selectBorder:SetAllPoints(card)
-    selectBorder:Hide()
-    card.selectBorder = selectBorder
-
     function card:SetSelected(isSelected)
         card.isSelected = isSelected
         if isSelected then
             card:SetBackdropBorderColor(1.0, 0.82, 0.0, 1.0)
             card:SetBackdropColor(0.15, 0.13, 0.05, 0.95)
-            selectBorder:Show()
         else
             card:SetBackdropBorderColor(0.4, 0.4, 0.4, 0.8)
             card:SetBackdropColor(0.08, 0.08, 0.1, 0.88)
-            selectBorder:Hide()
         end
     end
 
@@ -539,6 +551,13 @@ local function CreateMainUI()
     modelFrame:SetPoint("CENTER", modelContainer, "CENTER", 0, 0)
     modelFrame:SetRotation(0.3)
     modelFrame:EnableMouse(true)
+    modelFrame:EnableMouseWheel(true)
+    modelFrame:SetScript("OnMouseWheel", function(self, delta)
+        local curDist = (self.GetCameraDistance and self:GetCameraDistance()) or 2.0
+        if self.SetCameraDistance then
+            self:SetCameraDistance(math.max(0.5, math.min(curDist - (delta * 0.25), 6.0)))
+        end
+    end)
 
     local isRotating = false
     local prevMouseX = 0
@@ -625,16 +644,18 @@ local function CreateMainUI()
     queryBox:SetAutoFocus(false)
     f.queryBox = queryBox
 
-    local targetLabel = leftPage:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    targetLabel:SetPoint("LEFT", queryLabel, "LEFT", 185, 0)
-    targetLabel:SetText("Target:")
-
     local targetBox = CreateFrame("EditBox", "GrindSpotterTargetBox", leftPage, "InputBoxTemplate")
     targetBox:SetSize(60, 24)
-    targetBox:SetPoint("TOPLEFT", targetLabel, "BOTTOMLEFT", 6, -4)
+    targetBox:SetPoint("LEFT", queryBox, "RIGHT", 14, 0)
     targetBox:SetAutoFocus(false)
     targetBox:SetNumeric(true)
     f.targetBox = targetBox
+
+    local targetLabel = leftPage:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    targetLabel:ClearAllPoints()
+    targetLabel:SetPoint("BOTTOMLEFT", targetBox, "TOPLEFT", 0, 3)
+    targetLabel:SetText("Target:")
+    f.targetLabel = targetLabel
 
     local searchBtn = CreateFrame("Button", nil, leftPage, "UIPanelButtonTemplate")
     searchBtn:SetSize(80, 24)
@@ -696,13 +717,13 @@ function GrindSpotter:SetWaypoint(mapID, x, y, title)
         return
     end
 
-    if C_Map and C_Map.SetUserWaypoint and UiMapPoint and UiMapPoint.CreateFromCoordinates then
-        local point = UiMapPoint.CreateFromCoordinates(mapID, x / 100, y / 100)
+    local point = { uiMapID = mapID, x = x / 100, y = y / 100 }
+    if C_Map and C_Map.SetUserWaypoint then
         C_Map.SetUserWaypoint(point)
         if C_SuperTrack and C_SuperTrack.SetSuperTrackedUserWaypoint then
             C_SuperTrack.SetSuperTrackedUserWaypoint(true)
         end
-        DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00GrindSpotter:|r Blizzard map pin set for |cffffd100" .. (title or "Spot") .. "|r at (" .. string.format("%.1f, %.1f", x, y) .. ")")
+        DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00GrindSpotter:|r Map pin set for |cffffd100" .. (title or "Spot") .. "|r at (" .. string.format("%.1f, %.1f", x, y) .. ")")
         return
     end
 
