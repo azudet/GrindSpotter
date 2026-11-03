@@ -278,10 +278,22 @@ function GrindSpotter:SelectCamp(campResult)
             rightPage.modelFrame:SetModel("")
         end
         rightPage.modelFrame:SetRotation(0.3)
+        if rightPage.modelFrame.SetPortraitZoom then
+            rightPage.modelFrame:SetPortraitZoom(0)
+        end
+        if rightPage.modelFrame.SetPosition then
+            rightPage.modelFrame:SetPosition(0, 0, 0)
+        end
         C_Timer.After(0.05, function()
             if rightPage.modelFrame and camp.creatureEntry and camp.creatureEntry > 0 then
                 rightPage.modelFrame:Show()
                 rightPage.modelFrame:SetCreature(camp.creatureEntry)
+                if rightPage.modelFrame.SetPortraitZoom then
+                    rightPage.modelFrame:SetPortraitZoom(0)
+                end
+                if rightPage.modelFrame.SetPosition then
+                    rightPage.modelFrame:SetPosition(0, 0, 0)
+                end
                 if rightPage.modelFrame.SetCustomCamera then
                     rightPage.modelFrame:SetCustomCamera(0)
                 end
@@ -320,7 +332,7 @@ function GrindSpotter:SelectCamp(campResult)
     end
 
     if #hazardTags > 0 then
-        rightPage.hazardsText:SetText(string.format("|cffff5555⚠️ Hazards:|r |cffffddaa%s|r", table.concat(hazardTags, " • ")))
+        rightPage.hazardsText:SetText(string.format("|cffff5555[!] Hazards:|r |cffffddaa%s|r", table.concat(hazardTags, " • ")))
     else
         rightPage.hazardsText:SetText("|cff88cc88Hazards: None (Normal pulls)|r")
     end
@@ -334,7 +346,7 @@ function GrindSpotter:SelectCamp(campResult)
         if skinningRank >= reqRank then
             rightPage.skinningText:SetText(string.format("|cff00ff00[ Knife Ready: Skill %d/%d ]|r", skinningRank, reqRank))
         else
-            rightPage.skinningText:SetText(string.format("|cffff4444[ ⛔ Bottleneck: Requires Skinning %d (You: %d) ]|r", reqRank, skinningRank))
+            rightPage.skinningText:SetText(string.format("|cffff4444[ Bottleneck: Requires Skinning %d (You: %d) ]|r", reqRank, skinningRank))
         end
     else
         rightPage.skinningText:SetText("|cff808080Skinning: Not skinnable|r")
@@ -373,7 +385,7 @@ end
 
 local function CreateResultCard(parent, index)
     local card = CreateFrame("Button", "GrindSpotterCard"..index, parent, "BackdropTemplate")
-    card:SetSize(370, 75)
+    card:SetSize(350, 75)
     card:SetBackdrop({
         bgFile = "Interface\\Buttons\\WHITE8X8",
         edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
@@ -414,13 +426,13 @@ local function CreateResultCard(parent, index)
 
     local levelZone = card:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
     levelZone:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -2)
-    levelZone:SetWidth(354)
+    levelZone:SetWidth(330)
     levelZone:SetJustifyH("LEFT")
     card.levelZone = levelZone
 
     local details = card:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
     details:SetPoint("TOPLEFT", levelZone, "BOTTOMLEFT", 0, -2)
-    details:SetWidth(285)
+    details:SetWidth(330)
     details:SetJustifyH("LEFT")
     card.details = details
 
@@ -474,13 +486,17 @@ local function CreateMainUI()
 
     -- Side-by-side book background textures inside the inset
     local insetFrame = f.Inset or f
-    local leftBg = insetFrame:CreateTexture(nil, "BACKGROUND")
+    if f.Inset then
+        f.Inset:SetBackdropColor(0, 0, 0, 0)
+        f.Inset:SetBackdropBorderColor(0, 0, 0, 0)
+    end
+    local leftBg = insetFrame:CreateTexture(nil, "BORDER")
     leftBg:SetTexture("Interface\\ItemText\\ItemText-Stone-Left")
     leftBg:SetPoint("TOPLEFT", insetFrame, "TOPLEFT", 0, 0)
     leftBg:SetSize(410, 500)
     f.leftBg = leftBg
 
-    local rightBg = insetFrame:CreateTexture(nil, "BACKGROUND")
+    local rightBg = insetFrame:CreateTexture(nil, "BORDER")
     rightBg:SetTexture("Interface\\ItemText\\ItemText-Stone-Right")
     rightBg:SetPoint("TOPRIGHT", insetFrame, "TOPRIGHT", 0, 0)
     rightBg:SetSize(410, 500)
@@ -636,7 +652,7 @@ local function CreateMainUI()
     -- Search inputs positioned at top of leftPage
     local queryLabel = leftPage:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     queryLabel:SetPoint("TOPLEFT", leftPage, "TOPLEFT", 10, -10)
-    queryLabel:SetText("Search (Item/Mob/Leave empty for XP):")
+    queryLabel:SetText("Search (Item / Mob / XP):")
 
     local queryBox = CreateFrame("EditBox", "GrindSpotterQueryBox", leftPage, "InputBoxTemplate")
     queryBox:SetSize(170, 24)
@@ -646,14 +662,14 @@ local function CreateMainUI()
 
     local targetBox = CreateFrame("EditBox", "GrindSpotterTargetBox", leftPage, "InputBoxTemplate")
     targetBox:SetSize(60, 24)
-    targetBox:SetPoint("LEFT", queryBox, "RIGHT", 14, 0)
+    targetBox:SetPoint("TOPLEFT", queryBox, "TOPRIGHT", 18, 0)
     targetBox:SetAutoFocus(false)
     targetBox:SetNumeric(true)
     f.targetBox = targetBox
 
     local targetLabel = leftPage:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     targetLabel:ClearAllPoints()
-    targetLabel:SetPoint("BOTTOMLEFT", targetBox, "TOPLEFT", 0, 3)
+    targetLabel:SetPoint("BOTTOMLEFT", targetBox, "TOPLEFT", 0, 2)
     targetLabel:SetText("Target:")
     f.targetLabel = targetLabel
 
@@ -692,7 +708,7 @@ local function CreateMainUI()
     scrollFrame:SetPoint("BOTTOMRIGHT", leftPage, "BOTTOMRIGHT", -22, 10)
 
     local content = CreateFrame("Frame", nil, scrollFrame)
-    content:SetSize(364, 400)
+    content:SetSize(350, 400)
     scrollFrame:SetScrollChild(content)
 
     f.scrollFrame = scrollFrame
@@ -801,6 +817,11 @@ function GrindSpotter:RunSearch()
                 local score = 100
                 local warnings = {}
                 local notes = {}
+
+                -- Direct mob name search relevance bonus
+                if query ~= "" and IsFuzzyMatch(query, camp.name) then
+                    score = score + 100
+                end
 
                 local avgMobLevel = (camp.minLevel + camp.maxLevel) / 2
                 local levelDiff = avgMobLevel - playerLevel
@@ -967,7 +988,7 @@ function GrindSpotter:RunSearch()
         card.details:SetText(detailsText)
 
         if #res.warnings > 0 then
-            card.warning:SetText("⚠️ " .. table.concat(res.warnings, " • "))
+            card.warning:SetText("[!] " .. table.concat(res.warnings, " • "))
             card.warning:Show()
         else
             card.warning:SetText("")
