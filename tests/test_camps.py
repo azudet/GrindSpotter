@@ -33,7 +33,9 @@ class TestCampsData(unittest.TestCase):
             self.assertNotIn(camp_id, seen_ids, f"Duplicate camp id: {camp_id}")
             seen_ids.add(camp_id)
 
-            self.assertTrue(bool(camp.get("name")), f"Camp {camp_id} missing valid name")
+            self.assertIsInstance(camp.get("name"), str, f"Camp {camp_id} missing valid name")
+            self.assertIsInstance(camp.get("creatureEntry"), int, f"Camp {camp_id} creatureEntry must be int")
+            self.assertGreaterEqual(camp.get("creatureEntry", 0), 0, f"Camp {camp_id} creatureEntry must be non-negative")
             self.assertTrue(bool(camp.get("zone")), f"Camp {camp_id} missing valid zone")
             self.assertIsInstance(camp.get("mapID"), int, f"Camp {camp_id} mapID must be int")
             self.assertGreater(camp["mapID"], 0, f"Camp {camp_id} mapID must be > 0")

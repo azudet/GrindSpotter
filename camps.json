@@ -2,6 +2,7 @@
   {
     "id": "mulgore_venture_co._worker_60_32",
     "name": "Venture Co. Worker (Mulgore)",
+    "creatureEntry": 2978,
     "mapID": 1412,
     "zone": "Mulgore",
     "x": 60.6,
@@ -19,12 +20,14 @@
     ],
     "drops": {
       "Linen Cloth": 0.2931,
-      "Malachite": 0.0124
+      "Malachite": 0.0124,
+      "Tigerseye": 0.0046
     }
   },
   {
     "id": "dun_morogh_wendigo_44_50",
     "name": "Wendigo & Young Wendigo (Dun Morogh)",
+    "creatureEntry": 1135,
     "mapID": 1426,
     "zone": "Dun Morogh",
     "x": 44.8,
@@ -43,12 +46,14 @@
     "drops": {
       "Ruined Leather Scraps": 0.6121,
       "Light Leather": 0.3934,
-      "Malachite": 0.0112
+      "Malachite": 0.0112,
+      "Tigerseye": 0.004
     }
   },
   {
     "id": "durotar_mottled_boar_22_65",
     "name": "Mottled Boar (Durotar)",
+    "creatureEntry": 3098,
     "mapID": 1411,
     "zone": "Durotar",
     "x": 22.9,
@@ -71,6 +76,7 @@
   {
     "id": "tirisfal_glades_night_web_spider_25_56",
     "name": "Night Web Spider & Young Night Web Spider (Tirisfal Glades)",
+    "creatureEntry": 1505,
     "mapID": 1420,
     "zone": "Tirisfal Glades",
     "x": 25.8,
@@ -93,6 +99,7 @@
   {
     "id": "elwynn_forest_rockhide_boar_49_67",
     "name": "Rockhide Boar (Elwynn Forest)",
+    "creatureEntry": 524,
     "mapID": 1429,
     "zone": "Elwynn Forest",
     "x": 49.3,
@@ -113,12 +120,14 @@
       "Light Leather": 0.401,
       "Broken Boar Tusk": 0.3113,
       "Chipped Boar Tusk": 0.199,
-      "Malachite": 0.0128
+      "Malachite": 0.0128,
+      "Tigerseye": 0.0032
     }
   },
   {
     "id": "mulgore_plainstrider_37_81",
     "name": "Plainstrider (Mulgore)",
+    "creatureEntry": 2955,
     "mapID": 1412,
     "zone": "Mulgore",
     "x": 37.9,
@@ -141,6 +150,7 @@
   {
     "id": "dun_morogh_small_crag_boar_15_82",
     "name": "Small Crag Boar (Dun Morogh)",
+    "creatureEntry": 708,
     "mapID": 1426,
     "zone": "Dun Morogh",
     "x": 15.2,
@@ -163,6 +173,7 @@
   {
     "id": "tirisfal_glades_darkeye_bonecaster_60_20",
     "name": "Darkeye Bonecaster (Tirisfal Glades)",
+    "creatureEntry": 1522,
     "mapID": 1420,
     "zone": "Tirisfal Glades",
     "x": 60.5,
@@ -180,12 +191,14 @@
     ],
     "drops": {
       "Linen Cloth": 0.2846,
-      "Malachite": 0.014
+      "Malachite": 0.014,
+      "Tigerseye": 0.0038
     }
   },
   {
     "id": "durotar_elder_mottled_boar_23_27",
     "name": "Elder Mottled Boar (Durotar)",
+    "creatureEntry": 3100,
     "mapID": 1411,
     "zone": "Durotar",
     "x": 23.9,
@@ -206,12 +219,14 @@
       "Light Leather": 0.4039,
       "Broken Boar Tusk": 0.3245,
       "Chipped Boar Tusk": 0.2055,
-      "Malachite": 0.0128
+      "Malachite": 0.0128,
+      "Tigerseye": 0.004
     }
   },
   {
     "id": "teldrassil_webwood_spider_76_18",
     "name": "Webwood Spider (Teldrassil)",
+    "creatureEntry": 1986,
     "mapID": 1438,
     "zone": "Teldrassil",
     "x": 76.1,
@@ -234,6 +249,7 @@
   {
     "id": "the_barrens_theramore_marine_89_66",
     "name": "Theramore Marine (The Barrens)",
+    "creatureEntry": 3385,
     "mapID": 1413,
     "zone": "The Barrens",
     "x": 89.0,
@@ -251,12 +267,16 @@
     ],
     "drops": {
       "Linen Cloth": 0.384,
-      "Pattern: Murloc Scale Belt": 0.0206
+      "Pattern: Murloc Scale Belt": 0.0206,
+      "Tigerseye": 0.0038,
+      "Shadowgem": 0.0028,
+      "Malachite": 0.001
     }
   },
   {
     "id": "darkshore_rabid_thistle_bear_30_24",
     "name": "Rabid Thistle Bear & Thistle Bear (Darkshore)",
+    "creatureEntry": 2163,
     "mapID": 1439,
     "zone": "Darkshore",
     "x": 30.3,
@@ -275,12 +295,17 @@
       "Light Leather": 0.5892,
       "Bear Meat": 0.4687,
       "Ruined Leather Scraps": 0.3579,
-      "Light Hide": 0.0529
+      "Light Hide": 0.0529,
+      "Tigerseye": 0.0052,
+      "Malachite": 0.0018,
+      "Shadowgem": 0.0018,
+      "Recipe: Cooked Crab Claw": 0.0018
     }
   },
   {
     "id": "the_barrens_venture_co._drudger_73_17",
     "name": "Venture Co. Drudger (The Barrens)",
+    "creatureEntry": 3284,
     "mapID": 1413,
     "zone": "The Barrens",
     "x": 73.5,
@@ -298,12 +323,17 @@
     ],
     "drops": {
       "Linen Cloth": 0.3833,
-      "Haunch of Meat": 0.0471
+      "Haunch of Meat": 0.0471,
+      "Tigerseye": 0.006,
+      "Shadowgem": 0.0018,
+      "Malachite": 0.0016,
+      "Recipe: Elixir of Giant Growth": 0.001
     }
   },
   {
     "id": "westfall_riverpaw_taskmaster_66_74",
     "name": "Riverpaw Taskmaster (Westfall)",
+    "creatureEntry": 98,
     "mapID": 1436,
     "zone": "Westfall",
     "x": 66.1,
@@ -323,12 +353,16 @@
     "drops": {
       "Wool Cloth": 0.1996,
       "Linen Cloth": 0.1835,
-      "Haunch of Meat": 0.0492
+      "Haunch of Meat": 0.0492,
+      "Shadowgem": 0.0044,
+      "Tigerseye": 0.0012,
+      "Moss Agate": 0.001
     }
   },
   {
     "id": "alterac_mountains_vile_fin_tidecaller_60_24",
     "name": "Vile Fin Tidecaller (Alterac Mountains)",
+    "creatureEntry": 1958,
     "mapID": 1416,
     "zone": "Alterac Mountains",
     "x": 60.5,
@@ -348,12 +382,16 @@
     "drops": {
       "Murloc Eye": 0.3744,
       "Small Barnacled Clam": 0.3647,
-      "Slimy Murloc Scale": 0.156
+      "Slimy Murloc Scale": 0.156,
+      "Shadowgem": 0.004,
+      "Moss Agate": 0.002,
+      "Tigerseye": 0.0012
     }
   },
   {
     "id": "westfall_defias_digger_35_75",
     "name": "Defias Digger (Westfall)",
+    "creatureEntry": 824,
     "mapID": 1436,
     "zone": "Westfall",
     "x": 35.1,
@@ -371,12 +409,16 @@
     ],
     "drops": {
       "Wool Cloth": 0.1951,
-      "Linen Cloth": 0.1845
+      "Linen Cloth": 0.1845,
+      "Tigerseye": 0.0046,
+      "Shadowgem": 0.0034,
+      "Malachite": 0.0012
     }
   },
   {
     "id": "the_barrens_witchwing_slayer_20_25",
     "name": "Witchwing Slayer (The Barrens)",
+    "creatureEntry": 3278,
     "mapID": 1413,
     "zone": "The Barrens",
     "x": 20.8,
@@ -395,12 +437,16 @@
     "drops": {
       "Wool Cloth": 0.1937,
       "Linen Cloth": 0.1781,
-      "Haunch of Meat": 0.0441
+      "Haunch of Meat": 0.0441,
+      "Shadowgem": 0.0042,
+      "Moss Agate": 0.0016,
+      "Tigerseye": 0.0012
     }
   },
   {
     "id": "tirisfal_glades_lordaeron_citizen_86_69",
     "name": "Lordaeron Citizen (Tirisfal Glades)",
+    "creatureEntry": 3617,
     "mapID": 1420,
     "zone": "Tirisfal Glades",
     "x": 86.3,
@@ -422,6 +468,7 @@
   {
     "id": "stonetalon_mountains_venture_co._logger_72_64",
     "name": "Venture Co. Logger (Stonetalon Mountains)",
+    "creatureEntry": 3989,
     "mapID": 1442,
     "zone": "Stonetalon Mountains",
     "x": 72.2,
@@ -440,12 +487,16 @@
     "drops": {
       "Wool Cloth": 0.1986,
       "Linen Cloth": 0.1889,
-      "Haunch of Meat": 0.0474
+      "Haunch of Meat": 0.0474,
+      "Shadowgem": 0.0036,
+      "Moss Agate": 0.0012,
+      "Tigerseye": 0.001
     }
   },
   {
     "id": "silverpine_forest_vile_fin_lakestalker_82_20",
     "name": "Vile Fin Lakestalker (Silverpine Forest)",
+    "creatureEntry": 1909,
     "mapID": 1421,
     "zone": "Silverpine Forest",
     "x": 82.6,
@@ -465,12 +516,16 @@
     "drops": {
       "Murloc Eye": 0.3954,
       "Small Barnacled Clam": 0.3775,
-      "Slimy Murloc Scale": 0.1793
+      "Slimy Murloc Scale": 0.1793,
+      "Shadowgem": 0.0038,
+      "Tigerseye": 0.0016,
+      "Moss Agate": 0.0012
     }
   },
   {
     "id": "the_barrens_savannah_prowler_67_25",
     "name": "Savannah Prowler (The Barrens)",
+    "creatureEntry": 3425,
     "mapID": 1413,
     "zone": "The Barrens",
     "x": 67.6,
@@ -489,12 +544,16 @@
       "Light Leather": 0.6003,
       "Ruined Leather Scraps": 0.3547,
       "Small Leather Collar": 0.0895,
-      "Light Hide": 0.0448
+      "Light Hide": 0.0448,
+      "Tigerseye": 0.0054,
+      "Shadowgem": 0.0018,
+      "Malachite": 0.0016
     }
   },
   {
     "id": "silverpine_forest_dalaran_apprentice_34_79",
     "name": "Dalaran Apprentice (Silverpine Forest)",
+    "creatureEntry": 1867,
     "mapID": 1421,
     "zone": "Silverpine Forest",
     "x": 34.8,
@@ -512,12 +571,16 @@
       "HUMANOID"
     ],
     "drops": {
-      "Linen Cloth": 0.3814
+      "Linen Cloth": 0.3814,
+      "Tigerseye": 0.0034,
+      "Shadowgem": 0.001,
+      "Malachite": 0.001
     }
   },
   {
     "id": "ashenvale_wild_buck_15_24",
     "name": "Wild Buck (Ashenvale)",
+    "creatureEntry": 3816,
     "mapID": 1440,
     "zone": "Ashenvale",
     "x": 15.7,
@@ -538,12 +601,14 @@
       "Medium Leather": 0.1958,
       "Light Hide": 0.0571,
       "Moss Agate": 0.019,
-      "Medium Hide": 0.0182
+      "Medium Hide": 0.0182,
+      "Schematic: Small Seaforium Charge": 0.0099
     }
   },
   {
     "id": "darkshore_stormscale_myrmidon_49_13",
     "name": "Stormscale Myrmidon (Darkshore)",
+    "creatureEntry": 2181,
     "mapID": 1439,
     "zone": "Darkshore",
     "x": 49.6,
@@ -560,12 +625,17 @@
       "HUMANOID"
     ],
     "drops": {
-      "Small Barnacled Clam": 0.3824
+      "Small Barnacled Clam": 0.3824,
+      "Shadowgem": 0.004,
+      "Moss Agate": 0.0012,
+      "Recipe: Cooked Crab Claw": 0.001,
+      "Tigerseye": 0.001
     }
   },
   {
     "id": "silverpine_forest_moonrage_whitescalp_40_26",
     "name": "Moonrage Whitescalp (Silverpine Forest)",
+    "creatureEntry": 1769,
     "mapID": 1421,
     "zone": "Silverpine Forest",
     "x": 40.5,
@@ -585,12 +655,16 @@
       "Light Leather": 0.6044,
       "Ruined Leather Scraps": 0.3424,
       "Light Hide": 0.0532,
-      "Haunch of Meat": 0.049
+      "Haunch of Meat": 0.049,
+      "Malachite": 0.007,
+      "Tigerseye": 0.0044,
+      "Shadowgem": 0.001
     }
   },
   {
     "id": "darkshore_foreststrider_36_28",
     "name": "Foreststrider (Darkshore)",
+    "creatureEntry": 2322,
     "mapID": 1439,
     "zone": "Darkshore",
     "x": 36.1,
@@ -609,12 +683,18 @@
       "Light Leather": 0.6259,
       "Strider Meat": 0.4475,
       "Ruined Leather Scraps": 0.3248,
-      "Light Hide": 0.0493
+      "Light Hide": 0.0493,
+      "Tigerseye": 0.0032,
+      "Shadowgem": 0.0026,
+      "Malachite": 0.0014,
+      "Recipe: Cooked Crab Claw": 0.0014,
+      "Clam Meat": 0.001
     }
   },
   {
     "id": "felwood_giant_foreststrider_21_77",
     "name": "Giant Foreststrider (Felwood)",
+    "creatureEntry": 2323,
     "mapID": 1448,
     "zone": "Felwood",
     "x": 21.7,
@@ -634,12 +714,18 @@
       "Strider Meat": 0.3941,
       "Medium Leather": 0.2204,
       "Light Hide": 0.0499,
-      "Medium Hide": 0.0238
+      "Medium Hide": 0.0238,
+      "Shadowgem": 0.0026,
+      "Clam Meat": 0.0014,
+      "Tigerseye": 0.001,
+      "Moss Agate": 0.001,
+      "Recipe: Cooked Crab Claw": 0.001
     }
   },
   {
     "id": "westfall_murloc_netter_23_24",
     "name": "Murloc Netter (Westfall)",
+    "creatureEntry": 513,
     "mapID": 1436,
     "zone": "Westfall",
     "x": 23.3,
@@ -658,12 +744,17 @@
     ],
     "drops": {
       "Small Barnacled Clam": 0.3462,
-      "Murloc Eye": 0.3442
+      "Murloc Eye": 0.3442,
+      "Tigerseye": 0.006,
+      "Malachite": 0.002,
+      "Shadowgem": 0.0014,
+      "Recipe: Cooked Crab Claw": 0.001
     }
   },
   {
     "id": "redridge_mountains_redridge_basher_14_16",
     "name": "Redridge Basher (Redridge Mountains)",
+    "creatureEntry": 446,
     "mapID": 1433,
     "zone": "Redridge Mountains",
     "x": 14.5,
@@ -682,12 +773,16 @@
     "drops": {
       "Wool Cloth": 0.1906,
       "Linen Cloth": 0.1828,
-      "Haunch of Meat": 0.0452
+      "Haunch of Meat": 0.0452,
+      "Shadowgem": 0.0046,
+      "Moss Agate": 0.0014,
+      "Tigerseye": 0.0014
     }
   },
   {
     "id": "the_barrens_fleeting_plainstrider_75_40",
     "name": "Fleeting Plainstrider (The Barrens)",
+    "creatureEntry": 3246,
     "mapID": 1413,
     "zone": "The Barrens",
     "x": 75.4,
@@ -706,12 +801,16 @@
       "Light Leather": 0.6127,
       "Strider Meat": 0.3975,
       "Ruined Leather Scraps": 0.3374,
-      "Light Hide": 0.0499
+      "Light Hide": 0.0499,
+      "Tigerseye": 0.0058,
+      "Malachite": 0.0016,
+      "Shadowgem": 0.0016
     }
   },
   {
     "id": "westfall_goretusk_40_58",
     "name": "Goretusk (Westfall)",
+    "creatureEntry": 157,
     "mapID": 1436,
     "zone": "Westfall",
     "x": 40.4,
@@ -731,12 +830,20 @@
       "Goretusk Snout": 0.3916,
       "Ruined Leather Scraps": 0.3332,
       "Goretusk Liver": 0.3302,
-      "Boar Ribs": 0.2864
+      "Boar Ribs": 0.2864,
+      "Chipped Boar Tusk": 0.2476,
+      "Broken Boar Tusk": 0.164,
+      "Light Hide": 0.0546,
+      "Tigerseye": 0.0054,
+      "Shadowgem": 0.0018,
+      "Malachite": 0.0018,
+      "Recipe: Cooked Crab Claw": 0.0016
     }
   },
   {
     "id": "tirisfal_glades_worg_72_85",
     "name": "Worg (Tirisfal Glades)",
+    "creatureEntry": 1765,
     "mapID": 1420,
     "zone": "Tirisfal Glades",
     "x": 72.2,
@@ -754,12 +861,15 @@
     "drops": {
       "Stringy Wolf Meat": 0.871,
       "Ruined Leather Scraps": 0.5998,
-      "Light Leather": 0.4002
+      "Light Leather": 0.4002,
+      "Malachite": 0.0072,
+      "Tigerseye": 0.0048
     }
   },
   {
     "id": "darkshore_darkshore_thresher_13_35",
     "name": "Darkshore Thresher (Darkshore)",
+    "creatureEntry": 2185,
     "mapID": 1439,
     "zone": "Darkshore",
     "x": 13.7,
@@ -779,12 +889,17 @@
       "Small Barnacled Clam": 0.4365,
       "Ruined Leather Scraps": 0.3342,
       "Light Hide": 0.0526,
-      "Clam Meat": 0.0102
+      "Clam Meat": 0.0102,
+      "Tigerseye": 0.0054,
+      "Malachite": 0.002,
+      "Shadowgem": 0.002,
+      "Recipe: Cooked Crab Claw": 0.0016
     }
   },
   {
     "id": "loch_modan_stonesplinter_trogg_30_72",
     "name": "Stonesplinter Trogg (Loch Modan)",
+    "creatureEntry": 1161,
     "mapID": 1432,
     "zone": "Loch Modan",
     "x": 30.2,
@@ -802,12 +917,17 @@
     ],
     "drops": {
       "Linen Cloth": 0.3817,
-      "Haunch of Meat": 0.0474
+      "Haunch of Meat": 0.0474,
+      "Tigerseye": 0.0062,
+      "Malachite": 0.002,
+      "Shadowgem": 0.0016,
+      "Recipe: Succulent Pork Ribs": 0.001
     }
   },
   {
     "id": "the_barrens_venture_co._enforcer_86_13",
     "name": "Venture Co. Enforcer (The Barrens)",
+    "creatureEntry": 3283,
     "mapID": 1413,
     "zone": "The Barrens",
     "x": 86.6,
@@ -827,12 +947,15 @@
     "drops": {
       "Wool Cloth": 0.1987,
       "Linen Cloth": 0.1778,
-      "Haunch of Meat": 0.0466
+      "Haunch of Meat": 0.0466,
+      "Shadowgem": 0.0036,
+      "Moss Agate": 0.0012
     }
   },
   {
     "id": "loch_modan_loch_frenzy_57_8",
     "name": "Loch Frenzy (Loch Modan)",
+    "creatureEntry": 1193,
     "mapID": 1432,
     "zone": "Loch Modan",
     "x": 57.9,
@@ -850,12 +973,16 @@
     "drops": {
       "Shiny Fish Scales": 1.0,
       "Dull Frenzy Scale": 0.2878,
-      "Fish Scale": 0.0124
+      "Fish Scale": 0.0124,
+      "Tigerseye": 0.0058,
+      "Shadowgem": 0.0026,
+      "Recipe: Succulent Pork Ribs": 0.0014
     }
   },
   {
     "id": "the_barrens_savannah_prowler_34_44",
     "name": "Savannah Prowler (The Barrens)",
+    "creatureEntry": 3425,
     "mapID": 1413,
     "zone": "The Barrens",
     "x": 34.0,
@@ -874,12 +1001,16 @@
       "Light Leather": 0.6003,
       "Ruined Leather Scraps": 0.3547,
       "Small Leather Collar": 0.0895,
-      "Light Hide": 0.0448
+      "Light Hide": 0.0448,
+      "Tigerseye": 0.0054,
+      "Shadowgem": 0.0018,
+      "Malachite": 0.0016
     }
   },
   {
     "id": "silverpine_forest_vile_fin_shredder_60_14",
     "name": "Vile Fin Shredder (Silverpine Forest)",
+    "creatureEntry": 1767,
     "mapID": 1421,
     "zone": "Silverpine Forest",
     "x": 60.0,
@@ -897,12 +1028,16 @@
     ],
     "drops": {
       "Small Barnacled Clam": 0.3272,
-      "Murloc Eye": 0.3218
+      "Murloc Eye": 0.3218,
+      "Tigerseye": 0.0058,
+      "Shadowgem": 0.0024,
+      "Malachite": 0.0022
     }
   },
   {
     "id": "westfall_riverpaw_bandit_57_70",
     "name": "Riverpaw Bandit (Westfall)",
+    "creatureEntry": 452,
     "mapID": 1436,
     "zone": "Westfall",
     "x": 57.4,
@@ -923,12 +1058,16 @@
     "drops": {
       "Wool Cloth": 0.1988,
       "Linen Cloth": 0.1812,
-      "Haunch of Meat": 0.0512
+      "Haunch of Meat": 0.0512,
+      "Shadowgem": 0.004,
+      "Moss Agate": 0.0012,
+      "Tigerseye": 0.0012
     }
   },
   {
     "id": "the_barrens_oasis_snapjaw_44_51",
     "name": "Oasis Snapjaw (The Barrens)",
+    "creatureEntry": 3461,
     "mapID": 1413,
     "zone": "The Barrens",
     "x": 44.6,
@@ -947,12 +1086,16 @@
       "Light Leather": 0.5964,
       "Small Barnacled Clam": 0.4059,
       "Ruined Leather Scraps": 0.3567,
-      "Light Hide": 0.0463
+      "Light Hide": 0.0463,
+      "Tigerseye": 0.0032,
+      "Shadowgem": 0.0028,
+      "Recipe: Elixir of Giant Growth": 0.0012
     }
   },
   {
     "id": "westfall_goretusk_30_36",
     "name": "Goretusk & Young Goretusk (Westfall)",
+    "creatureEntry": 454,
     "mapID": 1436,
     "zone": "Westfall",
     "x": 30.7,
@@ -972,12 +1115,20 @@
       "Goretusk Snout": 0.3916,
       "Ruined Leather Scraps": 0.3505,
       "Goretusk Liver": 0.3302,
-      "Boar Ribs": 0.2864
+      "Boar Ribs": 0.2864,
+      "Chipped Boar Tusk": 0.2476,
+      "Broken Boar Tusk": 0.164,
+      "Light Hide": 0.0546,
+      "Tigerseye": 0.0056,
+      "Recipe: Cooked Crab Claw": 0.0018,
+      "Shadowgem": 0.0018,
+      "Malachite": 0.0018
     }
   },
   {
     "id": "silverpine_forest_moonrage_glutton_11_32",
     "name": "Moonrage Glutton (Silverpine Forest)",
+    "creatureEntry": 1779,
     "mapID": 1421,
     "zone": "Silverpine Forest",
     "x": 11.4,
@@ -997,12 +1148,16 @@
       "Light Leather": 0.5963,
       "Ruined Leather Scraps": 0.3563,
       "Light Hide": 0.0473,
-      "Haunch of Meat": 0.046
+      "Haunch of Meat": 0.046,
+      "Tigerseye": 0.005,
+      "Malachite": 0.0018,
+      "Shadowgem": 0.0016
     }
   },
   {
     "id": "darkshore_moonkin_27_51",
     "name": "Moonkin & Young Moonkin (Darkshore)",
+    "creatureEntry": 10158,
     "mapID": 1439,
     "zone": "Darkshore",
     "x": 27.8,
@@ -1020,12 +1175,17 @@
     ],
     "drops": {
       "Small Egg": 0.5637,
-      "Haunch of Meat": 0.0516
+      "Haunch of Meat": 0.0516,
+      "Tigerseye": 0.0062,
+      "Recipe: Cooked Crab Claw": 0.002,
+      "Malachite": 0.002,
+      "Shadowgem": 0.0018
     }
   },
   {
     "id": "duskwood_rabid_dire_wolf_22_22",
     "name": "Rabid Dire Wolf & Starving Dire Wolf (Duskwood)",
+    "creatureEntry": 213,
     "mapID": 1431,
     "zone": "Duskwood",
     "x": 22.4,
@@ -1045,37 +1205,43 @@
       "Lean Wolf Flank": 0.5484,
       "Medium Leather": 0.202,
       "Light Hide": 0.0477,
-      "Medium Hide": 0.02
+      "Medium Hide": 0.02,
+      "Shadowgem": 0.0024,
+      "Moss Agate": 0.0016
     }
   },
   {
-    "id": "redridge_mountains_great_goretusk_17_57",
-    "name": "Great Goretusk (Redridge Mountains)",
-    "mapID": 1433,
-    "zone": "Redridge Mountains",
-    "x": 17.6,
-    "y": 57.3,
-    "minLevel": 16,
-    "maxLevel": 17,
-    "faction": "Alliance",
-    "density": "Medium",
-    "respawnMin": 5.0,
+    "id": "the_barrens_burning_blade_bruiser_46_28",
+    "name": "Burning Blade Bruiser (The Barrens)",
+    "creatureEntry": 3379,
+    "mapID": 1413,
+    "zone": "The Barrens",
+    "x": 46.6,
+    "y": 28.1,
+    "minLevel": 10,
+    "maxLevel": 11,
+    "faction": "Horde",
+    "density": "High",
+    "respawnMin": 4.6,
     "isQuestMob": false,
     "tags": [
-      "BEAST"
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HUMANOID"
     ],
     "drops": {
-      "Chunk of Boar Meat": 0.7725,
-      "Light Leather": 0.735,
-      "Goretusk Liver": 0.3696,
-      "Great Goretusk Snout": 0.3643,
-      "Boar Ribs": 0.3184,
-      "Medium Leather": 0.1975
+      "Linen Cloth": 0.3823,
+      "Haunch of Meat": 0.0432,
+      "Malachite": 0.0072,
+      "Tigerseye": 0.0048,
+      "Shadowgem": 0.0012,
+      "Recipe: Elixir of Giant Growth": 0.001
     }
   },
   {
     "id": "wetlands_dragonmaw_raider_41_44",
     "name": "Dragonmaw Raider (Wetlands)",
+    "creatureEntry": 1034,
     "mapID": 1437,
     "zone": "Wetlands",
     "x": 41.6,
@@ -1094,12 +1260,15 @@
     ],
     "drops": {
       "Silk Cloth": 0.2447,
-      "Wool Cloth": 0.0988
+      "Wool Cloth": 0.0988,
+      "Moss Agate": 0.0012,
+      "Lesser Moonstone": 0.001
     }
   },
   {
     "id": "stonetalon_mountains_windshear_digger_83_76",
     "name": "Windshear Digger (Stonetalon Mountains)",
+    "creatureEntry": 3999,
     "mapID": 1442,
     "zone": "Stonetalon Mountains",
     "x": 83.7,
@@ -1118,12 +1287,14 @@
     "drops": {
       "Wool Cloth": 0.2456,
       "Linen Cloth": 0.1349,
-      "Silk Cloth": 0.0461
+      "Silk Cloth": 0.0461,
+      "Moss Agate": 0.0026
     }
   },
   {
     "id": "hillsbrad_foothills_syndicate_watchman_94_39",
     "name": "Syndicate Watchman (Hillsbrad Foothills)",
+    "creatureEntry": 2261,
     "mapID": 1424,
     "zone": "Hillsbrad Foothills",
     "x": 94.0,
@@ -1142,12 +1313,15 @@
     "drops": {
       "Wool Cloth": 0.2444,
       "Linen Cloth": 0.131,
-      "Silk Cloth": 0.0495
+      "Silk Cloth": 0.0495,
+      "Shadowgem": 0.0022,
+      "Moss Agate": 0.002
     }
   },
   {
     "id": "duskwood_nightbane_dark_runner_59_76",
     "name": "Nightbane Dark Runner (Duskwood)",
+    "creatureEntry": 205,
     "mapID": 1431,
     "zone": "Duskwood",
     "x": 59.5,
@@ -1167,12 +1341,14 @@
       "Medium Leather": 0.7289,
       "Heavy Leather": 0.201,
       "Medium Hide": 0.049,
-      "Heavy Hide": 0.0205
+      "Heavy Hide": 0.0205,
+      "Moss Agate": 0.001
     }
   },
   {
     "id": "hillsbrad_foothills_hillsbrad_miner_28_54",
     "name": "Hillsbrad Miner (Hillsbrad Foothills)",
+    "creatureEntry": 2269,
     "mapID": 1424,
     "zone": "Hillsbrad Foothills",
     "x": 28.7,
@@ -1190,12 +1366,14 @@
     ],
     "drops": {
       "Silk Cloth": 0.2426,
-      "Wool Cloth": 0.0939
+      "Wool Cloth": 0.0939,
+      "Moss Agate": 0.0014
     }
   },
   {
     "id": "wetlands_wetlands_crocolisk_25_25",
     "name": "Wetlands Crocolisk & Young Wetlands Crocolisk (Wetlands)",
+    "creatureEntry": 1400,
     "mapID": 1437,
     "zone": "Wetlands",
     "x": 25.5,
@@ -1216,12 +1394,15 @@
       "Crocolisk Meat": 0.4981,
       "Light Leather": 0.4195,
       "Medium Hide": 0.0491,
-      "Light Hide": 0.0334
+      "Light Hide": 0.0334,
+      "Moss Agate": 0.002,
+      "Lesser Moonstone": 0.0011
     }
   },
   {
     "id": "wetlands_highland_razormaw_79_27",
     "name": "Highland Razormaw (Wetlands)",
+    "creatureEntry": 1018,
     "mapID": 1437,
     "zone": "Wetlands",
     "x": 79.4,
@@ -1241,12 +1422,16 @@
       "Medium Leather": 0.7182,
       "Heavy Leather": 0.2034,
       "Medium Hide": 0.0594,
-      "Heavy Hide": 0.019
+      "Heavy Hide": 0.019,
+      "Lesser Moonstone": 0.0027,
+      "Moss Agate": 0.0012,
+      "Jade": 0.001
     }
   },
   {
     "id": "duskwood_black_widow_hatchling_18_51",
     "name": "Black Widow Hatchling (Duskwood)",
+    "creatureEntry": 930,
     "mapID": 1431,
     "zone": "Duskwood",
     "x": 18.5,
@@ -1263,12 +1448,14 @@
       "POISON"
     ],
     "drops": {
-      "Crisp Spider Meat": 0.4244
+      "Crisp Spider Meat": 0.4244,
+      "Moss Agate": 0.0018
     }
   },
   {
     "id": "thousand_needles_baeldun_excavator_67_8",
     "name": "Bael'dun Excavator (Thousand Needles)",
+    "creatureEntry": 3374,
     "mapID": 1441,
     "zone": "Thousand Needles",
     "x": 67.8,
@@ -1287,12 +1474,14 @@
     "drops": {
       "Wool Cloth": 0.2443,
       "Linen Cloth": 0.1254,
-      "Silk Cloth": 0.048
+      "Silk Cloth": 0.048,
+      "Moss Agate": 0.002
     }
   },
   {
     "id": "hillsbrad_foothills_starving_mountain_lion_60_35",
     "name": "Starving Mountain Lion (Hillsbrad Foothills)",
+    "creatureEntry": 2384,
     "mapID": 1424,
     "zone": "Hillsbrad Foothills",
     "x": 60.4,
@@ -1312,12 +1501,14 @@
       "Light Leather": 0.4203,
       "Lion Meat": 0.4181,
       "Medium Hide": 0.0509,
-      "Light Hide": 0.0292
+      "Light Hide": 0.0292,
+      "Moss Agate": 0.0018
     }
   },
   {
     "id": "ashenvale_befouled_water_elemental_59_80",
     "name": "Befouled Water Elemental (Ashenvale)",
+    "creatureEntry": 3917,
     "mapID": 1440,
     "zone": "Ashenvale",
     "x": 59.7,
@@ -1338,12 +1529,16 @@
       "Damaged Elemental Bracer": 0.1317,
       "Crushed Elemental Bracer": 0.1311,
       "Fractured Elemental Bracer": 0.1301,
-      "Elemental Water": 0.0307
+      "Elemental Water": 0.0307,
+      "Moss Agate": 0.0028,
+      "Lesser Moonstone": 0.0013,
+      "Shadowgem": 0.001
     }
   },
   {
     "id": "ashenvale_ashenvale_bear_47_70",
     "name": "Ashenvale Bear (Ashenvale)",
+    "creatureEntry": 3809,
     "mapID": 1440,
     "zone": "Ashenvale",
     "x": 47.3,
@@ -1363,12 +1558,15 @@
       "Light Leather": 0.4234,
       "Big Bear Meat": 0.4186,
       "Medium Hide": 0.0487,
-      "Light Hide": 0.0257
+      "Light Hide": 0.0257,
+      "Moss Agate": 0.0016,
+      "Bear Meat": 0.0014
     }
   },
   {
     "id": "ashenvale_elder_shadowhorn_stag_72_21",
     "name": "Elder Shadowhorn Stag (Ashenvale)",
+    "creatureEntry": 3818,
     "mapID": 1440,
     "zone": "Ashenvale",
     "x": 72.1,
@@ -1388,12 +1586,14 @@
       "Stag Meat": 0.5322,
       "Heavy Leather": 0.2087,
       "Medium Hide": 0.0442,
-      "Heavy Hide": 0.0234
+      "Heavy Hide": 0.0234,
+      "Moss Agate": 0.001
     }
   },
   {
     "id": "wetlands_leech_stalker_54_69",
     "name": "Leech Stalker (Wetlands)",
+    "creatureEntry": 1111,
     "mapID": 1437,
     "zone": "Wetlands",
     "x": 54.4,
@@ -1410,12 +1610,14 @@
       "POISON"
     ],
     "drops": {
-      "Crisp Spider Meat": 0.3818
+      "Crisp Spider Meat": 0.3818,
+      "Moss Agate": 0.0022
     }
   },
   {
     "id": "ashenvale_elder_shadowhorn_stag_78_36",
     "name": "Elder Shadowhorn Stag (Ashenvale)",
+    "creatureEntry": 3818,
     "mapID": 1440,
     "zone": "Ashenvale",
     "x": 78.8,
@@ -1435,12 +1637,14 @@
       "Stag Meat": 0.5322,
       "Heavy Leather": 0.2087,
       "Medium Hide": 0.0442,
-      "Heavy Hide": 0.0234
+      "Heavy Hide": 0.0234,
+      "Moss Agate": 0.001
     }
   },
   {
     "id": "ashenvale_ashenvale_bear_66_53",
     "name": "Ashenvale Bear (Ashenvale)",
+    "creatureEntry": 3809,
     "mapID": 1440,
     "zone": "Ashenvale",
     "x": 66.6,
@@ -1460,12 +1664,15 @@
       "Light Leather": 0.4234,
       "Big Bear Meat": 0.4186,
       "Medium Hide": 0.0487,
-      "Light Hide": 0.0257
+      "Light Hide": 0.0257,
+      "Moss Agate": 0.0016,
+      "Bear Meat": 0.0014
     }
   },
   {
     "id": "duskwood_nightbane_dark_runner_57_45",
     "name": "Nightbane Dark Runner (Duskwood)",
+    "creatureEntry": 205,
     "mapID": 1431,
     "zone": "Duskwood",
     "x": 57.4,
@@ -1485,12 +1692,14 @@
       "Medium Leather": 0.7289,
       "Heavy Leather": 0.201,
       "Medium Hide": 0.049,
-      "Heavy Hide": 0.0205
+      "Heavy Hide": 0.0205,
+      "Moss Agate": 0.001
     }
   },
   {
     "id": "hillsbrad_foothills_torn_fin_coastrunner_28_74",
     "name": "Torn Fin Coastrunner (Hillsbrad Foothills)",
+    "creatureEntry": 2375,
     "mapID": 1424,
     "zone": "Hillsbrad Foothills",
     "x": 28.4,
@@ -1516,6 +1725,7 @@
   {
     "id": "the_barrens_thunderhead_43_77",
     "name": "Thunderhead (The Barrens)",
+    "creatureEntry": 3239,
     "mapID": 1413,
     "zone": "The Barrens",
     "x": 43.2,
@@ -1536,12 +1746,15 @@
       "Medium Leather": 0.2,
       "Charged Scale": 0.1133,
       "Light Hide": 0.0532,
-      "Medium Hide": 0.0189
+      "Medium Hide": 0.0189,
+      "Shadowgem": 0.0022,
+      "Moss Agate": 0.0012
     }
   },
   {
     "id": "ashenvale_shadowhorn_stag_45_76",
     "name": "Shadowhorn Stag (Ashenvale)",
+    "creatureEntry": 3817,
     "mapID": 1440,
     "zone": "Ashenvale",
     "x": 45.4,
@@ -1561,12 +1774,14 @@
       "Medium Leather": 0.485,
       "Light Leather": 0.4371,
       "Medium Hide": 0.0457,
-      "Light Hide": 0.0321
+      "Light Hide": 0.0321,
+      "Moss Agate": 0.0012
     }
   },
   {
     "id": "stonetalon_mountains_bloodfury_windcaller_18_78",
     "name": "Bloodfury Windcaller (Stonetalon Mountains)",
+    "creatureEntry": 4026,
     "mapID": 1442,
     "zone": "Stonetalon Mountains",
     "x": 18.0,
@@ -1585,12 +1800,14 @@
     "drops": {
       "Wool Cloth": 0.2404,
       "Linen Cloth": 0.1328,
-      "Silk Cloth": 0.0484
+      "Silk Cloth": 0.0484,
+      "Moss Agate": 0.0018
     }
   },
   {
     "id": "duskwood_black_ravager_43_71",
     "name": "Black Ravager & Young Black Ravager (Duskwood)",
+    "creatureEntry": 923,
     "mapID": 1431,
     "zone": "Duskwood",
     "x": 43.1,
@@ -1609,12 +1826,15 @@
       "Medium Leather": 0.5041,
       "Light Leather": 0.4271,
       "Medium Hide": 0.0508,
-      "Light Hide": 0.0304
+      "Light Hide": 0.0304,
+      "Moss Agate": 0.0022,
+      "Lesser Moonstone": 0.0012
     }
   },
   {
     "id": "the_barrens_thunderhead_50_72",
     "name": "Thunderhead (The Barrens)",
+    "creatureEntry": 3239,
     "mapID": 1413,
     "zone": "The Barrens",
     "x": 50.9,
@@ -1635,12 +1855,15 @@
       "Medium Leather": 0.2,
       "Charged Scale": 0.1133,
       "Light Hide": 0.0532,
-      "Medium Hide": 0.0189
+      "Medium Hide": 0.0189,
+      "Shadowgem": 0.0022,
+      "Moss Agate": 0.0012
     }
   },
   {
     "id": "hillsbrad_foothills_hillsbrad_farmhand_33_35",
     "name": "Hillsbrad Farmhand (Hillsbrad Foothills)",
+    "creatureEntry": 2360,
     "mapID": 1424,
     "zone": "Hillsbrad Foothills",
     "x": 33.4,
@@ -1659,12 +1882,14 @@
     "drops": {
       "Wool Cloth": 0.2457,
       "Linen Cloth": 0.1308,
-      "Silk Cloth": 0.0489
+      "Silk Cloth": 0.0489,
+      "Moss Agate": 0.0026
     }
   },
   {
     "id": "hillsbrad_foothills_elder_gray_bear_32_60",
     "name": "Elder Gray Bear (Hillsbrad Foothills)",
+    "creatureEntry": 2356,
     "mapID": 1424,
     "zone": "Hillsbrad Foothills",
     "x": 32.9,
@@ -1684,12 +1909,15 @@
       "Light Leather": 0.437,
       "Big Bear Meat": 0.4198,
       "Medium Hide": 0.0465,
-      "Light Hide": 0.0254
+      "Light Hide": 0.0254,
+      "Moss Agate": 0.0012,
+      "Lesser Moonstone": 0.0011
     }
   },
   {
     "id": "wetlands_wetlands_crocolisk_9_27",
     "name": "Wetlands Crocolisk & Young Wetlands Crocolisk (Wetlands)",
+    "creatureEntry": 1400,
     "mapID": 1437,
     "zone": "Wetlands",
     "x": 9.8,
@@ -1709,12 +1937,15 @@
       "Crocolisk Meat": 0.4981,
       "Light Leather": 0.4195,
       "Medium Hide": 0.0491,
-      "Light Hide": 0.0334
+      "Light Hide": 0.0334,
+      "Moss Agate": 0.002,
+      "Lesser Moonstone": 0.0011
     }
   },
   {
     "id": "azshara_horde_scout_5_63",
     "name": "Horde Scout (Azshara)",
+    "creatureEntry": 11680,
     "mapID": 1447,
     "zone": "Azshara",
     "x": 5.9,
@@ -1732,12 +1963,15 @@
     ],
     "drops": {
       "Silk Cloth": 0.2449,
-      "Wool Cloth": 0.1015
+      "Wool Cloth": 0.1015,
+      "Moss Agate": 0.002,
+      "Lesser Moonstone": 0.001
     }
   },
   {
     "id": "darkshore_stormscale_warrior_53_11",
     "name": "Stormscale Warrior (Darkshore)",
+    "creatureEntry": 2183,
     "mapID": 1439,
     "zone": "Darkshore",
     "x": 53.5,
@@ -1755,12 +1989,15 @@
     ],
     "drops": {
       "Small Barnacled Clam": 0.3781,
-      "Shiny Fish Scales": 0.2813
+      "Shiny Fish Scales": 0.2813,
+      "Shadowgem": 0.0026,
+      "Moss Agate": 0.0018
     }
   },
   {
     "id": "wetlands_mosshide_mongrel_68_78",
     "name": "Mosshide Mongrel (Wetlands)",
+    "creatureEntry": 1008,
     "mapID": 1437,
     "zone": "Wetlands",
     "x": 68.8,
@@ -1779,12 +2016,14 @@
     "drops": {
       "Wool Cloth": 0.2449,
       "Linen Cloth": 0.1259,
-      "Silk Cloth": 0.0505
+      "Silk Cloth": 0.0505,
+      "Moss Agate": 0.0024
     }
   },
   {
     "id": "ashenvale_laughing_sister_77_56",
     "name": "Laughing Sister (Ashenvale)",
+    "creatureEntry": 4054,
     "mapID": 1440,
     "zone": "Ashenvale",
     "x": 77.2,
@@ -1803,12 +2042,14 @@
     "drops": {
       "Wool Cloth": 0.2431,
       "Linen Cloth": 0.1199,
-      "Silk Cloth": 0.0502
+      "Silk Cloth": 0.0502,
+      "Moss Agate": 0.001
     }
   },
   {
     "id": "hillsbrad_foothills_daggerspine_shorestalker_75_84",
     "name": "Daggerspine Shorestalker (Hillsbrad Foothills)",
+    "creatureEntry": 2368,
     "mapID": 1424,
     "zone": "Hillsbrad Foothills",
     "x": 75.0,
@@ -1828,12 +2069,15 @@
       "Thick-shelled Clam": 0.3795,
       "Fish Oil": 0.2876,
       "Shiny Fish Scales": 0.2858,
-      "Naga Scale": 0.0552
+      "Naga Scale": 0.0552,
+      "Lesser Moonstone": 0.0018,
+      "Moss Agate": 0.0014
     }
   },
   {
     "id": "hillsbrad_foothills_vicious_gray_bear_45_37",
     "name": "Vicious Gray Bear (Hillsbrad Foothills)",
+    "creatureEntry": 2354,
     "mapID": 1424,
     "zone": "Hillsbrad Foothills",
     "x": 45.8,
@@ -1854,12 +2098,14 @@
       "Big Bear Meat": 0.4104,
       "Bear Meat": 0.1836,
       "Medium Hide": 0.0485,
-      "Light Hide": 0.0281
+      "Light Hide": 0.0281,
+      "Moss Agate": 0.0018
     }
   },
   {
     "id": "burning_steppes_blackrock_champion_15_82",
     "name": "Blackrock Champion (Burning Steppes)",
+    "creatureEntry": 435,
     "mapID": 1428,
     "zone": "Burning Steppes",
     "x": 15.4,
@@ -1879,12 +2125,15 @@
     "drops": {
       "Wool Cloth": 0.2385,
       "Linen Cloth": 0.1293,
-      "Silk Cloth": 0.0489
+      "Silk Cloth": 0.0489,
+      "Moss Agate": 0.0024,
+      "Shadowgem": 0.0012
     }
   },
   {
     "id": "wetlands_dragonmaw_bonewarder_45_47",
     "name": "Dragonmaw Bonewarder (Wetlands)",
+    "creatureEntry": 1057,
     "mapID": 1437,
     "zone": "Wetlands",
     "x": 45.7,
@@ -1908,6 +2157,7 @@
   {
     "id": "ashenvale_elder_shadowhorn_stag_90_75",
     "name": "Elder Shadowhorn Stag (Ashenvale)",
+    "creatureEntry": 3818,
     "mapID": 1440,
     "zone": "Ashenvale",
     "x": 90.9,
@@ -1926,12 +2176,14 @@
       "Stag Meat": 0.5322,
       "Heavy Leather": 0.2087,
       "Medium Hide": 0.0442,
-      "Heavy Hide": 0.0234
+      "Heavy Hide": 0.0234,
+      "Moss Agate": 0.001
     }
   },
   {
     "id": "dustwallow_marsh_young_murk_thresher_91_59",
     "name": "Young Murk Thresher (Dustwallow Marsh)",
+    "creatureEntry": 4388,
     "mapID": 1445,
     "zone": "Dustwallow Marsh",
     "x": 91.9,
@@ -1957,6 +2209,7 @@
   {
     "id": "badlands_feral_crag_coyote_58_70",
     "name": "Feral Crag Coyote (Badlands)",
+    "creatureEntry": 2728,
     "mapID": 1418,
     "zone": "Badlands",
     "x": 58.8,
@@ -1981,6 +2234,7 @@
   {
     "id": "stranglethorn_vale_venture_co._geologist_47_22",
     "name": "Venture Co. Geologist (Stranglethorn Vale)",
+    "creatureEntry": 1096,
     "mapID": 1434,
     "zone": "Stranglethorn Vale",
     "x": 47.6,
@@ -2006,6 +2260,7 @@
   {
     "id": "badlands_elder_crag_coyote_24_75",
     "name": "Elder Crag Coyote (Badlands)",
+    "creatureEntry": 2729,
     "mapID": 1418,
     "zone": "Badlands",
     "x": 24.7,
@@ -2031,6 +2286,7 @@
   {
     "id": "swamp_of_sorrows_swamp_jaguar_51_39",
     "name": "Swamp Jaguar (Swamp of Sorrows)",
+    "creatureEntry": 767,
     "mapID": 1435,
     "zone": "Swamp of Sorrows",
     "x": 51.9,
@@ -2048,12 +2304,14 @@
     "drops": {
       "Heavy Leather": 0.7669,
       "Thick Leather": 0.2027,
-      "Heavy Hide": 0.0305
+      "Heavy Hide": 0.0305,
+      "Jade": 0.001
     }
   },
   {
     "id": "stranglethorn_vale_jungle_stalker_18_45",
     "name": "Jungle Stalker & Young Jungle Stalker (Stranglethorn Vale)",
+    "creatureEntry": 687,
     "mapID": 1434,
     "zone": "Stranglethorn Vale",
     "x": 18.7,
@@ -2074,12 +2332,14 @@
       "Raptor Egg": 0.5599,
       "Raptor Hide": 0.4875,
       "Thick Leather": 0.2054,
-      "Heavy Hide": 0.0385
+      "Heavy Hide": 0.0385,
+      "Aquamarine": 0.0016
     }
   },
   {
     "id": "arathi_highlands_highland_strider_66_26",
     "name": "Highland Strider (Arathi Highlands)",
+    "creatureEntry": 2559,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 66.1,
@@ -2106,6 +2366,7 @@
   {
     "id": "dustwallow_marsh_drywallow_snapper_37_42",
     "name": "Drywallow Snapper (Dustwallow Marsh)",
+    "creatureEntry": 4343,
     "mapID": 1445,
     "zone": "Dustwallow Marsh",
     "x": 37.5,
@@ -2130,6 +2391,7 @@
   {
     "id": "arathi_highlands_witherbark_headhunter_71_64",
     "name": "Witherbark Headhunter (Arathi Highlands)",
+    "creatureEntry": 2556,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 71.0,
@@ -2155,6 +2417,7 @@
   {
     "id": "arathi_highlands_highland_thrasher_25_14",
     "name": "Highland Thrasher (Arathi Highlands)",
+    "creatureEntry": 2560,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 25.6,
@@ -2175,12 +2438,14 @@
       "Medium Leather": 0.437,
       "Raptor Hide": 0.3904,
       "Heavy Hide": 0.0362,
-      "Medium Hide": 0.0314
+      "Medium Hide": 0.0314,
+      "Jade": 0.001
     }
   },
   {
     "id": "badlands_crag_coyote_49_53",
     "name": "Crag Coyote (Badlands)",
+    "creatureEntry": 2727,
     "mapID": 1418,
     "zone": "Badlands",
     "x": 49.2,
@@ -2200,12 +2465,14 @@
       "Heavy Leather": 0.5029,
       "Medium Leather": 0.421,
       "Medium Hide": 0.044,
-      "Heavy Hide": 0.0321
+      "Heavy Hide": 0.0321,
+      "Jade": 0.0012
     }
   },
   {
     "id": "dustwallow_marsh_theramore_deserter_26_57",
     "name": "Theramore Deserter (Dustwallow Marsh)",
+    "creatureEntry": 5057,
     "mapID": 1445,
     "zone": "Dustwallow Marsh",
     "x": 26.8,
@@ -2229,6 +2496,7 @@
   {
     "id": "stranglethorn_vale_jungle_thunderer_44_30",
     "name": "Jungle Thunderer (Stranglethorn Vale)",
+    "creatureEntry": 1114,
     "mapID": 1434,
     "zone": "Stranglethorn Vale",
     "x": 44.6,
@@ -2253,6 +2521,7 @@
   {
     "id": "arathi_highlands_hammerfall_peon_60_40",
     "name": "Hammerfall Peon (Arathi Highlands)",
+    "creatureEntry": 2618,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 60.4,
@@ -2271,12 +2540,14 @@
     "drops": {
       "Silk Cloth": 0.2985,
       "Wool Cloth": 0.0391,
-      "Mageweave Cloth": 0.0184
+      "Mageweave Cloth": 0.0184,
+      "Jade": 0.001
     }
   },
   {
     "id": "arathi_highlands_highland_thrasher_21_50",
     "name": "Highland Thrasher (Arathi Highlands)",
+    "creatureEntry": 2560,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 21.5,
@@ -2296,12 +2567,14 @@
       "Medium Leather": 0.437,
       "Raptor Hide": 0.3904,
       "Heavy Hide": 0.0362,
-      "Medium Hide": 0.0314
+      "Medium Hide": 0.0314,
+      "Jade": 0.001
     }
   },
   {
     "id": "arathi_highlands_highland_strider_28_26",
     "name": "Highland Strider (Arathi Highlands)",
+    "creatureEntry": 2559,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 28.6,
@@ -2327,6 +2600,7 @@
   {
     "id": "dustwallow_marsh_mottled_drywallow_crocolisk_29_62",
     "name": "Mottled Drywallow Crocolisk (Dustwallow Marsh)",
+    "creatureEntry": 4344,
     "mapID": 1445,
     "zone": "Dustwallow Marsh",
     "x": 29.9,
@@ -2351,6 +2625,7 @@
   {
     "id": "desolace_scorpashi_snapper_41_22",
     "name": "Scorpashi Snapper (Desolace)",
+    "creatureEntry": 4696,
     "mapID": 1443,
     "zone": "Desolace",
     "x": 41.7,
@@ -2378,6 +2653,7 @@
   {
     "id": "arathi_highlands_dabyrie_laborer_50_18",
     "name": "Dabyrie Laborer (Arathi Highlands)",
+    "creatureEntry": 2582,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 50.7,
@@ -2402,6 +2678,7 @@
   {
     "id": "desolace_undead_ravager_36_89",
     "name": "Undead Ravager (Desolace)",
+    "creatureEntry": 11561,
     "mapID": 1443,
     "zone": "Desolace",
     "x": 36.0,
@@ -2424,6 +2701,7 @@
   {
     "id": "alterac_mountains_snapjaw_50_40",
     "name": "Snapjaw (Alterac Mountains)",
+    "creatureEntry": 2408,
     "mapID": 1416,
     "zone": "Alterac Mountains",
     "x": 50.4,
@@ -2450,6 +2728,7 @@
   {
     "id": "dustwallow_marsh_mottled_drywallow_crocolisk_30_51",
     "name": "Mottled Drywallow Crocolisk (Dustwallow Marsh)",
+    "creatureEntry": 4344,
     "mapID": 1445,
     "zone": "Dustwallow Marsh",
     "x": 30.9,
@@ -2471,8 +2750,37 @@
     }
   },
   {
+    "id": "stranglethorn_vale_stranglethorn_raptor_9_18",
+    "name": "Stranglethorn Raptor & Young Stranglethorn Raptor (Stranglethorn Vale)",
+    "creatureEntry": 685,
+    "mapID": 1434,
+    "zone": "Stranglethorn Vale",
+    "x": 9.6,
+    "y": 18.0,
+    "minLevel": 30,
+    "maxLevel": 34,
+    "faction": "Both",
+    "density": "Medium",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "BEAST"
+    ],
+    "drops": {
+      "Medium Leather": 0.75,
+      "Raptor Egg": 0.532,
+      "Heavy Leather": 0.4997,
+      "Raptor Hide": 0.4002,
+      "Medium Hide": 0.0733,
+      "Heavy Hide": 0.0334,
+      "Jade": 0.0026,
+      "Lesser Moonstone": 0.002
+    }
+  },
+  {
     "id": "badlands_ridge_huntress_39_67",
     "name": "Ridge Huntress (Badlands)",
+    "creatureEntry": 2732,
     "mapID": 1418,
     "zone": "Badlands",
     "x": 39.5,
@@ -2494,33 +2802,9 @@
     }
   },
   {
-    "id": "stranglethorn_vale_stranglethorn_raptor_9_18",
-    "name": "Stranglethorn Raptor & Young Stranglethorn Raptor (Stranglethorn Vale)",
-    "mapID": 1434,
-    "zone": "Stranglethorn Vale",
-    "x": 9.6,
-    "y": 18.0,
-    "minLevel": 30,
-    "maxLevel": 34,
-    "faction": "Both",
-    "density": "Medium",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST"
-    ],
-    "drops": {
-      "Medium Leather": 0.75,
-      "Raptor Egg": 0.532,
-      "Heavy Leather": 0.4997,
-      "Raptor Hide": 0.4002,
-      "Medium Hide": 0.0733,
-      "Heavy Hide": 0.0334
-    }
-  },
-  {
     "id": "alterac_mountains_snapjaw_76_16",
     "name": "Snapjaw (Alterac Mountains)",
+    "creatureEntry": 2408,
     "mapID": 1416,
     "zone": "Alterac Mountains",
     "x": 76.6,
@@ -2547,6 +2831,7 @@
   {
     "id": "desolace_dread_swoop_43_57",
     "name": "Dread Swoop (Desolace)",
+    "creatureEntry": 4692,
     "mapID": 1443,
     "zone": "Desolace",
     "x": 43.6,
@@ -2568,6 +2853,7 @@
   {
     "id": "swamp_of_sorrows_young_sawtooth_crocolisk_44_41",
     "name": "Young Sawtooth Crocolisk (Swamp of Sorrows)",
+    "creatureEntry": 1084,
     "mapID": 1435,
     "zone": "Swamp of Sorrows",
     "x": 44.7,
@@ -2593,6 +2879,7 @@
   {
     "id": "swamp_of_sorrows_sawtooth_crocolisk_76_44",
     "name": "Sawtooth Crocolisk (Swamp of Sorrows)",
+    "creatureEntry": 1082,
     "mapID": 1435,
     "zone": "Swamp of Sorrows",
     "x": 76.0,
@@ -2617,6 +2904,7 @@
   {
     "id": "arathi_highlands_highland_strider_45_26",
     "name": "Highland Strider (Arathi Highlands)",
+    "creatureEntry": 2559,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 45.2,
@@ -2642,6 +2930,7 @@
   {
     "id": "desolace_burning_blade_felsworn_26_24",
     "name": "Burning Blade Felsworn (Desolace)",
+    "creatureEntry": 4666,
     "mapID": 1443,
     "zone": "Desolace",
     "x": 26.9,
@@ -2666,6 +2955,7 @@
   {
     "id": "badlands_shadowforge_warrior_37_40",
     "name": "Shadowforge Warrior (Badlands)",
+    "creatureEntry": 2743,
     "mapID": 1418,
     "zone": "Badlands",
     "x": 37.6,
@@ -2689,6 +2979,7 @@
   {
     "id": "arathi_highlands_syndicate_highwayman_14_6",
     "name": "Syndicate Highwayman (Arathi Highlands)",
+    "creatureEntry": 2586,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 14.5,
@@ -2713,6 +3004,7 @@
   {
     "id": "arathi_highlands_plains_creeper_71_32",
     "name": "Plains Creeper (Arathi Highlands)",
+    "creatureEntry": 2563,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 71.4,
@@ -2736,6 +3028,7 @@
   {
     "id": "dustwallow_marsh_mirefin_murloc_66_10",
     "name": "Mirefin Murloc (Dustwallow Marsh)",
+    "creatureEntry": 4359,
     "mapID": 1445,
     "zone": "Dustwallow Marsh",
     "x": 66.2,
@@ -2760,6 +3053,7 @@
   {
     "id": "stranglethorn_vale_snapjaw_crocolisk_40_21",
     "name": "Snapjaw Crocolisk (Stranglethorn Vale)",
+    "creatureEntry": 1152,
     "mapID": 1434,
     "zone": "Stranglethorn Vale",
     "x": 40.5,
@@ -2785,6 +3079,7 @@
   {
     "id": "swamp_of_sorrows_nethergarde_miner_69_66",
     "name": "Nethergarde Miner (Swamp of Sorrows)",
+    "creatureEntry": 5996,
     "mapID": 1435,
     "zone": "Swamp of Sorrows",
     "x": 69.1,
@@ -2808,6 +3103,7 @@
   {
     "id": "blasted_lands_nethergarde_soldier_47_33",
     "name": "Nethergarde Soldier (Blasted Lands)",
+    "creatureEntry": 5999,
     "mapID": 1419,
     "zone": "Blasted Lands",
     "x": 47.9,
@@ -2825,12 +3121,15 @@
       "HUMANOID"
     ],
     "drops": {
-      "Mageweave Cloth": 0.3745
+      "Mageweave Cloth": 0.3745,
+      "Aquamarine": 0.0024,
+      "Star Ruby": 0.0012
     }
   },
   {
     "id": "searing_gorge_slave_worker_11_34",
     "name": "Slave Worker (Searing Gorge)",
+    "creatureEntry": 5843,
     "mapID": 1427,
     "zone": "Searing Gorge",
     "x": 11.9,
@@ -2855,6 +3154,7 @@
   {
     "id": "blasted_lands_nethergarde_miner_57_22",
     "name": "Nethergarde Miner (Blasted Lands)",
+    "creatureEntry": 5996,
     "mapID": 1419,
     "zone": "Blasted Lands",
     "x": 57.4,
@@ -2878,6 +3178,7 @@
   {
     "id": "dustwallow_marsh_drywallow_daggermaw_51_83",
     "name": "Drywallow Daggermaw (Dustwallow Marsh)",
+    "creatureEntry": 4345,
     "mapID": 1445,
     "zone": "Dustwallow Marsh",
     "x": 51.4,
@@ -2903,6 +3204,7 @@
   {
     "id": "the_hinterlands_silvermane_stalker_91_40",
     "name": "Silvermane Stalker (The Hinterlands)",
+    "creatureEntry": 2926,
     "mapID": 1425,
     "zone": "The Hinterlands",
     "x": 91.7,
@@ -2929,6 +3231,7 @@
   {
     "id": "tanaris_surf_glider_84_87",
     "name": "Surf Glider (Tanaris)",
+    "creatureEntry": 5431,
     "mapID": 1446,
     "zone": "Tanaris",
     "x": 84.1,
@@ -2956,6 +3259,7 @@
   {
     "id": "tanaris_surf_glider_73_82",
     "name": "Surf Glider (Tanaris)",
+    "creatureEntry": 5431,
     "mapID": 1446,
     "zone": "Tanaris",
     "x": 73.9,
@@ -2983,6 +3287,7 @@
   {
     "id": "felwood_jadefire_satyr_72_90",
     "name": "Jadefire Satyr (Felwood)",
+    "creatureEntry": 7105,
     "mapID": 1448,
     "zone": "Felwood",
     "x": 72.5,
@@ -3005,6 +3310,7 @@
   {
     "id": "stranglethorn_vale_naga_explorer_11_64",
     "name": "Naga Explorer (Stranglethorn Vale)",
+    "creatureEntry": 1907,
     "mapID": 1434,
     "zone": "Stranglethorn Vale",
     "x": 11.0,
@@ -3029,6 +3335,7 @@
   {
     "id": "tanaris_rabid_blisterpaw_60_39",
     "name": "Rabid Blisterpaw (Tanaris)",
+    "creatureEntry": 5427,
     "mapID": 1446,
     "zone": "Tanaris",
     "x": 60.0,
@@ -3055,6 +3362,7 @@
   {
     "id": "stranglethorn_vale_elder_mistvale_gorilla_24_68",
     "name": "Elder Mistvale Gorilla (Stranglethorn Vale)",
+    "creatureEntry": 1557,
     "mapID": 1434,
     "zone": "Stranglethorn Vale",
     "x": 24.6,
@@ -3079,6 +3387,7 @@
   {
     "id": "the_hinterlands_mangy_silvermane_11_38",
     "name": "Mangy Silvermane (The Hinterlands)",
+    "creatureEntry": 2923,
     "mapID": 1425,
     "zone": "The Hinterlands",
     "x": 11.2,
@@ -3099,12 +3408,14 @@
       "Tender Wolf Meat": 0.4121,
       "Heavy Leather": 0.4055,
       "Thick Hide": 0.0412,
-      "Heavy Hide": 0.0384
+      "Heavy Hide": 0.0384,
+      "Aquamarine": 0.001
     }
   },
   {
     "id": "stranglethorn_vale_ironjaw_basilisk_44_50",
     "name": "Ironjaw Basilisk (Stranglethorn Vale)",
+    "creatureEntry": 1551,
     "mapID": 1434,
     "zone": "Stranglethorn Vale",
     "x": 44.7,
@@ -3132,6 +3443,7 @@
   {
     "id": "dustwallow_marsh_drywallow_daggermaw_50_67",
     "name": "Drywallow Daggermaw (Dustwallow Marsh)",
+    "creatureEntry": 4345,
     "mapID": 1445,
     "zone": "Dustwallow Marsh",
     "x": 50.0,
@@ -3157,6 +3469,7 @@
   {
     "id": "feralas_frayfeather_skystormer_23_45",
     "name": "Frayfeather Skystormer (Feralas)",
+    "creatureEntry": 5305,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 23.7,
@@ -3182,6 +3495,7 @@
   {
     "id": "stranglethorn_vale_venture_co._strip_miner_41_45",
     "name": "Venture Co. Strip Miner (Stranglethorn Vale)",
+    "creatureEntry": 674,
     "mapID": 1434,
     "zone": "Stranglethorn Vale",
     "x": 41.7,
@@ -3206,6 +3520,7 @@
   {
     "id": "tanaris_surf_glider_95_82",
     "name": "Surf Glider (Tanaris)",
+    "creatureEntry": 5431,
     "mapID": 1446,
     "zone": "Tanaris",
     "x": 95.3,
@@ -3232,6 +3547,7 @@
   {
     "id": "tanaris_blisterpaw_hyena_78_45",
     "name": "Blisterpaw Hyena (Tanaris)",
+    "creatureEntry": 5426,
     "mapID": 1446,
     "zone": "Tanaris",
     "x": 78.0,
@@ -3252,12 +3568,14 @@
       "Heavy Leather": 0.4394,
       "Mystery Meat": 0.4377,
       "Tender Wolf Meat": 0.371,
-      "Thick Hide": 0.0364
+      "Thick Hide": 0.0364,
+      "Heavy Hide": 0.0303
     }
   },
   {
     "id": "dustwallow_marsh_firemane_flamecaller_58_91",
     "name": "Firemane Flamecaller (Dustwallow Marsh)",
+    "creatureEntry": 4334,
     "mapID": 1445,
     "zone": "Dustwallow Marsh",
     "x": 58.4,
@@ -3284,6 +3602,7 @@
   {
     "id": "the_hinterlands_silvermane_wolf_38_36",
     "name": "Silvermane Wolf (The Hinterlands)",
+    "creatureEntry": 2924,
     "mapID": 1425,
     "zone": "The Hinterlands",
     "x": 38.5,
@@ -3310,6 +3629,7 @@
   {
     "id": "arathi_highlands_refuge_pointe_defender_36_27",
     "name": "Refuge Pointe Defender (Arathi Highlands)",
+    "creatureEntry": 10696,
     "mapID": 1417,
     "zone": "Arathi Highlands",
     "x": 36.0,
@@ -3332,8 +3652,38 @@
     }
   },
   {
+    "id": "feralas_sprite_darter_43_21",
+    "name": "Sprite Darter (Feralas)",
+    "creatureEntry": 5278,
+    "mapID": 1444,
+    "zone": "Feralas",
+    "x": 43.0,
+    "y": 21.2,
+    "minLevel": 43,
+    "maxLevel": 45,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "DRAGONKIN",
+      "HIGH_ARMOR",
+      "MANA_BURN"
+    ],
+    "drops": {
+      "Thick Leather": 0.492,
+      "Heavy Leather": 0.4132,
+      "Small Flame Sac": 0.1238,
+      "Thick Hide": 0.0396,
+      "Heavy Hide": 0.0278,
+      "Aquamarine": 0.0073,
+      "Star Ruby": 0.0019
+    }
+  },
+  {
     "id": "felwood_felpaw_wolf_92_85",
     "name": "Felpaw Wolf (Felwood)",
+    "creatureEntry": 8959,
     "mapID": 1448,
     "zone": "Felwood",
     "x": 92.7,
@@ -3360,6 +3710,7 @@
   {
     "id": "ungoro_crater_ravasaur_83_77",
     "name": "Ravasaur (Un'Goro Crater)",
+    "creatureEntry": 6505,
     "mapID": 1449,
     "zone": "Un'Goro Crater",
     "x": 83.4,
@@ -3381,33 +3732,9 @@
     }
   },
   {
-    "id": "feralas_sprite_darter_43_21",
-    "name": "Sprite Darter (Feralas)",
-    "mapID": 1444,
-    "zone": "Feralas",
-    "x": 43.0,
-    "y": 21.2,
-    "minLevel": 43,
-    "maxLevel": 45,
-    "faction": "Both",
-    "density": "High",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "DRAGONKIN",
-      "HIGH_ARMOR",
-      "MANA_BURN"
-    ],
-    "drops": {
-      "Thick Leather": 0.492,
-      "Heavy Leather": 0.4132,
-      "Thick Hide": 0.0396,
-      "Heavy Hide": 0.0278
-    }
-  },
-  {
     "id": "tanaris_blisterpaw_hyena_93_48",
     "name": "Blisterpaw Hyena (Tanaris)",
+    "creatureEntry": 5426,
     "mapID": 1446,
     "zone": "Tanaris",
     "x": 93.3,
@@ -3428,12 +3755,14 @@
       "Heavy Leather": 0.4394,
       "Mystery Meat": 0.4377,
       "Tender Wolf Meat": 0.371,
-      "Thick Hide": 0.0364
+      "Thick Hide": 0.0364,
+      "Heavy Hide": 0.0303
     }
   },
   {
     "id": "stranglethorn_vale_southern_sand_crawler_16_88",
     "name": "Southern Sand Crawler (Stranglethorn Vale)",
+    "creatureEntry": 2544,
     "mapID": 1434,
     "zone": "Stranglethorn Vale",
     "x": 16.8,
@@ -3451,12 +3780,14 @@
     "drops": {
       "Shiny Fish Scales": 0.369,
       "Tender Crab Meat": 0.3601,
-      "Big-mouth Clam": 0.3588
+      "Big-mouth Clam": 0.3588,
+      "Aquamarine": 0.0016
     }
   },
   {
     "id": "feralas_longtooth_howler_46_34",
     "name": "Longtooth Howler (Feralas)",
+    "creatureEntry": 5287,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 46.6,
@@ -3483,6 +3814,7 @@
   {
     "id": "blasted_lands_marsh_inkspewer_89_17",
     "name": "Marsh Inkspewer (Blasted Lands)",
+    "creatureEntry": 750,
     "mapID": 1419,
     "zone": "Blasted Lands",
     "x": 89.8,
@@ -3507,6 +3839,7 @@
   {
     "id": "tanaris_scorpid_tail_lasher_91_34",
     "name": "Scorpid Tail Lasher (Tanaris)",
+    "creatureEntry": 5423,
     "mapID": 1446,
     "zone": "Tanaris",
     "x": 91.2,
@@ -3527,12 +3860,14 @@
       "Thick Leather": 0.323,
       "Dry Scorpid Eye": 0.2596,
       "Heavy Leather": 0.2054,
-      "Thick Hide": 0.0399
+      "Thick Hide": 0.0399,
+      "Heavy Hide": 0.0304
     }
   },
   {
     "id": "felwood_angerclaw_mauler_77_67",
     "name": "Angerclaw Mauler (Felwood)",
+    "creatureEntry": 8958,
     "mapID": 1448,
     "zone": "Felwood",
     "x": 77.8,
@@ -3559,6 +3894,7 @@
   {
     "id": "feralas_longtooth_runner_71_13",
     "name": "Longtooth Runner (Feralas)",
+    "creatureEntry": 5286,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 71.9,
@@ -3585,6 +3921,7 @@
   {
     "id": "feralas_longtooth_runner_58_12",
     "name": "Longtooth Runner (Feralas)",
+    "creatureEntry": 5286,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 58.4,
@@ -3611,6 +3948,7 @@
   {
     "id": "tanaris_rabid_blisterpaw_40_57",
     "name": "Rabid Blisterpaw (Tanaris)",
+    "creatureEntry": 5427,
     "mapID": 1446,
     "zone": "Tanaris",
     "x": 40.6,
@@ -3637,6 +3975,7 @@
   {
     "id": "feralas_woodpaw_mystic_42_27",
     "name": "Woodpaw Mystic (Feralas)",
+    "creatureEntry": 5254,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 42.1,
@@ -3662,6 +4001,7 @@
   {
     "id": "feralas_hivezora_wasp_20_84",
     "name": "Hive'Zora Wasp (Feralas)",
+    "creatureEntry": 11727,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 20.3,
@@ -3682,8 +4022,33 @@
     }
   },
   {
+    "id": "darkshore_shatterspear_troll_64_13",
+    "name": "Shatterspear Troll (Darkshore)",
+    "creatureEntry": 10919,
+    "mapID": 1439,
+    "zone": "Darkshore",
+    "x": 64.3,
+    "y": 13.4,
+    "minLevel": 52,
+    "maxLevel": 58,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": false,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HIGH_ARMOR",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Star Ruby": 0.001
+    }
+  },
+  {
     "id": "western_plaguelands_skeletal_acolyte_73_88",
     "name": "Skeletal Acolyte (Western Plaguelands)",
+    "creatureEntry": 1789,
     "mapID": 1422,
     "zone": "Western Plaguelands",
     "x": 73.6,
@@ -3708,6 +4073,7 @@
   {
     "id": "silithus_stonelash_pincer_26_59",
     "name": "Stonelash Pincer (Silithus)",
+    "creatureEntry": 11736,
     "mapID": 1451,
     "zone": "Silithus",
     "x": 26.2,
@@ -3735,6 +4101,7 @@
   {
     "id": "feralas_hivezora_wasp_23_78",
     "name": "Hive'Zora Wasp (Feralas)",
+    "creatureEntry": 11727,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 23.2,
@@ -3757,6 +4124,7 @@
   {
     "id": "silithus_rock_stalker_19_77",
     "name": "Rock Stalker (Silithus)",
+    "creatureEntry": 11739,
     "mapID": 1451,
     "zone": "Silithus",
     "x": 19.8,
@@ -3781,6 +4149,7 @@
   {
     "id": "eastern_plaguelands_frenzied_plaguehound_84_30",
     "name": "Frenzied Plaguehound (Eastern Plaguelands)",
+    "creatureEntry": 8598,
     "mapID": 1423,
     "zone": "Eastern Plaguelands",
     "x": 84.9,
@@ -3808,6 +4177,7 @@
   {
     "id": "feralas_gordok_hyena_34_4",
     "name": "Gordok Hyena (Feralas)",
+    "creatureEntry": 12418,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 34.2,
@@ -3828,12 +4198,15 @@
       "Mystery Meat": 0.4347,
       "Tender Wolf Meat": 0.3835,
       "Thick Leather": 0.3701,
-      "Thick Hide": 0.039
+      "Thick Hide": 0.039,
+      "Rugged Hide": 0.034,
+      "Aquamarine": 0.0014
     }
   },
   {
     "id": "silithus_stonelash_pincer_42_61",
     "name": "Stonelash Pincer (Silithus)",
+    "creatureEntry": 11736,
     "mapID": 1451,
     "zone": "Silithus",
     "x": 42.5,
@@ -3861,6 +4234,7 @@
   {
     "id": "feralas_dust_stormer_18_64",
     "name": "Dust Stormer (Feralas)",
+    "creatureEntry": 11744,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 18.7,
@@ -3879,12 +4253,14 @@
     "drops": {
       "Elemental Air": 0.1143,
       "Breath of Wind": 0.1078,
-      "Essence of Air": 0.0723
+      "Essence of Air": 0.0723,
+      "Aquamarine": 0.001
     }
   },
   {
     "id": "silithus_stonelash_flayer_12_80",
     "name": "Stonelash Flayer (Silithus)",
+    "creatureEntry": 11737,
     "mapID": 1451,
     "zone": "Silithus",
     "x": 12.8,
@@ -3910,8 +4286,32 @@
     }
   },
   {
+    "id": "ungoro_crater_gorishi_reaver_63_81",
+    "name": "Gorishi Reaver (Un'Goro Crater)",
+    "creatureEntry": 6553,
+    "mapID": 1449,
+    "zone": "Un'Goro Crater",
+    "x": 63.3,
+    "y": 81.6,
+    "minLevel": 51,
+    "maxLevel": 53,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "HEAVY_PACKS",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Aquamarine": 0.0014,
+      "Star Ruby": 0.0011
+    }
+  },
+  {
     "id": "winterspring_ice_thistle_yeti_96_39",
     "name": "Ice Thistle Yeti (Winterspring)",
+    "creatureEntry": 7458,
     "mapID": 1452,
     "zone": "Winterspring",
     "x": 96.0,
@@ -3939,6 +4339,7 @@
   {
     "id": "feralas_stonelash_pincer_28_71",
     "name": "Stonelash Pincer (Feralas)",
+    "creatureEntry": 11736,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 28.7,
@@ -3965,6 +4366,7 @@
   {
     "id": "feralas_stonelash_scorpid_50_64",
     "name": "Stonelash Scorpid (Feralas)",
+    "creatureEntry": 11735,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 50.7,
@@ -3991,6 +4393,7 @@
   {
     "id": "western_plaguelands_soulless_ghoul_67_92",
     "name": "Soulless Ghoul (Western Plaguelands)",
+    "creatureEntry": 1794,
     "mapID": 1422,
     "zone": "Western Plaguelands",
     "x": 67.8,
@@ -4015,6 +4418,7 @@
   {
     "id": "feralas_desert_rumbler_21_58",
     "name": "Desert Rumbler (Feralas)",
+    "creatureEntry": 11746,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 21.3,
@@ -4033,12 +4437,15 @@
     "drops": {
       "Core of Earth": 0.052,
       "Elemental Earth": 0.0502,
-      "Essence of Earth": 0.0249
+      "Essence of Earth": 0.0249,
+      "Aquamarine": 0.004,
+      "Star Ruby": 0.0027
     }
   },
   {
     "id": "eastern_plaguelands_plagued_swine_30_24",
     "name": "Plagued Swine (Eastern Plaguelands)",
+    "creatureEntry": 16117,
     "mapID": 1423,
     "zone": "Eastern Plaguelands",
     "x": 30.5,
@@ -4064,6 +4471,7 @@
   {
     "id": "ungoro_crater_diemetradon_64_65",
     "name": "Diemetradon (Un'Goro Crater)",
+    "creatureEntry": 9163,
     "mapID": 1449,
     "zone": "Un'Goro Crater",
     "x": 64.6,
@@ -4089,6 +4497,7 @@
   {
     "id": "feralas_dredge_striker_46_60",
     "name": "Dredge Striker (Feralas)",
+    "creatureEntry": 11740,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 46.1,
@@ -4112,6 +4521,7 @@
   {
     "id": "western_plaguelands_rotting_cadaver_76_66",
     "name": "Rotting Cadaver (Western Plaguelands)",
+    "creatureEntry": 4474,
     "mapID": 1422,
     "zone": "Western Plaguelands",
     "x": 76.2,
@@ -4134,6 +4544,7 @@
   {
     "id": "western_plaguelands_skeletal_flayer_59_72",
     "name": "Skeletal Flayer (Western Plaguelands)",
+    "creatureEntry": 1783,
     "mapID": 1422,
     "zone": "Western Plaguelands",
     "x": 59.0,
@@ -4151,12 +4562,14 @@
       "UNDEAD"
     ],
     "drops": {
-      "Ichor of Undeath": 0.0451
+      "Ichor of Undeath": 0.0451,
+      "Recipe: Gift of Arthas": 0.009
     }
   },
   {
     "id": "feralas_gordok_hyena_27_17",
     "name": "Gordok Hyena (Feralas)",
+    "creatureEntry": 12418,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 27.9,
@@ -4177,12 +4590,15 @@
       "Mystery Meat": 0.4347,
       "Tender Wolf Meat": 0.3835,
       "Thick Leather": 0.3701,
-      "Thick Hide": 0.039
+      "Thick Hide": 0.039,
+      "Rugged Hide": 0.034,
+      "Aquamarine": 0.0014
     }
   },
   {
     "id": "tanaris_venomhide_ravasaur_20_19",
     "name": "Venomhide Ravasaur (Tanaris)",
+    "creatureEntry": 6508,
     "mapID": 1446,
     "zone": "Tanaris",
     "x": 20.7,
@@ -4207,6 +4623,7 @@
   {
     "id": "silithus_stonelash_pincer_55_62",
     "name": "Stonelash Pincer (Silithus)",
+    "creatureEntry": 11736,
     "mapID": 1451,
     "zone": "Silithus",
     "x": 55.6,
@@ -4233,6 +4650,7 @@
   {
     "id": "eastern_plaguelands_noxious_plaguebat_90_57",
     "name": "Noxious Plaguebat (Eastern Plaguelands)",
+    "creatureEntry": 8601,
     "mapID": 1423,
     "zone": "Eastern Plaguelands",
     "x": 90.8,
@@ -4259,6 +4677,7 @@
   {
     "id": "ungoro_crater_living_blaze_67_48",
     "name": "Living Blaze (Un'Goro Crater)",
+    "creatureEntry": 6521,
     "mapID": 1449,
     "zone": "Un'Goro Crater",
     "x": 67.0,
@@ -4283,6 +4702,7 @@
   {
     "id": "western_plaguelands_venom_mist_lurker_53_80",
     "name": "Venom Mist Lurker (Western Plaguelands)",
+    "creatureEntry": 1822,
     "mapID": 1422,
     "zone": "Western Plaguelands",
     "x": 53.0,
@@ -4304,6 +4724,7 @@
   {
     "id": "eastern_plaguelands_wailing_death_8_94",
     "name": "Wailing Death (Eastern Plaguelands)",
+    "creatureEntry": 1804,
     "mapID": 1423,
     "zone": "Eastern Plaguelands",
     "x": 8.8,
@@ -4325,8 +4746,33 @@
     }
   },
   {
+    "id": "burning_steppes_firegut_brute_37_38",
+    "name": "Firegut Brute (Burning Steppes)",
+    "creatureEntry": 7035,
+    "mapID": 1428,
+    "zone": "Burning Steppes",
+    "x": 37.9,
+    "y": 38.7,
+    "minLevel": 52,
+    "maxLevel": 53,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 8.3,
+    "isQuestMob": true,
+    "tags": [
+      "FLEE_RUNNER",
+      "HEAVY_PACKS",
+      "HIGH_ARMOR",
+      "HUMANOID"
+    ],
+    "drops": {
+      "Pattern: Volcanic Leggings": 0.039
+    }
+  },
+  {
     "id": "silithus_stonelash_flayer_24_72",
     "name": "Stonelash Flayer (Silithus)",
+    "creatureEntry": 11737,
     "mapID": 1451,
     "zone": "Silithus",
     "x": 24.1,
@@ -4353,6 +4799,7 @@
   {
     "id": "silithus_hivezora_wasp_24_63",
     "name": "Hive'Zora Wasp (Silithus)",
+    "creatureEntry": 11727,
     "mapID": 1451,
     "zone": "Silithus",
     "x": 24.1,
@@ -4374,6 +4821,7 @@
   {
     "id": "winterspring_rabid_shardtooth_78_76",
     "name": "Rabid Shardtooth (Winterspring)",
+    "creatureEntry": 7446,
     "mapID": 1452,
     "zone": "Winterspring",
     "x": 78.8,
@@ -4393,12 +4841,14 @@
       "Bear Flank": 0.3654,
       "Warbear Leather": 0.192,
       "Thick Leather": 0.1013,
-      "Rugged Hide": 0.064
+      "Rugged Hide": 0.064,
+      "Aquamarine": 0.0012
     }
   },
   {
     "id": "silithus_rock_stalker_31_72",
     "name": "Rock Stalker (Silithus)",
+    "creatureEntry": 11739,
     "mapID": 1451,
     "zone": "Silithus",
     "x": 31.9,
@@ -4422,6 +4872,7 @@
   {
     "id": "stranglethorn_vale_skymane_gorilla_40_83",
     "name": "Skymane Gorilla (Stranglethorn Vale)",
+    "creatureEntry": 2521,
     "mapID": 1434,
     "zone": "Stranglethorn Vale",
     "x": 40.4,
@@ -4439,12 +4890,15 @@
     "drops": {
       "Thick Leather": 0.7732,
       "Rugged Leather": 0.1938,
-      "Thick Hide": 0.033
+      "Thick Hide": 0.033,
+      "Star Ruby": 0.0014,
+      "Aquamarine": 0.001
     }
   },
   {
     "id": "feralas_dust_stormer_26_59",
     "name": "Dust Stormer (Feralas)",
+    "creatureEntry": 11744,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 26.8,
@@ -4462,12 +4916,58 @@
     "drops": {
       "Elemental Air": 0.1143,
       "Breath of Wind": 0.1078,
-      "Essence of Air": 0.0723
+      "Essence of Air": 0.0723,
+      "Aquamarine": 0.001
+    }
+  },
+  {
+    "id": "darkshore_irontree_stomper_58_49",
+    "name": "Irontree Stomper (Darkshore)",
+    "creatureEntry": 7139,
+    "mapID": 1439,
+    "zone": "Darkshore",
+    "x": 58.0,
+    "y": 49.9,
+    "minLevel": 52,
+    "maxLevel": 53,
+    "faction": "Alliance",
+    "density": "High",
+    "respawnMin": 5.0,
+    "isQuestMob": true,
+    "tags": [
+      "ELEMENTAL",
+      "HIGH_ARMOR"
+    ],
+    "drops": {
+      "Living Essence": 0.0086
+    }
+  },
+  {
+    "id": "deadwind_pass_unliving_resident_40_69",
+    "name": "Unliving Resident (Deadwind Pass)",
+    "creatureEntry": 12380,
+    "mapID": 1430,
+    "zone": "Deadwind Pass",
+    "x": 40.9,
+    "y": 69.6,
+    "minLevel": 59,
+    "maxLevel": 60,
+    "faction": "Both",
+    "density": "High",
+    "respawnMin": 10.0,
+    "isQuestMob": false,
+    "tags": [
+      "HIGH_ARMOR",
+      "UNDEAD"
+    ],
+    "drops": {
+      "Ichor of Undeath": 0.0017
     }
   },
   {
     "id": "feralas_stonelash_pincer_21_72",
     "name": "Stonelash Pincer (Feralas)",
+    "creatureEntry": 11736,
     "mapID": 1444,
     "zone": "Feralas",
     "x": 21.6,
@@ -4494,6 +4994,7 @@
   {
     "id": "azshara_coralshell_lurker_91_4",
     "name": "Coralshell Lurker (Azshara)",
+    "creatureEntry": 6352,
     "mapID": 1447,
     "zone": "Azshara",
     "x": 91.5,
@@ -4514,136 +5015,9 @@
       "Thick Leather": 0.4313,
       "Big-mouth Clam": 0.4194,
       "Turtle Meat": 0.3914,
-      "Rugged Hide": 0.0404
-    }
-  },
-  {
-    "id": "eastern_plaguelands_plaguebat_31_88",
-    "name": "Plaguebat (Eastern Plaguelands)",
-    "mapID": 1423,
-    "zone": "Eastern Plaguelands",
-    "x": 31.7,
-    "y": 88.0,
-    "minLevel": 53,
-    "maxLevel": 55,
-    "faction": "Both",
-    "density": "Medium",
-    "respawnMin": 5.8,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Rugged Leather": 0.4974,
-      "Thick Leather": 0.4313,
-      "Evil Bat Eye": 0.2758,
-      "Rugged Hide": 0.0421,
-      "Thick Hide": 0.0292
-    }
-  },
-  {
-    "id": "feralas_stonelash_scorpid_30_64",
-    "name": "Stonelash Scorpid (Feralas)",
-    "mapID": 1444,
-    "zone": "Feralas",
-    "x": 30.9,
-    "y": 64.4,
-    "minLevel": 54,
-    "maxLevel": 55,
-    "faction": "Both",
-    "density": "Medium",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HIGH_ARMOR",
-      "POISON"
-    ],
-    "drops": {
-      "Mystery Meat": 0.47,
-      "Rugged Leather": 0.4407,
-      "Heavy Scorpid Scale": 0.415,
-      "Thick Leather": 0.0991,
-      "Thick Hide": 0.0451
-    }
-  },
-  {
-    "id": "eastern_plaguelands_plaguehound_91_62",
-    "name": "Plaguehound (Eastern Plaguelands)",
-    "mapID": 1423,
-    "zone": "Eastern Plaguelands",
-    "x": 91.8,
-    "y": 62.1,
-    "minLevel": 55,
-    "maxLevel": 56,
-    "faction": "Both",
-    "density": "Medium",
-    "respawnMin": 5.8,
-    "isQuestMob": true,
-    "tags": [
-      "DEMON",
-      "HIGH_ARMOR"
-    ],
-    "drops": {
-      "Rugged Leather": 0.5066,
-      "Red Wolf Meat": 0.4978,
-      "Tender Wolf Meat": 0.4963,
-      "Thick Leather": 0.4147,
-      "Rugged Hide": 0.0482,
-      "Thick Hide": 0.0305
-    }
-  },
-  {
-    "id": "silithus_stonelash_flayer_31_85",
-    "name": "Stonelash Flayer (Silithus)",
-    "mapID": 1451,
-    "zone": "Silithus",
-    "x": 31.2,
-    "y": 85.0,
-    "minLevel": 57,
-    "maxLevel": 58,
-    "faction": "Both",
-    "density": "Medium",
-    "respawnMin": 5.0,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HIGH_ARMOR",
-      "POISON"
-    ],
-    "drops": {
-      "Mystery Meat": 0.4921,
-      "Rugged Leather": 0.4599,
-      "Heavy Scorpid Scale": 0.3954,
-      "Thick Leather": 0.0946,
-      "Thick Hide": 0.0502
-    }
-  },
-  {
-    "id": "eastern_plaguelands_noxious_plaguebat_81_69",
-    "name": "Noxious Plaguebat (Eastern Plaguelands)",
-    "mapID": 1423,
-    "zone": "Eastern Plaguelands",
-    "x": 81.4,
-    "y": 69.7,
-    "minLevel": 54,
-    "maxLevel": 56,
-    "faction": "Both",
-    "density": "Medium",
-    "respawnMin": 5.8,
-    "isQuestMob": true,
-    "tags": [
-      "BEAST",
-      "HIGH_ARMOR",
-      "POISON"
-    ],
-    "drops": {
-      "Rugged Leather": 0.5101,
-      "Thick Leather": 0.4232,
-      "Evil Bat Eye": 0.2672,
-      "Rugged Hide": 0.0373,
-      "Thick Hide": 0.0294
+      "Rugged Hide": 0.0404,
+      "Thick Hide": 0.0243,
+      "Star Ruby": 0.001
     }
   }
 ]

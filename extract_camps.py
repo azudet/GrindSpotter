@@ -175,7 +175,7 @@ def load_db_data(cur):
     ''')
     for c_entry, item_id, item_name, chance in cur.fetchall():
         rate = round(chance / 100.0, 4)
-        if rate < 0.01:
+        if rate < 0.001:
             continue
         is_cloth = "Cloth" in item_name
         is_leather = "Leather" in item_name or "Hide" in item_name or "Scale" in item_name
@@ -183,8 +183,9 @@ def load_db_data(cur):
         is_gem = item_name in ["Malachite", "Tigerseye", "Shadowgem", "Jade", "Lesser Moonstone", "Moss Agate", "Aquamarine", "Star Ruby", "Large Opal", "Huge Emerald", "Blue Sapphire", "Azerothian Diamond", "Small Pearl", "Black Pearl", "Golden Pearl"]
         is_elemental = any(w in item_name for w in ["Elemental", "Essence of", "Globe of Water", "Heart of Fire", "Core of Earth", "Breath of Wind", "Ichor of Undeath", "Living Essence"])
         is_parts = any(w in item_name for w in ["Bolts", "Copper Tube", "Copper Modulator", "Fused Wiring", "Bronze Tube", "Iron Strut", "Gyrochronatom", "Twilight Text", "Twilight Cultist"])
+        is_valuable = any(w in item_name for w in ["Pattern", "Recipe", "Schematic", "Flame Sac", "Dragon Scale"])
         
-        if is_cloth or is_leather or is_meat or is_gem or is_elemental or is_parts:
+        if is_cloth or is_leather or is_meat or is_gem or is_elemental or is_parts or is_valuable:
             creature_drops[c_entry][item_name] = max(creature_drops[c_entry].get(item_name, 0.0), round(rate, 4))
 
     cur.execute('''
@@ -196,9 +197,9 @@ def load_db_data(cur):
     ''')
     for c_entry, item_id, item_name, chance in cur.fetchall():
         rate = round(chance / 100.0, 4)
-        if rate < 0.01:
+        if rate < 0.001:
             continue
-        if "Leather" in item_name or "Hide" in item_name or "Scale" in item_name:
+        if "Leather" in item_name or "Hide" in item_name or "Scale" in item_name or "Dragon Scale" in item_name:
             creature_drops[c_entry][item_name] = max(creature_drops[c_entry].get(item_name, 0.0), round(rate, 4))
 
     return quest_creature_ids, creature_spell_tags, creature_drops
@@ -339,6 +340,7 @@ def cluster_spawns(all_spawns, quest_creature_ids, creature_spell_tags, creature
             raw_camps.append({
                 "id": camp_id,
                 "name": camp_name,
+                "creatureEntry": int(cl[0]["entry"]),
                 "mapID": zone_info["mapID"],
                 "zone": zone_info["zone"],
                 "x": zone_info["x"],
@@ -454,12 +456,13 @@ def main():
             counter += 1
         seen_ids.add(camp_id)
 
-        sorted_drops = sorted(c["drops"].items(), key=lambda x: x[1], reverse=True)[:6]
+        sorted_drops = sorted(c["drops"].items(), key=lambda x: x[1], reverse=True)[:15]
         drops_dict = {k: v for k, v in sorted_drops}
 
         final_output.append({
             "id": camp_id,
             "name": c["name"],
+            "creatureEntry": int(c.get("creatureEntry", 0)),
             "mapID": int(c["mapID"]),
             "zone": c["zone"],
             "x": float(c["x"]),

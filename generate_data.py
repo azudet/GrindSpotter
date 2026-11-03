@@ -46,6 +46,7 @@ def main():
         lines.append("    {")
         lines.append(f"        id = {format_lua_string(camp['id'])},")
         lines.append(f"        name = {format_lua_string(camp['name'])},")
+        lines.append(f"        creatureEntry = {int(camp.get('creatureEntry', 0))},")
         lines.append(f"        mapID = {int(camp['mapID'])},")
         lines.append(f"        zone = {format_lua_string(camp['zone'])},")
         lines.append(f"        x = {float(camp['x']):.2f},")

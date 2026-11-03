@@ -32,6 +32,107 @@ local function HasTag(tags, targetTag)
 end
 
 -- -----------------------------------------------------------------
+-- Fuzzy Matching (Damerau-Levenshtein)
+-- -----------------------------------------------------------------
+local function DamerauLevenshtein(s1, s2)
+    local len1 = #s1
+    local len2 = #s2
+    if len1 == 0 then return len2 end
+    if len2 == 0 then return len1 end
+
+    local d = {}
+    for i = 0, len1 do
+        d[i] = {}
+        d[i][0] = i
+    end
+    for j = 0, len2 do
+        d[0][j] = j
+    end
+
+    local b1 = { string.byte(s1, 1, len1) }
+    local b2 = { string.byte(s2, 1, len2) }
+
+    for i = 1, len1 do
+        local ch1 = b1[i]
+        for j = 1, len2 do
+            local cost = (ch1 == b2[j]) and 0 or 1
+            local delCost = d[i - 1][j] + 1
+            local insCost = d[i][j - 1] + 1
+            local subCost = d[i - 1][j - 1] + cost
+
+            local minCost = delCost
+            if insCost < minCost then minCost = insCost end
+            if subCost < minCost then minCost = subCost end
+
+            if i > 1 and j > 1 and ch1 == b2[j - 1] and b1[i - 1] == b2[j] then
+                local transCost = d[i - 2][j - 2] + 1
+                if transCost < minCost then minCost = transCost end
+            end
+
+            d[i][j] = minCost
+        end
+    end
+
+    return d[len1][len2]
+end
+
+local function IsFuzzyMatch(needle, haystack)
+    if not needle or needle == "" then return true end
+    if not haystack or haystack == "" then return false end
+
+    needle = needle:lower()
+    haystack = haystack:lower()
+
+    -- Check exact substring match first
+    if haystack:find(needle, 1, true) then
+        return true
+    end
+
+    local needleLen = #needle
+    local maxDist = 1
+    if needleLen > 7 then
+        maxDist = 3
+    elseif needleLen > 4 then
+        maxDist = 2
+    else
+        maxDist = 1
+    end
+
+    -- Split haystack into words and compare edit distance
+    for word in haystack:gmatch("%S+") do
+        local wordLen = #word
+        if math.abs(wordLen - needleLen) <= maxDist then
+            if DamerauLevenshtein(needle, word) <= maxDist then
+                return true
+            end
+        end
+    end
+
+    return false
+end
+
+-- -----------------------------------------------------------------
+-- Map & Continent Helpers
+-- -----------------------------------------------------------------
+local function GetContinentMapID(mapID)
+    if not mapID or not C_Map or not C_Map.GetMapInfo then return nil end
+    local mapInfo = C_Map.GetMapInfo(mapID)
+    local continentType = (Enum and Enum.UIMapType and Enum.UIMapType.Continent) or 2
+    local depth = 0
+    while mapInfo and depth < 10 do
+        if mapInfo.mapType == continentType then
+            return mapInfo.mapID
+        end
+        if not mapInfo.parentMapID or mapInfo.parentMapID == 0 or mapInfo.parentMapID == mapInfo.mapID then
+            break
+        end
+        mapInfo = C_Map.GetMapInfo(mapInfo.parentMapID)
+        depth = depth + 1
+    end
+    return nil
+end
+
+-- -----------------------------------------------------------------
 -- Skinning Math & Skill Resolver
 -- ----------------------------------------------------------------
 local function GetPlayerSkinningRank()
@@ -278,6 +379,9 @@ function GrindSpotter:RunSearch()
     local skinningRank, maxSkinningRank = GetPlayerSkinningRank()
     local maxSkinnableLevel = GetMaxSkinnableMobLevel(skinningRank)
 
+    local curMap = (C_Map and C_Map.GetBestMapForUnit) and C_Map.GetBestMapForUnit("player") or nil
+    local curContinent = curMap and GetContinentMapID(curMap) or nil
+
     local isLeatherSearch = (query:find("leather") or query:find("hide") or query:find("skin"))
 
     if isLeatherSearch then
@@ -306,11 +410,11 @@ function GrindSpotter:RunSearch()
                     isMatch = true
                 end
             else
-                if camp.name:lower():find(query, 1, true) or camp.zone:lower():find(query, 1, true) then
+                if IsFuzzyMatch(query, camp.name) or IsFuzzyMatch(query, camp.zone) then
                     isMatch = true
                 else
                     for tagIdx = 1, #camp.tags do
-                        if camp.tags[tagIdx]:lower():find(query, 1, true) then
+                        if IsFuzzyMatch(query, camp.tags[tagIdx]) then
                             isMatch = true
                             break
                         end
@@ -318,7 +422,7 @@ function GrindSpotter:RunSearch()
                 end
 
                 for dropItem, rate in pairs(camp.drops) do
-                    if dropItem:lower():find(query, 1, true) then
+                    if IsFuzzyMatch(query, dropItem) then
                         isMatch = true
                         if rate > matchedDropRate then
                             matchedDropRate = rate
@@ -399,6 +503,20 @@ function GrindSpotter:RunSearch()
                         table.insert(warnings, string.format("Skinning Bottleneck! Req Rank %d (You: %d)", reqRank, skinningRank))
                     else
                         table.insert(notes, "Skinnable (Knife ready)")
+                    end
+                end
+
+                -- Distance / Proximity Scoring
+                if curMap and camp.mapID then
+                    if camp.mapID == curMap then
+                        score = score + 15
+                        table.insert(notes, "Local Zone")
+                    elseif curContinent then
+                        local campContinent = GetContinentMapID(camp.mapID)
+                        if campContinent and campContinent ~= curContinent then
+                            score = score - 35
+                            table.insert(warnings, "Other Continent")
+                        end
                     end
                 end
 
@@ -497,7 +615,7 @@ function GrindSpotter:RunSearch()
     mainFrame.content:SetHeight(math.max(cardY, 400))
 
     if #scoredResults == 0 then
-        mainFrame.bannerText:SetText("|cffff5555No grind spots matched query/level.|r Try clearing search.")
+        mainFrame.bannerText:SetText("|cffff5555Could not find any camps matching your search. Try broadening your terms, or check Wowhead!|r")
     end
 end
 
