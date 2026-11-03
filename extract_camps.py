@@ -243,7 +243,10 @@ def cluster_spawns(all_spawns, quest_creature_ids, creature_spell_tags, creature
     raw_camps = []
     
     for (zone_name, group_key), spawns in zone_mob_spawns.items():
-        if len(spawns) < 5:
+        is_iconic = any(w in group_key.lower() for w in ["whelp", "elemental", "satyr", "yeti", "dragonspawn", "dragonkin"])
+        min_spawns = 2 if is_iconic else 5
+
+        if len(spawns) < min_spawns:
             continue
             
         clusters = []
@@ -261,7 +264,7 @@ def cluster_spawns(all_spawns, quest_creature_ids, creature_spell_tags, creature
                 clusters.append([s])
 
         for cl in clusters:
-            if len(cl) < 5:
+            if len(cl) < min_spawns:
                 continue
 
             avg_wx = sum(item["wx"] for item in cl) / len(cl)
@@ -320,7 +323,7 @@ def cluster_spawns(all_spawns, quest_creature_ids, creature_spell_tags, creature
                 tags.add("CASUAL_PULL")
 
             camp_faction = zone_info["faction"]
-            if type_tag in ("BEAST", "DRAGONKIN", "ELEMENTAL"):
+            if type_tag in ("BEAST", "DRAGONKIN", "ELEMENTAL") or is_iconic:
                 camp_faction = "Both"
 
             if len(names) == 1:
@@ -338,6 +341,10 @@ def cluster_spawns(all_spawns, quest_creature_ids, creature_spell_tags, creature
             density_score = spawn_count * 2.0 + (5.0 if density == "High" else 2.0)
             level_relevance = 10.0 if 10 <= min_level <= 60 else 0.0
             score = density_score + valuable_drops * 10.0 + level_relevance
+
+            is_iconic = any(w in camp_name.lower() for w in ["whelp", "elemental", "satyr", "yeti", "dragon", "ooze", "slime"])
+            if is_iconic:
+                score += 80.0
 
             raw_camps.append({
                 "id": camp_id,
@@ -433,20 +440,30 @@ def main():
         else:
             level_buckets["50-60"].append(c)
 
+    iconic_camps = [c for c in raw_camps if any(w in c["name"].lower() for w in ["whelp", "elemental", "satyr", "yeti", "dragonspawn"])]
     selected_camps = []
-    selected_camps.extend(level_buckets["1-10"][:10])
-    selected_camps.extend(level_buckets["10-20"][:35])
-    selected_camps.extend(level_buckets["20-30"][:35])
-    selected_camps.extend(level_buckets["30-40"][:35])
-    selected_camps.extend(level_buckets["40-50"][:35])
-    selected_camps.extend(level_buckets["50-60"][:40])
+    selected_ids = set()
+
+    for c in iconic_camps:
+        if c["drops"] and c["id"] not in selected_ids:
+            selected_camps.append(c)
+            selected_ids.add(c["id"])
+
+    for bucket_name, cap in [("1-10", 10), ("10-20", 35), ("20-30", 35), ("30-40", 35), ("40-50", 35), ("50-60", 40)]:
+        added_from_bucket = 0
+        for c in level_buckets[bucket_name]:
+            if c["id"] not in selected_ids:
+                selected_camps.append(c)
+                selected_ids.add(c["id"])
+                added_from_bucket += 1
+                if added_from_bucket >= cap:
+                    break
 
     if len(selected_camps) < 175:
-        existing_ids = {c["id"] for c in selected_camps}
         for c in deduped_camps:
-            if c["id"] not in existing_ids and len(selected_camps) < 185:
+            if c["id"] not in selected_ids and len(selected_camps) < 185:
                 selected_camps.append(c)
-                existing_ids.add(c["id"])
+                selected_ids.add(c["id"])
 
     final_output = []
     seen_ids = set()

@@ -259,7 +259,7 @@ function GrindSpotter:SelectCamp(campResult)
         travelBadge = " |cffff4444[ Other Continent - Requires Boat/Zeppelin ]|r"
     end
 
-    rightPage.campNameText:SetText(string.format("|cffffffff%s|r", camp.name))
+    rightPage.campNameText:SetText(camp.name)
     rightPage.campSubText:SetText(string.format("%s • %s [Lv %d-%d]|r • (%.1f, %.1f)%s", camp.zone, lvlColor, camp.minLevel, camp.maxLevel, camp.x, camp.y, travelBadge))
 
     local score = (type(campResult) == "table" and campResult.score) or nil
@@ -279,23 +279,26 @@ function GrindSpotter:SelectCamp(campResult)
         end
         rightPage.modelFrame:SetRotation(0.3)
         if rightPage.modelFrame.SetPortraitZoom then
-            rightPage.modelFrame:SetPortraitZoom(0)
+            rightPage.modelFrame:SetPortraitZoom(-0.25)
+        end
+        if rightPage.modelFrame.SetCamModelScale then
+            rightPage.modelFrame:SetCamModelScale(0.75)
         end
         if rightPage.modelFrame.SetPosition then
-            rightPage.modelFrame:SetPosition(0, 0, 0)
+            rightPage.modelFrame:SetPosition(0, 0, -0.2)
         end
         C_Timer.After(0.05, function()
             if rightPage.modelFrame and camp.creatureEntry and camp.creatureEntry > 0 then
                 rightPage.modelFrame:Show()
                 rightPage.modelFrame:SetCreature(camp.creatureEntry)
                 if rightPage.modelFrame.SetPortraitZoom then
-                    rightPage.modelFrame:SetPortraitZoom(0)
+                    rightPage.modelFrame:SetPortraitZoom(-0.25)
+                end
+                if rightPage.modelFrame.SetCamModelScale then
+                    rightPage.modelFrame:SetCamModelScale(0.75)
                 end
                 if rightPage.modelFrame.SetPosition then
-                    rightPage.modelFrame:SetPosition(0, 0, 0)
-                end
-                if rightPage.modelFrame.SetCustomCamera then
-                    rightPage.modelFrame:SetCustomCamera(0)
+                    rightPage.modelFrame:SetPosition(0, 0, -0.2)
                 end
             end
         end)
@@ -385,15 +388,14 @@ end
 
 local function CreateResultCard(parent, index)
     local card = CreateFrame("Button", "GrindSpotterCard"..index, parent, "BackdropTemplate")
-    card:SetSize(350, 75)
+    card:SetSize(300, 75)
     card:SetBackdrop({
-        bgFile = "Interface\\Buttons\\WHITE8X8",
         edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
         edgeSize = 12,
         insets = { left = 3, right = 3, top = 3, bottom = 3 },
     })
-    card:SetBackdropColor(0.08, 0.08, 0.1, 0.88)
-    card:SetBackdropBorderColor(0.4, 0.4, 0.4, 0.8)
+    card:SetBackdropColor(0.2, 0.15, 0.08, 0.15)
+    card:SetBackdropBorderColor(0.4, 0.3, 0.2, 0.3)
 
     local highlight = card:CreateTexture(nil, "HIGHLIGHT")
     highlight:SetTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight")
@@ -405,48 +407,39 @@ local function CreateResultCard(parent, index)
     function card:SetSelected(isSelected)
         card.isSelected = isSelected
         if isSelected then
-            card:SetBackdropBorderColor(1.0, 0.82, 0.0, 1.0)
-            card:SetBackdropColor(0.15, 0.13, 0.05, 0.95)
+            card:SetBackdropBorderColor(0.8, 0.6, 0.1, 0.9)
+            card:SetBackdropColor(0.2, 0.15, 0.08, 0.25)
         else
-            card:SetBackdropBorderColor(0.4, 0.4, 0.4, 0.8)
-            card:SetBackdropColor(0.08, 0.08, 0.1, 0.88)
+            card:SetBackdropBorderColor(0.4, 0.3, 0.2, 0.3)
+            card:SetBackdropColor(0.2, 0.15, 0.08, 0.15)
         end
     end
 
-    local scoreText = card:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
-    scoreText:SetPoint("TOPRIGHT", card, "TOPRIGHT", -8, -6)
-    card.scoreText = scoreText
-
     local title = card:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     title:SetPoint("TOPLEFT", card, "TOPLEFT", 8, -6)
-    title:SetPoint("RIGHT", scoreText, "LEFT", -6, 0)
+    title:SetWidth(290)
     title:SetWordWrap(false)
     title:SetJustifyH("LEFT")
     card.title = title
 
     local levelZone = card:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
     levelZone:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -2)
-    levelZone:SetWidth(330)
+    levelZone:SetWidth(290)
     levelZone:SetJustifyH("LEFT")
     card.levelZone = levelZone
 
     local details = card:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
     details:SetPoint("TOPLEFT", levelZone, "BOTTOMLEFT", 0, -2)
-    details:SetWidth(330)
+    details:SetWidth(290)
     details:SetJustifyH("LEFT")
     card.details = details
 
     local warning = card:CreateFontString(nil, "OVERLAY", "GameFontRedSmall")
     warning:SetPoint("TOPLEFT", details, "BOTTOMLEFT", 0, -2)
-    warning:SetWidth(285)
+    warning:SetWidth(290)
+    warning:SetWordWrap(false)
     warning:SetJustifyH("LEFT")
     card.warning = warning
-
-    local waypointBtn = CreateFrame("Button", nil, card, "UIPanelButtonTemplate")
-    waypointBtn:SetSize(68, 20)
-    waypointBtn:SetPoint("BOTTOMRIGHT", card, "BOTTOMRIGHT", -6, 6)
-    waypointBtn:SetText("Waypoint")
-    card.waypointBtn = waypointBtn
 
     card:EnableMouse(true)
     card:RegisterForClicks("LeftButtonUp")
@@ -462,8 +455,8 @@ end
 local function CreateMainUI()
     if mainFrame then return mainFrame end
 
-    local f = CreateFrame("Frame", "GrindSpotterFrame", UIParent, "BasicFrameTemplateWithInset, BackdropTemplate")
-    f:SetSize(820, 520)
+    local f = CreateFrame("Frame", "GrindSpotterFrame", UIParent, "BackdropTemplate")
+    f:SetSize(800, 520)
     f:SetPoint("CENTER", UIParent, "CENTER", 0, 0)
     f:SetMovable(true)
     f:EnableMouse(true)
@@ -479,67 +472,67 @@ local function CreateMainUI()
     end)
     f:SetClampedToScreen(true)
 
-    f.TitleBg:SetHeight(28)
-    f.title = f:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge")
-    f.title:SetPoint("TOPLEFT", f.TitleBg, "TOPLEFT", 10, -5)
-    f.title:SetText("GrindSpotter |cff00ff00v1.0|r")
+    -- Standard Close Button
+    local closeBtn = CreateFrame("Button", nil, f, "UIPanelCloseButton")
+    closeBtn:SetPoint("TOPRIGHT", f, "TOPRIGHT", -12, -12)
+    closeBtn:SetScript("OnClick", function()
+        f:Hide()
+    end)
+    f.closeBtn = closeBtn
 
-    -- Side-by-side book background textures inside the inset
-    local insetFrame = f.Inset or f
-    if f.Inset then
-        f.Inset:SetBackdropColor(0, 0, 0, 0)
-        f.Inset:SetBackdropBorderColor(0, 0, 0, 0)
-    end
-    local leftBg = insetFrame:CreateTexture(nil, "BORDER")
-    leftBg:SetTexture("Interface\\ItemText\\ItemText-Stone-Left")
-    leftBg:SetPoint("TOPLEFT", insetFrame, "TOPLEFT", 0, 0)
-    leftBg:SetSize(410, 500)
+    -- Book Textures on layer BACKGROUND
+    local leftBg = f:CreateTexture(nil, "BACKGROUND")
+    leftBg:SetTexture("Interface\\Archaeology\\Arch-Book-Left")
+    leftBg:SetPoint("TOPLEFT", f, "TOPLEFT", 0, 0)
+    leftBg:SetPoint("BOTTOMRIGHT", f, "BOTTOM", 0, 0)
     f.leftBg = leftBg
 
-    local rightBg = insetFrame:CreateTexture(nil, "BORDER")
-    rightBg:SetTexture("Interface\\ItemText\\ItemText-Stone-Right")
-    rightBg:SetPoint("TOPRIGHT", insetFrame, "TOPRIGHT", 0, 0)
-    rightBg:SetSize(410, 500)
+    local rightBg = f:CreateTexture(nil, "BACKGROUND")
+    rightBg:SetTexture("Interface\\Archaeology\\Arch-Book-Right")
+    rightBg:SetPoint("TOPRIGHT", f, "TOPRIGHT", 0, 0)
+    rightBg:SetPoint("BOTTOMLEFT", f, "BOTTOM", 0, 0)
     f.rightBg = rightBg
 
-    -- Two container frames for left and right pages
+    -- Two container frames for left and right pages (avoid spine and leather edges)
     local leftPage = CreateFrame("Frame", nil, f)
-    leftPage:SetPoint("TOPLEFT", f, "TOPLEFT", 10, -28)
-    leftPage:SetSize(390, 480)
+    leftPage:ClearAllPoints()
+    leftPage:SetPoint("TOPLEFT", f, "TOPLEFT", 40, -40)
+    leftPage:SetPoint("BOTTOMRIGHT", f, "BOTTOM", -20, 30)
     f.leftPage = leftPage
 
     local rightPage = CreateFrame("Frame", nil, f)
-    rightPage:SetPoint("TOPLEFT", leftPage, "TOPRIGHT", 10, 0)
-    rightPage:SetSize(390, 480)
+    rightPage:ClearAllPoints()
+    rightPage:SetPoint("TOPLEFT", f, "TOP", 20, -40)
+    rightPage:SetPoint("BOTTOMRIGHT", f, "TOPRIGHT", -40, 30)
     f.rightPage = rightPage
 
     -- Top Header: Camp Name, Zone/Coords/Level, Suitability Score
     local detailHeader = CreateFrame("Frame", nil, rightPage, "BackdropTemplate")
-    detailHeader:SetPoint("TOPLEFT", rightPage, "TOPLEFT", 6, -6)
-    detailHeader:SetPoint("TOPRIGHT", rightPage, "TOPRIGHT", -10, -6)
+    detailHeader:SetPoint("TOPLEFT", rightPage, "TOPLEFT", 4, -4)
+    detailHeader:SetPoint("TOPRIGHT", rightPage, "TOPRIGHT", -4, -4)
     detailHeader:SetHeight(72)
     detailHeader:SetBackdrop({
-        bgFile = "Interface\\Buttons\\WHITE8X8",
         edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
         edgeSize = 12,
         insets = { left = 2, right = 2, top = 2, bottom = 2 },
     })
-    detailHeader:SetBackdropColor(0.08, 0.08, 0.1, 0.85)
-    detailHeader:SetBackdropBorderColor(0.4, 0.4, 0.4, 0.8)
+    detailHeader:SetBackdropColor(0.2, 0.15, 0.08, 0.15)
+    detailHeader:SetBackdropBorderColor(0.4, 0.3, 0.2, 0.3)
     rightPage.detailHeader = detailHeader
 
-    local campNameText = detailHeader:CreateFontString(nil, "OVERLAY", "GameFontHighlightMedium")
+    local campNameText = detailHeader:CreateFontString(nil, "OVERLAY", "QuestFont_Large")
+    campNameText:SetTextColor(0.25, 0.15, 0.05)
     campNameText:SetPoint("TOPLEFT", detailHeader, "TOPLEFT", 8, -6)
     campNameText:SetPoint("TOPRIGHT", detailHeader, "TOPRIGHT", -8, -6)
     campNameText:SetJustifyH("LEFT")
-    campNameText:SetText("|cffffffffSelect a grinding spot|r")
+    campNameText:SetText("Select a grinding spot")
     rightPage.campNameText = campNameText
 
     local campSubText = detailHeader:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
     campSubText:SetPoint("TOPLEFT", campNameText, "BOTTOMLEFT", 0, -3)
     campSubText:SetPoint("TOPRIGHT", detailHeader, "TOPRIGHT", -8, -26)
     campSubText:SetJustifyH("LEFT")
-    campSubText:SetText("|cffaaaaaaZone • Level • Coordinates|r")
+    campSubText:SetText("|cff664422Zone • Level • Coordinates|r")
     rightPage.campSubText = campSubText
 
     local campScoreText = detailHeader:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
@@ -550,30 +543,23 @@ local function CreateMainUI()
 
     -- Middle: 3D Model Frame
     local modelContainer = CreateFrame("Frame", nil, rightPage, "BackdropTemplate")
-    modelContainer:SetSize(224, 204)
+    modelContainer:SetSize(224, 184)
     modelContainer:SetPoint("TOP", detailHeader, "BOTTOM", 0, -6)
     modelContainer:SetBackdrop({
-        bgFile = "Interface\\Buttons\\WHITE8X8",
         edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
         edgeSize = 12,
         insets = { left = 2, right = 2, top = 2, bottom = 2 },
     })
-    modelContainer:SetBackdropColor(0.04, 0.04, 0.05, 0.9)
-    modelContainer:SetBackdropBorderColor(0.3, 0.3, 0.35, 0.8)
+    modelContainer:SetBackdropColor(0.2, 0.15, 0.08, 0.15)
+    modelContainer:SetBackdropBorderColor(0.4, 0.3, 0.2, 0.3)
     rightPage.modelContainer = modelContainer
 
     local modelFrame = CreateFrame("PlayerModel", "GrindSpotterModelFrame", modelContainer)
-    modelFrame:SetSize(220, 200)
+    modelFrame:SetSize(220, 180)
     modelFrame:SetPoint("CENTER", modelContainer, "CENTER", 0, 0)
     modelFrame:SetRotation(0.3)
     modelFrame:EnableMouse(true)
-    modelFrame:EnableMouseWheel(true)
-    modelFrame:SetScript("OnMouseWheel", function(self, delta)
-        local curDist = (self.GetCameraDistance and self:GetCameraDistance()) or 2.0
-        if self.SetCameraDistance then
-            self:SetCameraDistance(math.max(0.5, math.min(curDist - (delta * 0.25), 6.0)))
-        end
-    end)
+    modelFrame:EnableMouseWheel(false)
 
     local isRotating = false
     local prevMouseX = 0
@@ -601,8 +587,8 @@ local function CreateMainUI()
 
     -- Under Model: Hazards & Skinning info
     local hazardsText = rightPage:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
-    hazardsText:SetPoint("TOPLEFT", modelContainer, "BOTTOMLEFT", -60, -6)
-    hazardsText:SetPoint("TOPRIGHT", modelContainer, "BOTTOMRIGHT", 60, -6)
+    hazardsText:SetPoint("TOPLEFT", modelContainer, "BOTTOMLEFT", -50, -4)
+    hazardsText:SetPoint("TOPRIGHT", modelContainer, "BOTTOMRIGHT", 50, -4)
     hazardsText:SetJustifyH("CENTER")
     hazardsText:SetText("")
     rightPage.hazardsText = hazardsText
@@ -616,22 +602,22 @@ local function CreateMainUI()
 
     -- Trade Goods / Loot Section
     local lootHeader = rightPage:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    lootHeader:SetPoint("TOPLEFT", skinningText, "BOTTOMLEFT", -5, -6)
-    lootHeader:SetText("|cffffd100Trade Goods & Loot:|r")
+    lootHeader:SetPoint("TOPLEFT", skinningText, "BOTTOMLEFT", 0, -6)
+    lootHeader:SetText("|cff553311Trade Goods & Loot:|r")
     rightPage.lootHeader = lootHeader
 
     local lootScroll = CreateFrame("ScrollFrame", "GrindSpotterLootScrollFrame", rightPage, "UIPanelScrollFrameTemplate")
     lootScroll:SetPoint("TOPLEFT", lootHeader, "BOTTOMLEFT", 0, -4)
-    lootScroll:SetPoint("BOTTOMRIGHT", rightPage, "BOTTOMRIGHT", -26, 36)
+    lootScroll:SetPoint("BOTTOMRIGHT", rightPage, "BOTTOMRIGHT", -22, 34)
 
     local lootContent = CreateFrame("Frame", nil, lootScroll)
-    lootContent:SetSize(350, 100)
+    lootContent:SetSize(310, 100)
     lootScroll:SetScrollChild(lootContent)
     rightPage.lootContent = lootContent
 
     local lootText = lootContent:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
     lootText:SetPoint("TOPLEFT", lootContent, "TOPLEFT", 2, -2)
-    lootText:SetWidth(340)
+    lootText:SetWidth(300)
     lootText:SetJustifyH("LEFT")
     lootText:SetText("")
     rightPage.lootText = lootText
@@ -639,7 +625,7 @@ local function CreateMainUI()
     -- Bottom: Set Waypoint Button
     local rightWaypointBtn = CreateFrame("Button", "GrindSpotterRightWaypointBtn", rightPage, "UIPanelButtonTemplate")
     rightWaypointBtn:SetSize(130, 24)
-    rightWaypointBtn:SetPoint("BOTTOM", rightPage, "BOTTOM", 0, 8)
+    rightWaypointBtn:SetPoint("BOTTOM", rightPage, "BOTTOM", 0, 6)
     rightWaypointBtn:SetText("Set Waypoint")
     rightWaypointBtn:SetScript("OnClick", function()
         local camp = GrindSpotter.currentSelectedCamp
@@ -651,18 +637,18 @@ local function CreateMainUI()
 
     -- Search inputs positioned at top of leftPage
     local queryLabel = leftPage:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    queryLabel:SetPoint("TOPLEFT", leftPage, "TOPLEFT", 10, -10)
+    queryLabel:SetPoint("TOPLEFT", leftPage, "TOPLEFT", 4, -4)
     queryLabel:SetText("Search (Item / Mob / XP):")
 
     local queryBox = CreateFrame("EditBox", "GrindSpotterQueryBox", leftPage, "InputBoxTemplate")
-    queryBox:SetSize(170, 24)
+    queryBox:SetSize(150, 24)
     queryBox:SetPoint("TOPLEFT", queryLabel, "BOTTOMLEFT", 6, -4)
     queryBox:SetAutoFocus(false)
     f.queryBox = queryBox
 
     local targetBox = CreateFrame("EditBox", "GrindSpotterTargetBox", leftPage, "InputBoxTemplate")
-    targetBox:SetSize(60, 24)
-    targetBox:SetPoint("TOPLEFT", queryBox, "TOPRIGHT", 18, 0)
+    targetBox:SetSize(50, 24)
+    targetBox:SetPoint("TOPLEFT", queryBox, "TOPRIGHT", 14, 0)
     targetBox:SetAutoFocus(false)
     targetBox:SetNumeric(true)
     f.targetBox = targetBox
@@ -687,16 +673,15 @@ local function CreateMainUI()
 
     local banner = CreateFrame("Frame", nil, leftPage, "BackdropTemplate")
     banner:SetPoint("TOPLEFT", queryBox, "BOTTOMLEFT", -6, -8)
-    banner:SetPoint("TOPRIGHT", leftPage, "TOPRIGHT", -10, -66)
+    banner:SetPoint("TOPRIGHT", leftPage, "TOPRIGHT", -4, -58)
     banner:SetHeight(32)
     banner:SetBackdrop({
-        bgFile = "Interface\\Buttons\\WHITE8X8",
         edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
         edgeSize = 12,
         insets = { left = 2, right = 2, top = 2, bottom = 2 },
     })
-    banner:SetBackdropColor(0.1, 0.1, 0.1, 0.7)
-    banner:SetBackdropBorderColor(0.4, 0.4, 0.4, 0.8)
+    banner:SetBackdropColor(0.2, 0.15, 0.08, 0.15)
+    banner:SetBackdropBorderColor(0.4, 0.3, 0.2, 0.3)
 
     local bannerText = banner:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
     bannerText:SetPoint("CENTER", banner, "CENTER", 0, 0)
@@ -705,10 +690,10 @@ local function CreateMainUI()
 
     local scrollFrame = CreateFrame("ScrollFrame", "GrindSpotterScrollFrame", leftPage, "UIPanelScrollFrameTemplate")
     scrollFrame:SetPoint("TOPLEFT", banner, "BOTTOMLEFT", 0, -6)
-    scrollFrame:SetPoint("BOTTOMRIGHT", leftPage, "BOTTOMRIGHT", -22, 10)
+    scrollFrame:SetPoint("BOTTOMRIGHT", leftPage, "BOTTOMRIGHT", -22, 6)
 
     local content = CreateFrame("Frame", nil, scrollFrame)
-    content:SetSize(350, 400)
+    content:SetSize(330, 400)
     scrollFrame:SetScrollChild(content)
 
     f.scrollFrame = scrollFrame
@@ -978,26 +963,24 @@ function GrindSpotter:RunSearch()
 
         card.levelZone:SetText(string.format("%s [Lv %d-%d]|r • %s (%.1f, %.1f)", lvlColor, camp.minLevel, camp.maxLevel, camp.zone, camp.x, camp.y))
 
-        local scoreColor = res.score >= 80 and "|cff00ff00" or (res.score >= 50 and "|cffffcc00" or "|cffff4444")
-        card.scoreText:SetText(string.format("Score: %s%d|r", scoreColor, res.score))
-
         local detailsText = res.estimateStr
         if #res.notes > 0 then
             detailsText = detailsText .. "\n|cff88ccff" .. table.concat(res.notes, ", ") .. "|r"
         end
         card.details:SetText(detailsText)
 
-        if #res.warnings > 0 then
-            card.warning:SetText("[!] " .. table.concat(res.warnings, " • "))
+        local avgMobLevel = (camp.minLevel + camp.maxLevel) / 2
+        local levelDiff = avgMobLevel - playerLevel
+        if levelDiff > 3 then
+            card.warning:SetText("|cffff3333[!] Danger: High Level|r")
+            card.warning:Show()
+        elseif #res.warnings > 0 then
+            card.warning:SetText("|cffff5555[!] " .. res.warnings[1] .. (#res.warnings > 1 and "..." or "") .. "|r")
             card.warning:Show()
         else
             card.warning:SetText("")
             card.warning:Hide()
         end
-
-        card.waypointBtn:SetScript("OnClick", function()
-            GrindSpotter:SetWaypoint(camp.mapID, camp.x, camp.y, camp.name)
-        end)
 
         card:Show()
         cardY = cardY + cardHeight + spacing
